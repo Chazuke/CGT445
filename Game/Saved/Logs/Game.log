@@ -1,9 +1,9 @@
-﻿Log file open, 03/08/17 13:27:11
+﻿Log file open, 03/09/17 18:33:41
 LogInit:Display: Running engine for game: Game
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(486317184) SRandInit(486317185).
+LogInit:Display: RandInit(-279580091) SRandInit(-279580090).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.073332
+LogStats: Stats thread started at 0.066660
 LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
 LogInit: API Version: 2992821
 LogInit: Net Version: 3039270
@@ -25,8 +25,8 @@ LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.12
-LogInit: Command line: -EpicPortal 
-LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: E:/New folder/Paragon/UE_4.12/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Using libcurl 7.41.0
 LogInit:  - built for x86_64-pc-win32
@@ -44,926 +44,407 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.03.08-18.27.11:594][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.08-18.27.11:594][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.03.08-18.27.11:605][  0]LogInit: Computer: DESKTOP-LVAHN8T
-[2017.03.08-18.27.11:605][  0]LogInit: User: denve
-[2017.03.08-18.27.11:605][  0]LogInit: CPU Page size=65536, Cores=4
-[2017.03.08-18.27.11:605][  0]LogInit: High frequency timer resolution =2.533208 MHz
-[2017.03.08-18.27.11:606][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.03.08-18.27.11:606][  0]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.27.11:606][  0]LogMemory: Process Physical Memory: 190.25 MB used, 190.25 MB peak
-[2017.03.08-18.27.11:606][  0]LogMemory: Process Virtual Memory: 195.13 MB used, 195.13 MB peak
-[2017.03.08-18.27.11:606][  0]LogMemory: Physical Memory: 4546.24 MB used, 16273.04 MB total
-[2017.03.08-18.27.11:606][  0]LogMemory: Virtual Memory: 553.32 MB used, 134217728.00 MB total
-[2017.03.08-18.27.11:650][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
-[2017.03.08-18.27.12:019][  0]LogD3D11RHI: D3D11 adapters:
-[2017.03.08-18.27.12:051][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
-[2017.03.08-18.27.12:051][  0]LogD3D11RHI:       2018/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.03.08-18.27.12:057][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2017.03.08-18.27.12:057][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.03.08-18.27.12:058][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.03.08-18.27.12:058][  0]LogD3D11RHI:       0/0/8136 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.03.08-18.27.12:058][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.03.08-18.27.12:064][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.03.08-18.27.12:064][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
-[2017.03.08-18.27.12:064][  0]LogWindows: EnumDisplayDevices:
-[2017.03.08-18.27.12:064][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
-[2017.03.08-18.27.12:065][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.08-18.27.12:065][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
-[2017.03.08-18.27.12:065][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.03.08-18.27.12:065][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
-[2017.03.08-18.27.12:065][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.03.08-18.27.12:065][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.03.08-18.27.12:065][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.03.08-18.27.12:079][  0]LogD3D11RHI: Async texture creation enabled
-[2017.03.08-18.27.12:091][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.03.08-18.27.12:091][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/denve/Documents/Github/CGT445/Game/Intermediate/Shaders/WorkingDirectory/7028/).
-[2017.03.08-18.27.12:091][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/denve/AppData/Local/Temp/UnrealShaderWorkingDir/625A7CFD41CFFD5B2A84AC822F5FE1EC/'.
-[2017.03.08-18.27.12:091][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.03.08-18.27.12:979][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.03.08-18.27.12:988][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.03.08-18.27.12:997][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.03.08-18.27.13:006][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.03.08-18.27.13:014][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.03.08-18.27.13:022][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.03.08-18.27.13:029][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.03.08-18.27.13:036][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.03.08-18.27.13:043][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.03.08-18.27.13:050][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.03.08-18.27.13:057][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.03.08-18.27.13:072][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.03.08-18.27.13:072][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.03.08-18.27.13:073][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.03.08-18.27.13:094][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.03.08-18.27.13:101][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.03.08-18.27.13:108][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.03.08-18.27.13:115][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.03.08-18.27.13:122][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.03.08-18.27.13:122][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.03.08-18.27.13:193][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.03.08-18.27.13:240][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/denve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.03.08-18.27.13:241][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/denve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
-[2017.03.08-18.27.13:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/denve/Documents/Github/CGT445/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.03.08-18.27.13:241][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.03.08-18.27.13:241][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/denve/Documents/Github/CGT445/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.03.08-18.27.13:241][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.03.08-18.27.13:257][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.03.08-18.27.13:269][  0]LogDerivedDataCache: Using Local data cache path C:/Users/denve/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.03.08-18.27.13:435][  0]LogInit: Selected Device Profile: [Windows]
-[2017.03.08-18.27.13:435][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.03.08-18.27.13:605][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2017.03.08-18.27.13:605][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.03.08-18.27.13:605][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2017.03.08-18.27.13:854][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
-[2017.03.08-18.27.13:924][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.067674 seconds
-[2017.03.08-18.27.13:929][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
-[2017.03.08-18.27.13:929][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
-[2017.03.08-18.27.13:929][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.03.08-18.27.13:935][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.03.08-18.27.14:089][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.08-18.27.14:089][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.03.08-18.27.14:673][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
-[2017.03.08-18.27.14:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.03.08-18.27.14:889][  0]SourceControl: Info Source control is disabled
-[2017.03.08-18.27.14:890][  0]SourceControl: Info Source control is disabled
-[2017.03.08-18.27.14:899][  0]SourceControl: Info Source control is disabled
-[2017.03.08-18.27.14:907][  0]SourceControl: Info Source control is disabled
-[2017.03.08-18.27.15:119][  0]LogEngine: Initializing Engine...
-[2017.03.08-18.27.15:120][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.03.08-18.27.15:120][  0]LogHMD: SteamVR failed to initialize.  Err: 110
-[2017.03.08-18.27.15:251][  0]LogAIModule: Creating AISystem for world NewWorld
-[2017.03.08-18.27.15:256][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.27.15:365][  0]LogInit: FAudioDevice initialized.
-[2017.03.08-18.27.15:389][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/denve/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
-[2017.03.08-18.27.15:395][  0]LogInit: Texture streaming: Enabled
-[2017.03.08-18.27.15:504][  0]LogInit: Transaction tracking system initialized
-[2017.03.08-18.27.15:524][  0]BlueprintLog: New page: Editor Load
-[2017.03.08-18.27.15:588][  0]LocalizationService: Info Localization service is disabled
-[2017.03.08-18.27.15:647][  0]LogConsoleResponse:Display: 
-[2017.03.08-18.27.15:778][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2017.03.08-18.27.15:778][  0]LogCook:Display: Mobile HDR setting 1
-[2017.03.08-18.27.15:864][  0]LogFileCache: Scanning file cache for directory 'C:/Users/denve/Documents/Github/CGT445/Game/Content/' took 0.02s
-[2017.03.08-18.27.15:864][  0]SourceControl: Info Source control is disabled
-[2017.03.08-18.27.15:864][  0]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.27.15:864][  0]LightingResults: New page: Lighting Build
-[2017.03.08-18.27.15:867][  0]MapCheck: New page: Map Check
-[2017.03.08-18.27.15:867][  0]LightingResults: New page: Lighting Build
-[2017.03.08-18.27.23:986][  0]LogTexture:Display: Building textures: T_Brick_Clay_Old_D (AutoDXT)
-[2017.03.08-18.27.26:973][  0]LogTexture:Display: Building textures: T_Brick_Clay_Old_N (BC5)
-[2017.03.08-18.27.28:002][  0]LogTexture:Display: Building textures: T_Perlin_Noise_M (AutoDXT)
-[2017.03.08-18.27.30:648][  0]LogTexture:Display: Building textures: T_MacroVariation (AutoDXT)
-[2017.03.08-18.27.33:381][  0]LogTexture:Display: Building textures: food_fight_by_lancer_idenoure (BGRA8)
-[2017.03.08-18.27.33:820][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.03.08-18.27.34:278][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.03.08-18.27.34:675][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
-[2017.03.08-18.27.35:308][  0]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
-[2017.03.08-18.27.35:562][  0]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
-[2017.03.08-18.27.35:600][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
-[2017.03.08-18.27.35:799][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.03.08-18.27.36:005][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
-[2017.03.08-18.27.36:193][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
-[2017.03.08-18.27.36:342][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
-[2017.03.08-18.27.36:368][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT)
-[2017.03.08-18.27.36:578][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT)
-[2017.03.08-18.27.36:770][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT)
-[2017.03.08-18.27.37:021][  0]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT)
-[2017.03.08-18.27.37:165][  0]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT)
-[2017.03.08-18.27.37:174][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2017.03.08-18.27.37:238][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
-[2017.03.08-18.27.37:302][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
-[2017.03.08-18.27.37:368][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2017.03.08-18.27.37:432][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8)
-[2017.03.08-18.27.37:494][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8)
-[2017.03.08-18.27.37:556][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8)
-[2017.03.08-18.27.37:611][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8)
-[2017.03.08-18.27.37:707][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.27.37:713][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.27.37:748][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.27.37:794][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.345ms to complete.
-[2017.03.08-18.27.37:794][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 21.930
-[2017.03.08-18.27.39:426][  0]LogCollectionManager: Loaded 0 collections in 0.002408 seconds
-[2017.03.08-18.27.39:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/denve/Documents/Github/CGT445/Game/Saved/Collections/' took 0.01s
-[2017.03.08-18.27.39:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/denve/Documents/Github/CGT445/Game/Content/Developers/denve/Collections/' took 0.01s
-[2017.03.08-18.27.39:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/denve/Documents/Github/CGT445/Game/Content/Collections/' took 0.01s
-[2017.03.08-18.27.39:630][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2017.03.08-18.27.39:719][  0]LogContentBrowser: Native class hierarchy populated in 0.0284 seconds. Added 2062 classes and 375 folders.
-[2017.03.08-18.27.40:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.03.08-18.27.40:234][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.03.08-18.27.40:235][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
-[2017.03.08-18.27.40:334][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.03.08-18.27.42:885][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2017.03.08-18.27.43:048][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.03.08-18.27.44:173][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.03.08-18.27.44:325][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.03.08-18.27.44:365][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2017.03.08-18.27.44:365][  0]LogLoad: Full Startup: 33.53 seconds (BP compile: 0.60 seconds)
-[2017.03.08-18.27.44:365][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.03.08-18.27.44:382][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.03.08-18.27.44:384][  0]LogOcInput: OculusInput pre-init called
-[2017.03.08-18.27.44:718][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.03.08-18.27.45:643][  0]LogRenderer: Reallocating scene render targets to support 964x460 (Frame:2).
-[2017.03.08-18.27.46:139][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/denve/Documents/Github/CGT445/Game/Content/' took 1.73s
-[2017.03.08-18.27.53:128][394]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2017.03.08-18.27.54:097][450]LogAssetRegistry: Asset discovery search completed in 40.2645 seconds
-[2017.03.08-18.27.54:097][450]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
-[2017.03.08-18.28.20:652][959]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.28.20:704][959]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.28.20:704][959]LightingResults: New page: Lighting Build
-[2017.03.08-18.28.20:704][959]LoadErrors: New page: Loading map: Main.umap
-[2017.03.08-18.28.20:705][959]MapCheck: New page: Map Check
-[2017.03.08-18.28.20:705][959]LightingResults: New page: Lighting Build
-[2017.03.08-18.28.20:762][959]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.28.20:790][959]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.28.22:535][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 1,746.084ms to complete.
-[2017.03.08-18.28.22:547][959]LogFileHelpers: Loading map 'Main' took 1.844
-[2017.03.08-18.28.25:315][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.28.25:333][119]PIE: New page: PIE session: Main (Mar 8, 2017, 8:28:25 AM)
-[2017.03.08-18.28.25:333][119]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.28.25:333][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000493s)
-[2017.03.08-18.28.25:334][119]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.28.25:334][119]LogPlayLevel: PIE: World Init took: (0.000555s)
-[2017.03.08-18.28.25:334][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001240s)
-[2017.03.08-18.28.25:351][119]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.28.25:360][119]LogInit: FAudioDevice initialized.
-[2017.03.08-18.28.25:495][119]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.28.25:539][119]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.28.25
-[2017.03.08-18.28.25:547][119]LogWorld: Bringing up level for play took: 0.008741
-[2017.03.08-18.28.25:607][119]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
-[2017.03.08-18.28.25:673][119]LogScript:Warning: Accessed None trying to read property My Character
+[2017.03.09-23.33.41:861][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-23.33.41:861][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.03.09-23.33.41:870][  0]LogInit: Computer: DESKTOP-JAT82AM
+[2017.03.09-23.33.41:870][  0]LogInit: User: Alex
+[2017.03.09-23.33.41:870][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.03.09-23.33.41:870][  0]LogInit: High frequency timer resolution =3.906244 MHz
+[2017.03.09-23.33.41:870][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.03.09-23.33.41:870][  0]LogMemory: Platform Memory Stats for Windows
+[2017.03.09-23.33.41:870][  0]LogMemory: Process Physical Memory: 192.40 MB used, 192.40 MB peak
+[2017.03.09-23.33.41:870][  0]LogMemory: Process Virtual Memory: 195.43 MB used, 195.43 MB peak
+[2017.03.09-23.33.41:870][  0]LogMemory: Physical Memory: 5763.26 MB used, 16332.62 MB total
+[2017.03.09-23.33.41:870][  0]LogMemory: Virtual Memory: 581.32 MB used, 134217728.00 MB total
+[2017.03.09-23.33.41:893][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.03.09-23.33.42:180][  0]LogD3D11RHI: D3D11 adapters:
+[2017.03.09-23.33.42:203][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.03.09-23.33.42:203][  0]LogD3D11RHI:       4073/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.03.09-23.33.42:204][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.03.09-23.33.42:204][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.03.09-23.33.42:204][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.03.09-23.33.42:207][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.03.09-23.33.42:207][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2017.03.09-23.33.42:207][  0]LogWindows: EnumDisplayDevices:
+[2017.03.09-23.33.42:207][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.03.09-23.33.42:208][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.09-23.33.42:208][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.09-23.33.42:208][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.09-23.33.42:208][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.09-23.33.42:208][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.03.09-23.33.42:208][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.03.09-23.33.42:208][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.03.09-23.33.42:208][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:21.19.411.0, unified:21.19.411.0)
+[2017.03.09-23.33.42:208][  0]LogD3D11RHI:      Driver Date: 1-13-2017
+[2017.03.09-23.33.42:208][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.03.09-23.33.42:216][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2017.03.09-23.33.42:228][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.03.09-23.33.42:229][  0]LogShaderCompilers: Guid format shader working directory is 8 characters bigger than the processId version (C:/Users/Alex/Desktop/Gith/CGT445/Game/Intermediate/Shaders/WorkingDirectory/840/).
+[2017.03.09-23.33.42:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/F8E88DBF486155EF08688C9C58E50F1D/'.
+[2017.03.09-23.33.42:229][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.03.09-23.33.44:262][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.03.09-23.33.44:270][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.03.09-23.33.44:276][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.03.09-23.33.44:282][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.03.09-23.33.44:289][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.03.09-23.33.44:299][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.03.09-23.33.44:305][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.03.09-23.33.44:313][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.03.09-23.33.44:320][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.03.09-23.33.44:326][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.03.09-23.33.44:333][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.03.09-23.33.44:354][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.03.09-23.33.44:354][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.03.09-23.33.44:356][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.03.09-23.33.44:379][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.03.09-23.33.44:387][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.03.09-23.33.44:392][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.03.09-23.33.44:398][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.03.09-23.33.44:405][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.03.09-23.33.44:405][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.03.09-23.33.44:461][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.03.09-23.33.44:501][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.09-23.33.44:502][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.03.09-23.33.44:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.03.09-23.33.44:502][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.03.09-23.33.44:502][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.03.09-23.33.44:502][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.03.09-23.33.44:522][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.03.09-23.33.44:534][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.03.09-23.33.44:673][  0]LogInit: Selected Device Profile: [Windows]
+[2017.03.09-23.33.44:673][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.03.09-23.33.44:801][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.03.09-23.33.44:801][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.03.09-23.33.44:801][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.03.09-23.33.45:001][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
+[2017.03.09-23.33.45:024][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.021975 seconds
+[2017.03.09-23.33.45:028][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.03.09-23.33.45:028][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2017.03.09-23.33.45:028][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.03.09-23.33.45:031][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.03.09-23.33.45:143][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-23.33.45:143][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.03.09-23.33.45:761][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.03.09-23.33.45:960][  0]SourceControl: Info Source control is disabled
+[2017.03.09-23.33.45:960][  0]SourceControl: Info Source control is disabled
+[2017.03.09-23.33.45:969][  0]SourceControl: Info Source control is disabled
+[2017.03.09-23.33.45:976][  0]SourceControl: Info Source control is disabled
+[2017.03.09-23.33.46:158][  0]LogEngine: Initializing Engine...
+[2017.03.09-23.33.46:159][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.09-23.33.46:159][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.03.09-23.33.46:263][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.03.09-23.33.46:269][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-23.33.46:316][  0]LogInit: FAudioDevice initialized.
+[2017.03.09-23.33.46:337][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.03.09-23.33.46:343][  0]LogInit: Texture streaming: Enabled
+[2017.03.09-23.33.46:360][  0]LogInit: Transaction tracking system initialized
+[2017.03.09-23.33.46:374][  0]BlueprintLog: New page: Editor Load
+[2017.03.09-23.33.46:417][  0]LocalizationService: Info Localization service is disabled
+[2017.03.09-23.33.46:462][  0]LogConsoleResponse:Display: 
+[2017.03.09-23.33.46:574][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.03.09-23.33.46:574][  0]LogCook:Display: Mobile HDR setting 1
+[2017.03.09-23.33.46:637][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 0.01s
+[2017.03.09-23.33.46:637][  0]SourceControl: Info Source control is disabled
+[2017.03.09-23.33.46:637][  0]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-23.33.46:638][  0]LightingResults: New page: Lighting Build
+[2017.03.09-23.33.46:639][  0]MapCheck: New page: Map Check
+[2017.03.09-23.33.46:639][  0]LightingResults: New page: Lighting Build
+[2017.03.09-23.33.47:112][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.03.09-23.33.47:119][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-23.33.47:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-23.33.47:169][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.758ms to complete.
+[2017.03.09-23.33.47:169][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.532
+[2017.03.09-23.33.47:278][  0]LogCollectionManager: Loaded 0 collections in 0.000712 seconds
+[2017.03.09-23.33.47:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Collections/' took 0.01s
+[2017.03.09-23.33.47:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Developers/Alex/Collections/' took 0.01s
+[2017.03.09-23.33.47:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Collections/' took 0.01s
+[2017.03.09-23.33.47:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.03.09-23.33.47:321][  0]LogContentBrowser: Native class hierarchy populated in 0.0065 seconds. Added 2047 classes and 369 folders.
+[2017.03.09-23.33.47:323][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.03.09-23.33.47:323][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.03.09-23.33.47:323][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2017.03.09-23.33.47:325][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.03.09-23.33.47:372][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2017.03.09-23.33.47:375][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2017.03.09-23.33.47:414][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.03.09-23.33.47:418][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.03.09-23.33.47:441][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2017.03.09-23.33.47:441][  0]LogLoad: Full Startup: 8.42 seconds (BP compile: 0.11 seconds)
+[2017.03.09-23.33.47:441][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.03.09-23.33.47:450][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-23.33.47:450][  0]LogOcInput: OculusInput pre-init called
+[2017.03.09-23.33.47:489][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.03.09-23.33.47:642][  0]LogRenderer: Reallocating scene render targets to support 952x576 (Frame:2).
+[2017.03.09-23.33.47:720][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 0.26s
+[2017.03.09-23.33.47:736][  1]LogAssetRegistry: Asset discovery search completed in 2.7567 seconds
+[2017.03.09-23.33.47:736][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.03.09-23.33.47:736][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2017.03.09-23.33.55:408][867]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.03.09-23.33.55:440][867]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.03.09-23.33.55:440][867]LightingResults: New page: Lighting Build
+[2017.03.09-23.33.55:440][867]LoadErrors: New page: Loading map: BarebonesCafeteria.umap
+[2017.03.09-23.33.55:453][867]MapCheck: New page: Map Check
+[2017.03.09-23.33.55:453][867]LightingResults: New page: Lighting Build
+[2017.03.09-23.33.55:499][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.03.09-23.33.55:516][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.03.09-23.33.55:559][867]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.542ms to complete.
+[2017.03.09-23.33.55:559][867]LogFileHelpers: Loading map 'BarebonesCafeteria' took 0.120
+[2017.03.09-23.34.10:661][951]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.03.09-23.36.20:187][294]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x200)
+[2017.03.09-23.36.28:498][239]Cmd: DELETE
+[2017.03.09-23.36.28:498][239]Cmd: ACTOR DELETE
+[2017.03.09-23.36.28:662][239]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.03.09-23.36.28:691][239]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2017.03.09-23.36.28:806][249]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2017.03.09-23.37.04:234][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.03.09-23.37.04:235][442]PIE: New page: PIE session: BarebonesCafeteria (Mar 9, 2017, 1:37:04 PM)
+[2017.03.09-23.37.04:235][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BarebonesCafeteria
+[2017.03.09-23.37.04:238][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002865s)
+[2017.03.09-23.37.04:238][442]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.03.09-23.37.04:238][442]LogPlayLevel: PIE: World Init took: (0.000564s)
+[2017.03.09-23.37.04:238][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BarebonesCafeteria.BarebonesCafeteria to /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria (0.003612s)
+[2017.03.09-23.37.04:251][442]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.03.09-23.37.04:260][442]LogInit: FAudioDevice initialized.
+[2017.03.09-23.37.04:353][442]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.03.09-23.37.04:368][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 0) at 2017.03.09-18.37.04
+[2017.03.09-23.37.04:369][442]LogWorld: Bringing up level for play took: 0.011642
+[2017.03.09-23.37.04:379][442]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 11 classes and 0 folders.
+[2017.03.09-23.37.04:385][442]LogScript:Warning: Accessed None trying to read property My Character
 	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_0
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.28.25:673][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.28.25:674][119]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 1.295
-[2017.03.08-18.28.51:527][582]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
-[2017.03.08-18.29.03:362][194]LogEditorTransaction: Undo Move Widget
-[2017.03.08-18.29.26:122][537]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.29.26:142][537]LogPlayLevel: [PlayLevel] Compiling MainMenu before play...
-[2017.03.08-18.29.26:305][537]LogPlayLevel: PlayLevel: Blueprint regeneration took 183 ms (1 blueprints)
-[2017.03.08-18.29.26:339][537]PIE: New page: PIE session: Main (Mar 8, 2017, 8:29:26 AM)
-[2017.03.08-18.29.26:339][537]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.29.26:339][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000528s)
-[2017.03.08-18.29.26:340][537]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.29.26:340][537]LogPlayLevel: PIE: World Init took: (0.000857s)
-[2017.03.08-18.29.26:341][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001720s)
-[2017.03.08-18.29.26:376][537]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.29.26:385][537]LogInit: FAudioDevice initialized.
-[2017.03.08-18.29.26:420][537]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.29.26:421][537]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.29.26
-[2017.03.08-18.29.26:422][537]LogWorld: Bringing up level for play took: 0.000861
-[2017.03.08-18.29.26:422][537]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.29.26:425][537]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.HUD_C_1
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.29.26:425][537]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.29.26:441][537]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 0.062
-[2017.03.08-18.29.26:504][537]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:4612).
-[2017.03.08-18.29.34:867][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.29.34:867][ 33]PIE: New page: PIE session: Main (Mar 8, 2017, 8:29:34 AM)
-[2017.03.08-18.29.34:867][ 33]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.29.34:867][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000525s)
-[2017.03.08-18.29.34:868][ 33]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.29.34:868][ 33]LogPlayLevel: PIE: World Init took: (0.000525s)
-[2017.03.08-18.29.34:868][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001229s)
-[2017.03.08-18.29.34:884][ 33]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.29.34:892][ 33]LogInit: FAudioDevice initialized.
-[2017.03.08-18.29.34:930][ 33]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.29.34:932][ 33]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.29.34
-[2017.03.08-18.29.34:932][ 33]LogWorld: Bringing up level for play took: 0.001131
-[2017.03.08-18.29.34:933][ 33]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.29.34:936][ 33]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.HUD_C_2
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.29.34:936][ 33]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.29.34:964][ 33]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 0.585
-[2017.03.08-18.29.44:212][583]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
-[2017.03.08-18.30.11:937][186]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.11:937][186]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.30.11:940][186]LogPlayLevel: [PlayLevel] Compiling Main before play...
-[2017.03.08-18.30.11:943][186]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
-[2017.03.08-18.30.12:051][186]LogBlueprint:Warning: Compiler Warning [0181.22] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 0 Warning(s) [in 109 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:056][186]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
-[2017.03.08-18.30.12:058][186]LogBlueprint:Warning: Compiler Warning [0181.22] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:058][186]LogBlueprint:Warning: Compiler Warning [0181.22] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:058][186]LogBlueprint:Warning: Compiler Warning [0181.22] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:060][186]LogBlueprint:Warning: Compiler Warning [0181.23] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:060][186]LogBlueprint:Warning: Compiler Warning [0181.23] Compile of PersistentLevel.Main failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Blueprints/Main.Main:PersistentLevel.Main)
-[2017.03.08-18.30.12:127][186]LogPlayLevel: PlayLevel: Blueprint regeneration took 189 ms (1 blueprints)
-[2017.03.08-18.30.12:146][186]BlueprintLog: Info Blueprint Main failed to compile
-[2017.03.08-18.30.14:222][186]PIE: New page: PIE session: Main (Mar 8, 2017, 8:30:14 AM)
-[2017.03.08-18.30.14:222][186]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.30.14:224][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001296s)
-[2017.03.08-18.30.14:224][186]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.30.14:224][186]LogPlayLevel: PIE: World Init took: (0.000496s)
-[2017.03.08-18.30.14:224][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001975s)
-[2017.03.08-18.30.14:243][186]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.30.14:250][186]LogInit: FAudioDevice initialized.
-[2017.03.08-18.30.14:285][186]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.30.14:287][186]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.30.14
-[2017.03.08-18.30.14:287][186]LogWorld: Bringing up level for play took: 0.001016
-[2017.03.08-18.30.14:288][186]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.30.14:292][186]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_3.HUD_C_3
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.30.14:292][186]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.30.14:302][186]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 1.923
-[2017.03.08-18.30.14:302][186]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.16:964][344]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.17:007][344]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.26:112][888]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.26:112][888]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.30.26:115][888]LogPlayLevel: [PlayLevel] Compiling Main before play...
-[2017.03.08-18.30.26:174][888]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
-[2017.03.08-18.30.26:193][888]PIE: New page: PIE session: Main (Mar 8, 2017, 8:30:26 AM)
-[2017.03.08-18.30.26:193][888]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.30.26:194][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000836s)
-[2017.03.08-18.30.26:194][888]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.30.26:194][888]LogPlayLevel: PIE: World Init took: (0.000475s)
-[2017.03.08-18.30.26:194][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001476s)
-[2017.03.08-18.30.26:213][888]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.30.26:220][888]LogInit: FAudioDevice initialized.
-[2017.03.08-18.30.26:251][888]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.30.26:253][888]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.30.26
-[2017.03.08-18.30.26:253][888]LogWorld: Bringing up level for play took: 0.001059
-[2017.03.08-18.30.26:254][888]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.30.26:256][888]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_4.HUD_C_4
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.30.26:256][888]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.30.26:267][888]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main -0.112
-[2017.03.08-18.30.26:268][888]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.29:461][ 78]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.30.29:510][ 78]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.31.27:137][807]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.31.27:137][807]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.31.27:140][807]LogPlayLevel: [PlayLevel] Compiling Main before play...
-[2017.03.08-18.31.27:201][807]LogPlayLevel: PlayLevel: Blueprint regeneration took 63 ms (1 blueprints)
-[2017.03.08-18.31.27:218][807]PIE: New page: PIE session: Main (Mar 8, 2017, 8:31:27 AM)
-[2017.03.08-18.31.27:218][807]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.31.27:219][807]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000942s)
-[2017.03.08-18.31.27:220][807]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.31.27:220][807]LogPlayLevel: PIE: World Init took: (0.000899s)
-[2017.03.08-18.31.27:220][807]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.002156s)
-[2017.03.08-18.31.27:238][807]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.31.27:246][807]LogInit: FAudioDevice initialized.
-[2017.03.08-18.31.27:284][807]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.31.27:286][807]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.31.27
-[2017.03.08-18.31.27:286][807]LogWorld: Bringing up level for play took: 0.001116
-[2017.03.08-18.31.27:287][807]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.31.27:289][807]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_5
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.31.27:289][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.31.27:302][807]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 0.923
-[2017.03.08-18.31.27:302][807]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.31.31:415][ 51]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.31.31:416][ 51]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.31.31:440][ 51]Cmd: MEM
-[2017.03.08-18.31.31:516][ 51]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.31.31:516][ 51]LogMemory: Process Physical Memory: 1195.20 MB used, 1227.79 MB peak
-[2017.03.08-18.31.31:516][ 51]LogMemory: Process Virtual Memory: 1845.85 MB used, 1850.53 MB peak
-[2017.03.08-18.31.31:516][ 51]LogMemory: Physical Memory: 5019.25 MB used, 16273.04 MB total
-[2017.03.08-18.31.31:516][ 51]LogMemory: Virtual Memory: 2651.11 MB used, 134217728.00 MB total
-[2017.03.08-18.31.31:516][ 51]LogMemory: 
-[2017.03.08-18.31.31:516][ 51]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.31.33:308][ 51]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.31.33:308][ 51]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.31.33:313][ 51]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.31.33
-[2017.03.08-18.31.33:313][ 51]LogWorld: Bringing up level for play took: 0.004298
-[2017.03.08-18.31.33:339][ 51]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_6
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.31.33:339][ 51]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.31.33:346][ 51]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_7
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.31.33:346][ 51]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.31.33:347][ 51]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_5.HUD_C_8
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.31.33:347][ 51]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.31.33:353][ 51]LogLoad: Took 1.937357 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
-[2017.03.08-18.31.33:642][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.31.33:710][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.32.12:959][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.32.12:959][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.32.12:959][415]PIE: New page: PIE session: Main (Mar 8, 2017, 8:32:12 AM)
-[2017.03.08-18.32.12:959][415]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.32.12:960][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001020s)
-[2017.03.08-18.32.12:961][415]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.32.12:961][415]LogPlayLevel: PIE: World Init took: (0.000914s)
-[2017.03.08-18.32.12:961][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.002289s)
-[2017.03.08-18.32.12:989][415]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.32.12:996][415]LogInit: FAudioDevice initialized.
-[2017.03.08-18.32.13:032][415]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.32.13:033][415]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.32.13
-[2017.03.08-18.32.13:034][415]LogWorld: Bringing up level for play took: 0.000962
-[2017.03.08-18.32.13:034][415]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.32.13:037][415]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_9
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.32.13:037][415]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.32.13:067][415]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 0.688
-[2017.03.08-18.32.13:067][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.32.15:522][561]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.32.15:522][561]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.32.15:541][561]Cmd: MEM
-[2017.03.08-18.32.15:558][561]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.32.15:558][561]LogMemory: Process Physical Memory: 1381.65 MB used, 1644.50 MB peak
-[2017.03.08-18.32.15:558][561]LogMemory: Process Virtual Memory: 2029.17 MB used, 2322.51 MB peak
-[2017.03.08-18.32.15:558][561]LogMemory: Physical Memory: 5206.06 MB used, 16273.04 MB total
-[2017.03.08-18.32.15:558][561]LogMemory: Virtual Memory: 2834.18 MB used, 134217728.00 MB total
-[2017.03.08-18.32.15:558][561]LogMemory: 
-[2017.03.08-18.32.15:558][561]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.32.16:104][561]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.32.16:104][561]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.32.16:109][561]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.32.16
-[2017.03.08-18.32.16:110][561]LogWorld: Bringing up level for play took: 0.004422
-[2017.03.08-18.32.16:113][561]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_10
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.32.16:113][561]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.32.16:119][561]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_11
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.32.16:119][561]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.32.16:120][561]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_6.HUD_C_12
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.32.16:120][561]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.32.16:120][561]LogLoad: Took 0.597924 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
-[2017.03.08-18.32.21:470][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.32.21:512][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.32.43:589][194]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.32.45:543][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Main" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.08-18.32.45:683][194]LogSavePackage: Save=101.42ms
-[2017.03.08-18.32.45:683][194]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/MainF29B7A5147031BEFB84F3595896B7FE3.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap'
-[2017.03.08-18.32.45:688][194]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap
-[2017.03.08-18.32.45:714][194]LogFileHelpers: Saving map 'Main' took 0.224
-[2017.03.08-18.32.45:714][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset" SILENT=true
-[2017.03.08-18.32.45:763][194]LogSavePackage: Save=40.46ms
-[2017.03.08-18.32.45:763][194]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/MainMenuE463CBA64DB101F0A2602990DACF4A52.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset'
-[2017.03.08-18.32.45:766][194]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset
-[2017.03.08-18.32.45:767][194]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.32.45:767][194]LightingResults: New page: Lighting Build
-[2017.03.08-18.32.45:767][194]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
-[2017.03.08-18.32.45:814][194]MapCheck: New page: Map Check
-[2017.03.08-18.32.45:814][194]LightingResults: New page: Lighting Build
-[2017.03.08-18.32.45:948][194]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.32.45:971][194]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.32.46:023][194]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.141ms to complete.
-[2017.03.08-18.32.46:023][194]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.258
-[2017.03.08-18.33.05:991][357]LogEnum:Warning: In asset 'None', there is an enum property of type 'E_NumberOfPlayers' with an invalid value of 'E_NumberOfPlayers::NewEnumerator3'
-[2017.03.08-18.33.22:309][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
-[2017.03.08-18.33.22:338][331]LogSavePackage: Save=18.45ms
-[2017.03.08-18.33.22:338][331]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/FoodFightersGMA467AAB74D1A1CDE97E210AE65977A30.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
-[2017.03.08-18.33.22:341][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
-[2017.03.08-18.33.22:344][331]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/E_NumberOfPlayers" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/E_NumberOfPlayers.uasset" SILENT=true
-[2017.03.08-18.33.22:353][331]LogSavePackage: Save=3.59ms
-[2017.03.08-18.33.22:353][331]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/E_NumberOfPlayers26B18E7F402093F55B1CF7981FE18DA5.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/E_NumberOfPlayers.uasset'
-[2017.03.08-18.33.22:355][331]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/E_NumberOfPlayers.uasset
-[2017.03.08-18.33.38:735][310]BlueprintLog: New page: Compile FoodFightersGM
-[2017.03.08-18.33.38:819][310]BlueprintEditorCompileResults: Info [0387.98] Compile of FoodFightersGM successful! [in 83 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
-[2017.03.08-18.33.42:458][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.33.42:458][527]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.33.42:458][527]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
-[2017.03.08-18.33.42:516][527]LogPlayLevel: PlayLevel: Blueprint regeneration took 57 ms (1 blueprints)
-[2017.03.08-18.33.42:532][527]PIE: New page: PIE session: FirstPersonExampleMap (Mar 8, 2017, 8:33:42 AM)
-[2017.03.08-18.33.42:533][527]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.03.08-18.33.42:558][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025062s)
-[2017.03.08-18.33.42:559][527]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.33.42:559][527]LogPlayLevel: PIE: World Init took: (0.000888s)
-[2017.03.08-18.33.42:559][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026314s)
-[2017.03.08-18.33.42:581][527]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.33.42:589][527]LogInit: FAudioDevice initialized.
-[2017.03.08-18.33.42:644][527]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.33.42:648][527]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.33.42
-[2017.03.08-18.33.42:649][527]LogWorld: Bringing up level for play took: 0.003754
-[2017.03.08-18.33.42:652][527]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_13
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.42:652][527]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.42:656][527]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_14
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.42:656][527]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.42:657][527]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.277
-[2017.03.08-18.33.42:657][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.33.45:950][722]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.33.45:951][722]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.33.45:973][722]Cmd: MEM
-[2017.03.08-18.33.45:988][722]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.33.45:988][722]LogMemory: Process Physical Memory: 1456.25 MB used, 1691.92 MB peak
-[2017.03.08-18.33.45:988][722]LogMemory: Process Virtual Memory: 2200.67 MB used, 2386.91 MB peak
-[2017.03.08-18.33.45:988][722]LogMemory: Physical Memory: 5264.95 MB used, 16273.04 MB total
-[2017.03.08-18.33.45:988][722]LogMemory: Virtual Memory: 2985.93 MB used, 134217728.00 MB total
-[2017.03.08-18.33.45:988][722]LogMemory: 
-[2017.03.08-18.33.45:988][722]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.33.45:988][722]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.03.08-18.33.46:008][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020572s)
-[2017.03.08-18.33.46:009][722]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.33.46:009][722]LogPlayLevel: PIE: World Init took: (0.000745s)
-[2017.03.08-18.33.46:009][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021608s)
-[2017.03.08-18.33.46:009][722]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.33.46:017][722]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.33.46
-[2017.03.08-18.33.46:017][722]LogWorld: Bringing up level for play took: 0.006989
-[2017.03.08-18.33.46:022][722]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_15
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.46:023][722]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.46:023][722]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_16
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.46:024][722]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.46:024][722]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2017.03.08-18.33.46:025][722]LogLoad: Took 0.074164 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap)
-[2017.03.08-18.33.47:186][790]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.33.47:186][790]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.33.47:205][790]Cmd: MEM
-[2017.03.08-18.33.47:221][790]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.33.47:221][790]LogMemory: Process Physical Memory: 1494.82 MB used, 1691.92 MB peak
-[2017.03.08-18.33.47:221][790]LogMemory: Process Virtual Memory: 2330.77 MB used, 2386.91 MB peak
-[2017.03.08-18.33.47:221][790]LogMemory: Physical Memory: 5305.39 MB used, 16273.04 MB total
-[2017.03.08-18.33.47:221][790]LogMemory: Virtual Memory: 3112.43 MB used, 134217728.00 MB total
-[2017.03.08-18.33.47:221][790]LogMemory: 
-[2017.03.08-18.33.47:221][790]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.33.47:221][790]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.03.08-18.33.47:241][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019694s)
-[2017.03.08-18.33.47:241][790]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.33.47:242][790]LogPlayLevel: PIE: World Init took: (0.000606s)
-[2017.03.08-18.33.47:242][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020529s)
-[2017.03.08-18.33.47:242][790]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.33.47:260][790]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.33.47
-[2017.03.08-18.33.47:261][790]LogWorld: Bringing up level for play took: 0.018197
-[2017.03.08-18.33.47:266][790]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_17
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.47:266][790]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.47:267][790]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_7.HUD_C_18
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.33.47:267][790]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.33.47:267][790]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
-[2017.03.08-18.33.47:268][790]LogLoad: Took 0.082464 seconds to LoadMap(/Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap)
-[2017.03.08-18.33.51:608][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.33.51:642][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.34.17:168][573]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.34.19:343][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
-[2017.03.08-18.34.19:365][573]LogSavePackage: Save=17.93ms
-[2017.03.08-18.34.19:365][573]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/FoodFightersGMAE3058364D76B7EB2C3BADB7862B4FAB.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
-[2017.03.08-18.34.19:368][573]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
-[2017.03.08-18.34.19:369][573]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.34.19:370][573]LightingResults: New page: Lighting Build
-[2017.03.08-18.34.19:370][573]LoadErrors: New page: Loading map: Main.umap
-[2017.03.08-18.34.19:371][573]MapCheck: New page: Map Check
-[2017.03.08-18.34.19:371][573]LightingResults: New page: Lighting Build
-[2017.03.08-18.34.19:437][573]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.34.19:466][573]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.34.19:521][573]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.174ms to complete.
-[2017.03.08-18.34.19:521][573]LogFileHelpers: Loading map 'Main' took 0.152
-[2017.03.08-18.34.26:485][987]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.34.26:516][987]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.34.26:516][987]LightingResults: New page: Lighting Build
-[2017.03.08-18.34.26:517][987]LoadErrors: New page: Loading map: FirstPersonExampleMap.umap
-[2017.03.08-18.34.26:517][987]MapCheck: New page: Map Check
-[2017.03.08-18.34.26:517][987]LightingResults: New page: Lighting Build
-[2017.03.08-18.34.26:593][987]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.34.26:617][987]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.34.26:669][987]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.733ms to complete.
-[2017.03.08-18.34.26:669][987]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.154
-[2017.03.08-18.34.31:581][277]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
-[2017.03.08-18.34.31:581][277]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
-[2017.03.08-18.34.43:757][989]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.34.43:757][989]BlueprintLog: New page: Pre-Play auto-recompile
-[2017.03.08-18.34.43:759][989]LogPlayLevel: [PlayLevel] Compiling FirstPersonExampleMap before play...
-[2017.03.08-18.34.44:209][989]LogPlayLevel: PlayLevel: Blueprint regeneration took 451 ms (1 blueprints)
-[2017.03.08-18.34.44:226][989]PIE: New page: PIE session: FirstPersonExampleMap (Mar 8, 2017, 8:34:44 AM)
-[2017.03.08-18.34.44:226][989]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.03.08-18.34.44:246][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020357s)
-[2017.03.08-18.34.44:247][989]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.34.44:247][989]LogPlayLevel: PIE: World Init took: (0.000775s)
-[2017.03.08-18.34.44:247][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021384s)
-[2017.03.08-18.34.44:270][989]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.34.44:278][989]LogInit: FAudioDevice initialized.
-[2017.03.08-18.34.44:313][989]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.34.44:317][989]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.34.44
-[2017.03.08-18.34.44:318][989]LogWorld: Bringing up level for play took: 0.003657
-[2017.03.08-18.34.44:322][989]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_19
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.34.44:322][989]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.34.44:326][989]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_8.HUD_C_20
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.34.44:326][989]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.34.44:335][989]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.044
-[2017.03.08-18.34.44:335][989]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.01:212][995]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.01:261][995]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.06:452][304]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.06:452][304]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.35.06:452][304]PIE: New page: PIE session: FirstPersonExampleMap (Mar 8, 2017, 8:35:06 AM)
-[2017.03.08-18.35.06:452][304]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2017.03.08-18.35.06:467][304]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015240s)
-[2017.03.08-18.35.06:468][304]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.35.06:468][304]LogPlayLevel: PIE: World Init took: (0.000801s)
-[2017.03.08-18.35.06:468][304]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016342s)
-[2017.03.08-18.35.06:491][304]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.35.06:498][304]LogInit: FAudioDevice initialized.
-[2017.03.08-18.35.06:531][304]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.35.06:536][304]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.35.06
-[2017.03.08-18.35.06:536][304]LogWorld: Bringing up level for play took: 0.003975
-[2017.03.08-18.35.06:539][304]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_21
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.35.06:539][304]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.35.06:542][304]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_9.HUD_C_22
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.35.06:542][304]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.35.06:564][304]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.185
-[2017.03.08-18.35.06:564][304]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.07:855][379]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.07:905][379]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2017.03.08-18.35.15:907][857]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.35.18:728][857]LogSavePackage: Save=949.20ms
-[2017.03.08-18.35.18:728][857]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/FirstPersonExampleMap3A0D603D4E31E1FF9BCE749B9CFCE45A.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
-[2017.03.08-18.35.18:732][857]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
-[2017.03.08-18.35.18:755][857]LogFileHelpers: Saving map 'FirstPersonExampleMap' took 1.079
-[2017.03.08-18.35.18:756][857]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.35.18:756][857]LightingResults: New page: Lighting Build
-[2017.03.08-18.35.18:756][857]LoadErrors: New page: Loading map: Main.umap
-[2017.03.08-18.35.18:789][857]MapCheck: New page: Map Check
-[2017.03.08-18.35.18:789][857]LightingResults: New page: Lighting Build
-[2017.03.08-18.35.18:872][857]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.35.18:896][857]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.35.18:947][857]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.649ms to complete.
-[2017.03.08-18.35.18:948][857]LogFileHelpers: Loading map 'Main' took 0.193
-[2017.03.08-18.35.21:080][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.35.21:080][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.35.21:080][984]PIE: New page: PIE session: Main (Mar 8, 2017, 8:35:21 AM)
-[2017.03.08-18.35.21:080][984]LogPlayLevel: Creating play world package: /Game/Blueprints/UEDPIE_0_Main
-[2017.03.08-18.35.21:081][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000936s)
-[2017.03.08-18.35.21:081][984]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.35.21:081][984]LogPlayLevel: PIE: World Init took: (0.000504s)
-[2017.03.08-18.35.21:081][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Blueprints/Main.Main to /Game/Blueprints/UEDPIE_0_Main.Main (0.001610s)
-[2017.03.08-18.35.21:099][984]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.35.21:107][984]LogInit: FAudioDevice initialized.
-[2017.03.08-18.35.21:145][984]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.35.21:147][984]LogWorld: Bringing World /Game/Blueprints/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2017.03.08-13.35.21
-[2017.03.08-18.35.21:147][984]LogWorld: Bringing up level for play took: 0.001095
-[2017.03.08-18.35.21:147][984]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2017.03.08-18.35.21:150][984]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_23
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.35.21:150][984]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.35.21:183][984]PIE: Info Play in editor start time for /Game/Blueprints/UEDPIE_0_Main 0.804
-[2017.03.08-18.35.21:184][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.35.24:151][160]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.35.24:151][160]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.35.24:171][160]Cmd: MEM
-[2017.03.08-18.35.24:187][160]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.35.24:187][160]LogMemory: Process Physical Memory: 1539.49 MB used, 1782.77 MB peak
-[2017.03.08-18.35.24:187][160]LogMemory: Process Virtual Memory: 2050.82 MB used, 2542.90 MB peak
-[2017.03.08-18.35.24:187][160]LogMemory: Physical Memory: 5368.62 MB used, 16273.04 MB total
-[2017.03.08-18.35.24:187][160]LogMemory: Virtual Memory: 2979.99 MB used, 134217728.00 MB total
-[2017.03.08-18.35.24:187][160]LogMemory: 
-[2017.03.08-18.35.24:187][160]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.35.24:633][160]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.35.24:633][160]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.35.24:639][160]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2017.03.08-13.35.24
-[2017.03.08-18.35.24:639][160]LogWorld: Bringing up level for play took: 0.004768
-[2017.03.08-18.35.24:642][160]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_24
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.35.24:642][160]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.35.24:646][160]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_10.HUD_C_25
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.35.24:646][160]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.35.24:646][160]LogLoad: Took 0.494924 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
-[2017.03.08-18.35.40:423][100]LogPhysics:Error: PHYSX: (d:\ori.cohen_g6217_physics\engine\source\thirdparty\physx\physx-3.3\source\physx\src\NpRigidBodyTemplate.h 437) eINVALID_PARAMETER : RigidBody::setRigidBodyFlag: kinematic bodies with CCD enabled are not supported! CCD will be ignored.
-[2017.03.08-18.35.59:668][253]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.35.59:715][253]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Blueprints/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Blueprints/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Blueprints/Main.Main_C' with ClassGeneratedBy '/Game/Blueprints/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.42.48:260][815]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=1.00
-[2017.03.08-18.42.48:260][815]LogSynthBenchmark:Display: ===============
-[2017.03.08-18.42.48:260][815]LogSynthBenchmark:Display: Main Processor:
-[2017.03.08-18.42.48:302][815]LogSynthBenchmark:Display:          ... 0.020480 s/Run 'RayIntersect'
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:          ... 0.021926 s/Run 'Fractal'
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display: 
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 16
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   NumberOfCores (physical): 4
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   NumberOfCores (logical): 8
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   CPU Perf Index 0: 125.0 (weight 1.00)
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   CPU Perf Index 1: 130.4 (weight 1.50)
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:  
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display: Graphics:
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 960M'
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   Vendor Id: 0x10de
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   Device Id: 0x139b
-[2017.03.08-18.42.48:303][815]LogSynthBenchmark:Display:   GPU Memory: 2019/0/8137 MB
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:   GPU first test: 0.00s
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:          ... 2.370 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:          ... 1.955 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:          ... 1.580 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:          ... 6.399 GigaPix/s, Confidence=89% 'FillOnly' (likely to be very inaccurate)
-[2017.03.08-18.42.48:327][815]LogSynthBenchmark:Display:          ... 0.422 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:   GPU second test: 0.03s
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:          ... 3.233 GigaPix/s, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:          ... 2.583 GigaPix/s, Confidence=100% 'TexHeavy' (likely to be inaccurate)
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:          ... 2.410 GigaPix/s, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:          ... 12.643 GigaPix/s, Confidence=100% 'FillOnly' (likely to be inaccurate)
-[2017.03.08-18.42.48:359][815]LogSynthBenchmark:Display:          ... 0.462 GigaPix/s, Confidence=100% 'Bandwidth' (likely to be inaccurate)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU third test: 0.25s
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... 3.576 GigaPix/s, Confidence=100% 'ALUHeavyNoise'
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... 2.848 GigaPix/s, Confidence=89% 'TexHeavy'
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... 2.776 GigaPix/s, Confidence=100% 'DepTexHeavy'
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... 14.990 GigaPix/s, Confidence=100% 'FillOnly'
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... 0.496 GigaPix/s, Confidence=100% 'Bandwidth'
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display: 
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU Perf Index 0: 77.7 (weight 1.00)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU Perf Index 1: 38.2 (weight 0.10)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU Perf Index 2: 72.2 (weight 0.10)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU Perf Index 3: 58.9 (weight 3.00)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPU Perf Index 4: 46.3 (weight 1.00)
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   CPUIndex: 128.3
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:   GPUIndex: 59.9
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display: 
-[2017.03.08-18.42.48:624][815]LogSynthBenchmark:Display:          ... Total Time: 0.363808 sec
-[2017.03.08-18.42.48:626][815]LogContentStreaming: Texture pool size now 700 MB
-[2017.03.08-18.43.33:006][389]LogRenderer: Reallocating scene render targets to support 1292x756 (Frame:20684).
-[2017.03.08-18.43.39:822][787]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
-[2017.03.08-18.43.39:926][787]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
-[2017.03.08-18.43.39:941][787]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
-[2017.03.08-18.43.40:050][787]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
-[2017.03.08-18.43.40:051][787]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
-[2017.03.08-18.43.40:063][787]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
-[2017.03.08-18.43.40:121][787]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
-[2017.03.08-18.43.40:140][787]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
-[2017.03.08-18.43.40:143][787]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
-[2017.03.08-18.43.40:161][787]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
-[2017.03.08-18.43.40:246][787]LogAIModule: Creating AISystem for world BarebonesCafeteria
-[2017.03.08-18.43.40:373][787]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.43.40:373][787]LightingResults: New page: Lighting Build
-[2017.03.08-18.43.40:374][787]LoadErrors: New page: Loading map: BarebonesCafeteria.umap
-[2017.03.08-18.43.40:374][787]MapCheck: New page: Map Check
-[2017.03.08-18.43.40:374][787]LightingResults: New page: Lighting Build
-[2017.03.08-18.43.40:442][787]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.43.40:468][787]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.43.40:526][787]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.473ms to complete.
-[2017.03.08-18.43.40:526][787]LogFileHelpers: Loading map 'BarebonesCafeteria' took 0.154
-[2017.03.08-18.44.01:125][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.44.01:126][ 20]PIE: New page: PIE session: BarebonesCafeteria (Mar 8, 2017, 8:44:01 AM)
-[2017.03.08-18.44.01:126][ 20]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BarebonesCafeteria
-[2017.03.08-18.44.01:129][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003417s)
-[2017.03.08-18.44.01:130][ 20]LogAIModule: Creating AISystem for world BarebonesCafeteria
-[2017.03.08-18.44.01:130][ 20]LogPlayLevel: PIE: World Init took: (0.000786s)
-[2017.03.08-18.44.01:130][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BarebonesCafeteria.BarebonesCafeteria to /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria (0.004514s)
-[2017.03.08-18.44.01:152][ 20]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.44.01:160][ 20]LogInit: FAudioDevice initialized.
-[2017.03.08-18.44.01:207][ 20]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.44.01:210][ 20]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 60) at 2017.03.08-13.44.01
-[2017.03.08-18.44.01:211][ 20]LogWorld: Bringing up level for play took: 0.003089
-[2017.03.08-18.44.01:233][ 20]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_11.HUD_C_29
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.44.01:233][ 20]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.44.01:233][ 20]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_BarebonesCafeteria -0.528
-[2017.03.08-18.44.28:031][623]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
-[2017.03.08-18.44.33:048][919]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.03.08-18.44.35:255][ 44]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.03.08-18.44.37:362][170]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.03.08-18.44.46:028][688]LogNavigationPoint: PostEditMove Clear paths rebuilt
-[2017.03.08-18.44.47:720][788]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.44.47:720][788]PIE: New page: PIE session: BarebonesCafeteria (Mar 8, 2017, 8:44:47 AM)
-[2017.03.08-18.44.47:720][788]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BarebonesCafeteria
-[2017.03.08-18.44.47:723][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002825s)
-[2017.03.08-18.44.47:724][788]LogAIModule: Creating AISystem for world BarebonesCafeteria
-[2017.03.08-18.44.47:724][788]LogPlayLevel: PIE: World Init took: (0.000818s)
-[2017.03.08-18.44.47:724][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BarebonesCafeteria.BarebonesCafeteria to /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria (0.003878s)
-[2017.03.08-18.44.47:745][788]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2017.03.08-18.44.47:752][788]LogInit: FAudioDevice initialized.
-[2017.03.08-18.44.47:803][788]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.44.47:807][788]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 60) at 2017.03.08-13.44.47
-[2017.03.08-18.44.47:808][788]LogWorld: Bringing up level for play took: 0.003651
-[2017.03.08-18.44.47:811][788]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_12.HUD_C_32
-	Function /Game/Blueprints/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.44.47:811][788]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.44.47:811][788]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_BarebonesCafeteria 0.05
-[2017.03.08-18.45.31:306][384]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
-[2017.03.08-18.45.33:158][490]Cmd: UpdateLandscapeSetup
-[2017.03.08-18.45.41:528][991]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.45.44:652][164]LogMetaData: Removing '/Game/Maps/Main.Main_C' ref from Metadata '/Game/Blueprints/Main.PackageMetaData'
-[2017.03.08-18.45.44:652][164]LogMetaData: Removing '/Game/Maps/Main.Main:PersistentLevel.Main.EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Main.PackageMetaData'
-[2017.03.08-18.45.44:652][164]LogMetaData: Removing '/Game/Maps/Main.Main:PersistentLevel.Main.EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Main.PackageMetaData'
-[2017.03.08-18.45.44:652][164]LogMetaData: Removing '/Game/Maps/Main.SKEL_Main_C' ref from Metadata '/Game/Blueprints/Main.PackageMetaData'
-[2017.03.08-18.45.44:732][164]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.03.08-18.45.44:830][164]LogSavePackage: Save=77.56ms
-[2017.03.08-18.45.44:830][164]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/Main2F76FCF14921F72C85D598A8A9C9DC08.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/Main.umap'
-[2017.03.08-18.45.44:833][164]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/Main.umap
-[2017.03.08-18.45.44:834][164]LogFileHelpers: Saving map 'Main' took 0.158
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:Construct' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:EditableTextBox_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:EditableTextBox_3' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:EditableTextBox_4' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD:GetText_0.K2Node_FunctionResult_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD:GetText_0.K2Node_FunctionEntry_14' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:EditableTextBox_5' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:ProgressBar_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.HUD_C:My Character' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:My Character' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:ProgressBar_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:EditableTextBox_5' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:EditableTextBox_4' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:EditableTextBox_3' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:EditableTextBox_0' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:Construct' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C:ExecuteUbergraph_HUD' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:593][321]LogMetaData: Removing '/Game/Blueprints/UI/HUD.SKEL_HUD_C' ref from Metadata '/Game/Blueprints/HUD.PackageMetaData'
-[2017.03.08-18.46.04:609][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/HUD" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/HUD.uasset" SILENT=true
-[2017.03.08-18.46.04:643][321]LogSavePackage: Save=31.43ms
-[2017.03.08-18.46.04:643][321]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/HUD5CACFE1543823C7BB33C038DAF6D5523.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/HUD.uasset'
-[2017.03.08-18.46.04:654][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/HUD.uasset
-[2017.03.08-18.46.04:848][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
-[2017.03.08-18.46.04:962][321]LogSavePackage: Save=104.95ms
-[2017.03.08-18.46.04:962][321]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/FoodFightersChar989A0AD44108A63E1A1E17B862B9C504.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
-[2017.03.08-18.46.04:963][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:ExecuteUbergraph_MainMenu' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Image_0' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:MainMenu' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Options' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:OptionsButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:PlayButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:QuitButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Return' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Setting1' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Setting2' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C:Setting3' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Setting3' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.SKEL_MainMenu_C' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Setting2' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Setting1' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Return' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:QuitButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:PlayButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:485][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:OptionsButton' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:486][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Options' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:486][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:MainMenu' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:486][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:Image_0' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:486][645]LogMetaData: Removing '/Game/Blueprints/UI/MainMenu.MainMenu_C:ExecuteUbergraph_MainMenu' ref from Metadata '/Game/Blueprints/MainMenu.PackageMetaData'
-[2017.03.08-18.46.10:493][645]LogMetaData: Removing '/Game/Blueprints/UI/PauseMenu.PauseMenu_C' ref from Metadata '/Game/Blueprints/PauseMenu.PackageMetaData'
-[2017.03.08-18.46.10:493][645]LogMetaData: Removing '/Game/Blueprints/UI/PauseMenu.PauseMenu:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/PauseMenu.PackageMetaData'
-[2017.03.08-18.46.10:493][645]LogMetaData: Removing '/Game/Blueprints/UI/PauseMenu.PauseMenu:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/PauseMenu.PackageMetaData'
-[2017.03.08-18.46.10:493][645]LogMetaData: Removing '/Game/Blueprints/UI/PauseMenu.SKEL_PauseMenu_C' ref from Metadata '/Game/Blueprints/PauseMenu.PackageMetaData'
-[2017.03.08-18.46.10:507][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/MainMenu" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/MainMenu.uasset" SILENT=true
-[2017.03.08-18.46.10:550][645]LogSavePackage: Save=41.09ms
-[2017.03.08-18.46.10:550][645]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/MainMenu9DF4C98E468A2566120C3C95805A44E2.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/MainMenu.uasset'
-[2017.03.08-18.46.10:552][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/MainMenu.uasset
-[2017.03.08-18.46.10:555][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MainMenu" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset" SILENT=true
-[2017.03.08-18.46.10:567][645]LogSavePackage: Save=4.67ms
-[2017.03.08-18.46.10:567][645]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/MainMenuCB2241264A0A8C04A978F096F1A3E272.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset'
-[2017.03.08-18.46.10:570][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/MainMenu.uasset
-[2017.03.08-18.46.10:572][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/UI/PauseMenu" FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/PauseMenu.uasset" SILENT=true
-[2017.03.08-18.46.10:580][645]LogSavePackage: Save=6.80ms
-[2017.03.08-18.46.10:580][645]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/PauseMenu15E3007D4AE68E35CBC217BCC3F72687.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/PauseMenu.uasset'
-[2017.03.08-18.46.10:583][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Blueprints/UI/PauseMenu.uasset
-[2017.03.08-18.47.40:562][909]LogSavePackage: Save=105.56ms
-[2017.03.08-18.47.40:562][909]LogSavePackage: Moving '../../../../../../Users/denve/Documents/Github/CGT445/Game/Saved/BarebonesCafeteria00B69D1A4DBC34EF4C2A94B3867C98FE.tmp' to '../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/BarebonesCafeteria.umap'
-[2017.03.08-18.47.40:566][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/BarebonesCafeteria.umap
-[2017.03.08-18.47.40:594][909]LogFileHelpers: Saving map 'BarebonesCafeteria' took 0.231
-[2017.03.08-18.47.40:601][909]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.47.40:602][909]LightingResults: New page: Lighting Build
-[2017.03.08-18.47.40:602][909]LoadErrors: New page: Loading map: Main.umap
-[2017.03.08-18.47.40:603][909]MapCheck: New page: Map Check
-[2017.03.08-18.47.40:603][909]LightingResults: New page: Lighting Build
-[2017.03.08-18.47.40:674][909]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.47.40:699][909]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.47.40:750][909]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.071ms to complete.
-[2017.03.08-18.47.40:751][909]LogFileHelpers: Loading map 'Main' took 0.151
-[2017.03.08-18.48.39:142][692]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.48.39:142][692]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.48.39:142][692]PIE: New page: PIE session: Main (Mar 8, 2017, 8:48:39 AM)
-[2017.03.08-18.48.39:142][692]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
-[2017.03.08-18.48.39:143][692]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001097s)
-[2017.03.08-18.48.39:144][692]LogAIModule: Creating AISystem for world Main
-[2017.03.08-18.48.39:144][692]LogPlayLevel: PIE: World Init took: (0.000623s)
-[2017.03.08-18.48.39:144][692]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.001904s)
-[2017.03.08-18.48.39:173][692]LogInit: XAudio2 using 'Crestron (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.03.08-18.48.39:189][692]LogInit: FAudioDevice initialized.
-[2017.03.08-18.48.39:237][692]LogWorld: Game class is 'FirstPersonGameMode_C'
-[2017.03.08-18.48.39:239][692]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.03.08-13.48.39
-[2017.03.08-18.48.39:240][692]LogWorld: Bringing up level for play took: 0.001023
-[2017.03.08-18.48.39:243][692]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_13.HUD_C_39
 	Function /Game/Blueprints/UI/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.48.39:243][692]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.48.39:245][692]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.517
-[2017.03.08-18.48.39:245][692]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.49.48:185][764]LogNet: Browse: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.49.48:214][764]LogLoad: LoadMap: /Game/FirstPersonBP/Maps/FirstPersonExampleMap
-[2017.03.08-18.49.48:235][764]Cmd: MEM
-[2017.03.08-18.49.48:256][764]LogMemory: Platform Memory Stats for Windows
-[2017.03.08-18.49.48:256][764]LogMemory: Process Physical Memory: 1375.77 MB used, 1822.11 MB peak
-[2017.03.08-18.49.48:256][764]LogMemory: Process Virtual Memory: 2201.66 MB used, 2542.90 MB peak
-[2017.03.08-18.49.48:256][764]LogMemory: Physical Memory: 5227.88 MB used, 16273.04 MB total
-[2017.03.08-18.49.48:256][764]LogMemory: Virtual Memory: 3067.70 MB used, 134217728.00 MB total
-[2017.03.08-18.49.48:257][764]LogMemory: 
-[2017.03.08-18.49.48:257][764]Allocator Stats for TBB: (not implemented)
-[2017.03.08-18.49.48:742][764]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2017.03.08-18.49.48:742][764]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.49.48:750][764]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2017.03.08-13.49.48
-[2017.03.08-18.49.48:750][764]LogWorld: Bringing up level for play took: 0.005286
-[2017.03.08-18.49.48:753][764]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_13.HUD_C_42
+[2017.03.09-23.37.04:386][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.03.09-23.37.04:392][442]LogScript:Warning: Accessed None trying to read property My Character
+	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUD_C_1
 	Function /Game/Blueprints/UI/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.49.48:754][764]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.49.48:757][764]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_13.HUD_C_43
-	Function /Game/Blueprints/UI/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.49.48:757][764]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.49.48:757][764]LogLoad: Took 0.543432 seconds to LoadMap(/Game/FirstPersonBP/Maps/FirstPersonExampleMap)
-[2017.03.08-18.50.14:910][549]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.50.14:967][549]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
-[2017.03.08-18.50.20:029][663]LogAIModule: Creating AISystem for world BarebonesCafeteria
-[2017.03.08-18.50.20:057][663]Cmd: MAP LOAD FILE="../../../../../../Users/denve/Documents/Github/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.03.08-18.50.20:058][663]LightingResults: New page: Lighting Build
-[2017.03.08-18.50.20:058][663]LoadErrors: New page: Loading map: BarebonesCafeteria.umap
-[2017.03.08-18.50.20:059][663]MapCheck: New page: Map Check
-[2017.03.08-18.50.20:059][663]LightingResults: New page: Lighting Build
-[2017.03.08-18.50.20:139][663]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.03.08-18.50.20:165][663]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.03.08-18.50.20:220][663]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.968ms to complete.
-[2017.03.08-18.50.20:220][663]LogFileHelpers: Loading map 'BarebonesCafeteria' took 0.163
-[2017.03.08-18.50.32:784][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.03.08-18.50.32:784][ 24]PIE: New page: PIE session: BarebonesCafeteria (Mar 8, 2017, 8:50:32 AM)
-[2017.03.08-18.50.32:784][ 24]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BarebonesCafeteria
-[2017.03.08-18.50.32:787][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003294s)
-[2017.03.08-18.50.32:788][ 24]LogAIModule: Creating AISystem for world BarebonesCafeteria
-[2017.03.08-18.50.32:788][ 24]LogPlayLevel: PIE: World Init took: (0.000521s)
-[2017.03.08-18.50.32:788][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BarebonesCafeteria.BarebonesCafeteria to /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria (0.004003s)
-[2017.03.08-18.50.32:831][ 24]LogInit: XAudio2 using 'Crestron (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.03.08-18.50.32:842][ 24]LogInit: FAudioDevice initialized.
-[2017.03.08-18.50.32:894][ 24]LogWorld: Game class is 'FoodFightersGM_C'
-[2017.03.08-18.50.32:899][ 24]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 0) at 2017.03.08-13.50.32
-[2017.03.08-18.50.32:899][ 24]LogWorld: Bringing up level for play took: 0.003349
-[2017.03.08-18.50.32:903][ 24]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.HUD_C_47
-	Function /Game/Blueprints/UI/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.50.32:903][ 24]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
-[2017.03.08-18.50.32:910][ 24]LogScript:Warning: Accessed None trying to read property My Character
-	HUD_C /Engine/Transient.UnrealEdEngine_0:GameInstance_14.HUD_C_48
-	Function /Game/Blueprints/UI/HUD.HUD_C:GetText_0:003D
-[2017.03.08-18.50.32:
+[2017.03.09-23.37.04:393][442]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUD with description: Accessed None trying to read property My Character
+[2017.03.09-23.37.04:393][442]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_BarebonesCafeteria 0.05
+[2017.03.09-23.37.15:139][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BarebonesCafeteria" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.03.09-23.37.15:221][582]LogSavePackage: Save=66.92ms
+[2017.03.09-23.37.15:222][582]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/BarebonesCafeteria1156ADB443B68B7AABED8CA835579A56.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap'
+[2017.03.09-23.37.15:224][582]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap
+[2017.03.09-23.37.15:241][582]LogFileHelpers: Saving map 'BarebonesCafeteria' took 0.149
+[2017.03.09-23.37.15:293][582]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.03.09-23.37.15:505][583]Cmd: QUIT_EDITOR
+[2017.03.09-23.37.16:203][583]LogExit: Preparing to exit.
+[2017.03.09-23.37.16:977][583]LogExit: Editor shut down
+[2017.03.09-23.37.16:977][583]LogExit: Transaction tracking system shut down
+[2017.03.09-23.37.17:060][583]LogObj: Freed 0b from 0 cluster array pools.
+[2017.03.09-23.37.17:060][583]LogExit: Object subsystem successfully closed.
+[2017.03.09-23.37.17:070][583]LogD3D11RHI: Shutdown
+[2017.03.09-23.37.17:070][583]LogD3D11RHI: CleanupD3DDevice
+[2017.03.09-23.37.17:216][583]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.03.09-23.37.17:221][583]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.03.09-23.37.17:224][583]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.03.09-23.37.17:225][583]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.03.09-23.37.17:521][583]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.03.09-23.37.17:522][583]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.03.09-23.37.17:523][583]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.03.09-23.37.17:576][583]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.03.09-23.37.17:577][583]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.03.09-23.37.17:655][583]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.03.09-23.37.17:656][583]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.03.09-23.37.17:657][583]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.03.09-23.37.17:657][583]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.03.09-23.37.17:659][583]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.03.09-23.37.17:661][583]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.03.09-23.37.17:661][583]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.03.09-23.37.17:762][583]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.03.09-23.37.17:762][583]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.03.09-23.37.17:762][583]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.03.09-23.37.17:762][583]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.03.09-23.37.17:762][583]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.03.09-23.37.17:763][583]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.03.09-23.37.17:764][583]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.03.09-23.37.17:770][583]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.03.09-23.37.17:770][583]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.03.09-23.37.17:770][583]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.03.09-23.37.17:771][583]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.03.09-23.37.17:771][583]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.03.09-23.37.17:771][583]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.03.09-23.37.17:772][583]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.03.09-23.37.17:924][583]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.03.09-23.37.17:924][583]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.03.09-23.37.17:924][583]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.03.09-23.37.17:924][583]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.03.09-23.37.17:936][583]LogDerivedDataCache: Shutdown
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.03.09-23.37.17:936][583]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.03.09-23.37.17:937][583]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.03.09-23.37.17:937][583]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.03.09-23.37.21:943][583]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.03.09-23.37.21:943][583]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.03.09-23.37.21:943][583]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.03.09-23.37.21:943][583]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.03.09-23.37.21:943][583]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.03.09-23.37.21:944][583]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.03.09-23.37.21:945][583]LogExit: Exiting.
+[2017.03.09-23.37.21:946][583]Log file closed, 03/09/17 18:37:21
