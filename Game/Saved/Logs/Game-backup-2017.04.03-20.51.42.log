@@ -1,0 +1,1008 @@
+﻿Log file open, 04/01/17 14:19:16
+LogInit:Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-348743261) SRandInit(-348743260).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.061972
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: E:/New folder/Paragon/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.01-18.19.16:737][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-18.19.16:737][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.01-18.19.16:746][  0]LogInit: Computer: DESKTOP-JAT82AM
+[2017.04.01-18.19.16:746][  0]LogInit: User: Alex
+[2017.04.01-18.19.16:746][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.01-18.19.16:746][  0]LogInit: High frequency timer resolution =3.906252 MHz
+[2017.04.01-18.19.16:746][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.01-18.19.16:746][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.01-18.19.16:746][  0]LogMemory: Process Physical Memory: 192.39 MB used, 192.39 MB peak
+[2017.04.01-18.19.16:746][  0]LogMemory: Process Virtual Memory: 195.31 MB used, 195.31 MB peak
+[2017.04.01-18.19.16:746][  0]LogMemory: Physical Memory: 6140.09 MB used, 16332.62 MB total
+[2017.04.01-18.19.16:746][  0]LogMemory: Virtual Memory: 581.54 MB used, 134217728.00 MB total
+[2017.04.01-18.19.16:768][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.01-18.19.17:081][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.01-18.19.17:099][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.04.01-18.19.17:100][  0]LogD3D11RHI:       4073/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.01-18.19.17:101][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.01-18.19.17:101][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.01-18.19.17:101][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.01-18.19.17:105][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.01-18.19.17:105][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.01-18.19.17:105][  0]LogWindows: EnumDisplayDevices:
+[2017.04.01-18.19.17:105][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.04.01-18.19.17:105][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-18.19.17:105][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-18.19.17:105][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-18.19.17:105][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-18.19.17:106][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.01-18.19.17:106][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.04.01-18.19.17:106][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.04.01-18.19.17:106][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:21.19.411.0, unified:21.19.411.0)
+[2017.04.01-18.19.17:106][  0]LogD3D11RHI:      Driver Date: 1-13-2017
+[2017.04.01-18.19.17:106][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.01-18.19.17:113][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2017.04.01-18.19.17:125][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.01-18.19.17:126][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (C:/Users/Alex/Desktop/Gith/CGT445/Game/Intermediate/Shaders/WorkingDirectory/9536/).
+[2017.04.01-18.19.17:126][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/1BF1D0CD4B37E6651DD1AE9EF9AFE355/'.
+[2017.04.01-18.19.17:126][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.01-18.19.17:874][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.01-18.19.17:886][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.01-18.19.17:893][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.01-18.19.17:900][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.01-18.19.17:906][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.01-18.19.17:912][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.01-18.19.17:918][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.01-18.19.17:924][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.01-18.19.17:933][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.01-18.19.17:940][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.01-18.19.17:945][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.01-18.19.17:957][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.01-18.19.17:957][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.01-18.19.17:958][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.01-18.19.17:975][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.01-18.19.17:981][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.01-18.19.17:987][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.01-18.19.17:993][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.01-18.19.17:999][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.01-18.19.17:999][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.01-18.19.18:047][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache: Loaded boot cache 0.04s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.01-18.19.18:086][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.01-18.19.18:100][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.01-18.19.18:112][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.01-18.19.18:248][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.01-18.19.18:249][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.01-18.19.18:364][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.01-18.19.18:364][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.01-18.19.18:365][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.01-18.19.18:577][  0]LogAssetRegistry: FAssetRegistry took 0.0212 seconds to start up
+[2017.04.01-18.19.18:597][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.018813 seconds
+[2017.04.01-18.19.18:600][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.04.01-18.19.18:600][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.04.01-18.19.18:600][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.01-18.19.18:603][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.01-18.19.18:707][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-18.19.18:707][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.01-18.19.19:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.01-18.19.19:477][  0]SourceControl: Info Source control is disabled
+[2017.04.01-18.19.19:477][  0]SourceControl: Info Source control is disabled
+[2017.04.01-18.19.19:483][  0]SourceControl: Info Source control is disabled
+[2017.04.01-18.19.19:490][  0]SourceControl: Info Source control is disabled
+[2017.04.01-18.19.19:651][  0]LogEngine: Initializing Engine...
+[2017.04.01-18.19.19:652][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.01-18.19.19:653][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.01-18.19.19:760][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.04.01-18.19.19:766][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.01-18.19.19:777][  0]LogInit: FAudioDevice initialized.
+[2017.04.01-18.19.19:797][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.01-18.19.19:803][  0]LogInit: Texture streaming: Enabled
+[2017.04.01-18.19.19:818][  0]LogInit: Transaction tracking system initialized
+[2017.04.01-18.19.19:829][  0]BlueprintLog: New page: Editor Load
+[2017.04.01-18.19.19:868][  0]LocalizationService: Info Localization service is disabled
+[2017.04.01-18.19.19:913][  0]LogConsoleResponse:Display: 
+[2017.04.01-18.19.19:987][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.04.01-18.19.19:987][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.01-18.19.20:054][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 0.02s
+[2017.04.01-18.19.20:054][  0]SourceControl: Info Source control is disabled
+[2017.04.01-18.19.20:054][  0]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.01-18.19.20:054][  0]LightingResults: New page: Lighting Build
+[2017.04.01-18.19.20:056][  0]MapCheck: New page: Map Check
+[2017.04.01-18.19.20:056][  0]LightingResults: New page: Lighting Build
+[2017.04.01-18.19.20:704][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2017.04.01-18.19.20:708][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.01-18.19.20:709][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.01-18.19.20:751][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.661ms to complete.
+[2017.04.01-18.19.20:751][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.698
+[2017.04.01-18.19.20:891][  0]LogCollectionManager: Loaded 0 collections in 0.000734 seconds
+[2017.04.01-18.19.20:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Collections/' took 0.01s
+[2017.04.01-18.19.20:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Developers/Alex/Collections/' took 0.01s
+[2017.04.01-18.19.20:928][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Collections/' took 0.01s
+[2017.04.01-18.19.20:928][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.04.01-18.19.20:934][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 2047 classes and 369 folders.
+[2017.04.01-18.19.20:935][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.01-18.19.20:936][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.04.01-18.19.20:936][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2017.04.01-18.19.20:938][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2017.04.01-18.19.21:033][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.01-18.19.21:037][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.04.01-18.19.21:093][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.01-18.19.21:096][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.01-18.19.21:120][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.01-18.19.21:120][  0]LogLoad: Full Startup: 6.88 seconds (BP compile: 0.16 seconds)
+[2017.04.01-18.19.21:120][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.01-18.19.21:130][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-18.19.21:130][  0]LogOcInput: OculusInput pre-init called
+[2017.04.01-18.19.21:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.01-18.19.21:295][  0]LogRenderer: Reallocating scene render targets to support 752x484 (Frame:2).
+[2017.04.01-18.19.21:366][  1]LogAssetRegistry: Asset discovery search completed in 2.8109 seconds
+[2017.04.01-18.19.21:367][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.01-18.19.21:367][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.04.01-18.19.26:357][585]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 5.21s
+[2017.04.01-18.19.27:978][770]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.01-18.19.27:988][770]LightingResults: New page: Lighting Build
+[2017.04.01-18.19.27:988][770]LoadErrors: New page: Loading map: BarebonesCafeteria.umap
+[2017.04.01-18.19.27:990][770]MapCheck: New page: Map Check
+[2017.04.01-18.19.27:990][770]LightingResults: New page: Lighting Build
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat'
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset.
+[2017.04.01-18.19.28:022][770]LoadErrors:Error: Error /Game/Imported_Content/Posters/FNAF_Inspired_posters/1/1 : Can't find file for asset. /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat'
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset.
+[2017.04.01-18.19.28:022][770]LoadErrors:Error: Error /Game/Imported_Content/Posters/FNAF_Inspired_posters/1/1 : Can't find file for asset. /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat'
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset.
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat'
+[2017.04.01-18.19.28:022][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset.
+[2017.04.01-18.19.28:042][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat'
+[2017.04.01-18.19.28:042][770]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat.CubeMat Referenced by 1
+[2017.04.01-18.19.28:042][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/CubeMat' while loading NULL.
+[2017.04.01-18.19.28:042][770]LogLinker:Warning: Can't find file '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat'
+[2017.04.01-18.19.28:042][770]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat.PlaneMat Referenced by 1
+[2017.04.01-18.19.28:042][770]LogLinker:Warning: Can't find file for asset '/Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/1/PlaneMat' while loading NULL.
+[2017.04.01-18.19.28:123][770]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.04.01-18.19.28:179][770]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.01-18.19.28:209][770]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.01-18.19.28:258][770]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.777ms to complete.
+[2017.04.01-18.19.28:258][770]LogFileHelpers: Loading map 'BarebonesCafeteria' took 0.281
+[2017.04.01-18.19.30:989][ 69]AssetReimport: New page: Outstanding source content changes 9:19:30 AM
+[2017.04.01-18.19.31:048][ 69]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.fbx]
+[2017.04.01-18.19.31:048][ 69]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.fbx)
+[2017.04.01-18.19.31:167][ 70]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.obj]
+[2017.04.01-18.19.31:167][ 70]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.obj)
+[2017.04.01-18.19.31:200][ 71]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.png]
+[2017.04.01-18.19.31:200][ 71]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.png)
+[2017.04.01-18.19.35:437][ 71]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.35:906][ 72]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.FBX]
+[2017.04.01-18.19.35:967][ 72]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.FBX
+[2017.04.01-18.19.36:075][ 72]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.19.36:199][ 72]LogStaticMesh: Building static mesh tour...
+[2017.04.01-18.19.36:428][ 72]LogStaticMesh: Built static mesh [0.23s] /Game/Imported_Content/Other_Stuff/Tour_de_Eiffel_poster/tour.tour
+[2017.04.01-18.19.36:459][ 72]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.36:502][ 73]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.obj]
+[2017.04.01-18.19.36:507][ 73]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.obj
+[2017.04.01-18.19.36:768][ 73]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.19.42:414][ 73]LogStaticMesh: Building static mesh tour...
+[2017.04.01-18.19.43:556][ 73]LogStaticMesh: Built static mesh [1.14s] /Game/Imported_Content/Other_Stuff/Tour_de_Eiffel_poster/tour.tour
+[2017.04.01-18.19.43:677][ 73]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.43:809][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.19.43:831][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.19.43:840][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.19.43:854][ 74]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.04.01-18.19.43:884][ 74]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Dgart_Wallpaper04.jpg/Dgart_Wallpaper04.jpg]
+[2017.04.01-18.19.43:884][ 74]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Dgart_Wallpaper04.jpg/Dgart_Wallpaper04.jpg)
+[2017.04.01-18.19.44:192][ 74]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.44:227][ 75]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Easter_0001/DSC_0119.JPG]
+[2017.04.01-18.19.44:227][ 75]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Easter_0001/DSC_0119.JPG)
+[2017.04.01-18.19.47:330][ 75]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.47:353][ 76]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.19.47:402][ 76]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Green Pears/pear_export.fbx]
+[2017.04.01-18.19.47:423][ 76]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Green Pears/pear_export.fbx
+[2017.04.01-18.19.47:480][ 76]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.19.47:481][ 76]LogFbx: =================================================
+[2017.04.01-18.19.47:481][ 76]LogFbx: Dumping Node START [pear_002] 
+[2017.04.01-18.19.47:481][ 76]LogFbx: 	Total Deformer Count 1679286288.
+[2017.04.01-18.19.47:481][ 76]LogFbx: 	Attribute () Type (4).
+[2017.04.01-18.19.47:481][ 76]LogFbx: 		[Node Attribute Child 1] pear_002 (Type Mesh).
+[2017.04.01-18.19.47:481][ 76]LogFbx: Dumping Node END [pear_002]
+[2017.04.01-18.19.47:481][ 76]LogFbx: =================================================
+[2017.04.01-18.19.47:481][ 76]LogFbx: Dumping Node START [pear_002] 
+[2017.04.01-18.19.47:481][ 76]LogFbx: 	Total Deformer Count 1679286064.
+[2017.04.01-18.19.47:481][ 76]LogFbx: 	Attribute () Type (4).
+[2017.04.01-18.19.47:481][ 76]LogFbx: 		[Node Attribute Child 1] pear_002 (Type Mesh).
+[2017.04.01-18.19.47:481][ 76]LogFbx: Dumping Node END [pear_002]
+[2017.04.01-18.19.47:484][ 76]LogFbx: Triangulating skeletal mesh pear_002
+[2017.04.01-18.19.47:826][ 76]LogSkeletalMesh: Chunk 0: 209 rigid vertices, 0 soft vertices, 1 active bones
+[2017.04.01-18.19.47:826][ 76]LogSkeletalMesh: Chunk 1: 1082 rigid vertices, 0 soft vertices, 1 active bones
+[2017.04.01-18.19.47:826][ 76]LogSkeletalMesh: Chunk 2: 311 rigid vertices, 0 soft vertices, 1 active bones
+[2017.04.01-18.19.47:828][ 76]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 319 triangles
+[2017.04.01-18.19.47:828][ 76]LogSkeletalMesh: Section 1: Material=1, Chunk=1, 1984 triangles
+[2017.04.01-18.19.47:828][ 76]LogSkeletalMesh: Section 2: Material=2, Chunk=2, 544 triangles
+[2017.04.01-18.19.47:829][ 76]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.47:846][ 77]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/1.jpg]
+[2017.04.01-18.19.47:846][ 77]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/1.jpg)
+[2017.04.01-18.19.48:041][ 77]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.48:053][ 78]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/2.jpg]
+[2017.04.01-18.19.48:053][ 78]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/2.jpg)
+[2017.04.01-18.19.48:125][ 78]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.48:138][ 79]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/3.jpg]
+[2017.04.01-18.19.48:138][ 79]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/3.jpg)
+[2017.04.01-18.19.48:701][ 79]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.48:743][ 80]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_b.jpg]
+[2017.04.01-18.19.48:743][ 80]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_b.jpg)
+[2017.04.01-18.19.57:468][ 80]LogEditorFactories: -- imported successfully
+[2017.04.01-18.19.57:507][ 81]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_d.jpg]
+[2017.04.01-18.19.57:507][ 81]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_d.jpg)
+[2017.04.01-18.20.04:465][ 81]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.04:481][ 82]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/1.obj]
+[2017.04.01-18.20.04:485][ 82]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/1.obj
+[2017.04.01-18.20.04:486][ 82]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.20.04:495][ 82]LogStaticMesh: Building static mesh 1...
+[2017.04.01-18.20.04:497][ 82]LogStaticMesh: Built static mesh [0.00s] /Game/Imported_Content/Posters/FNAF_Inspired_posters/1/1.1
+[2017.04.01-18.20.04:501][ 82]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.04:515][ 83]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/poster 1.jpg]
+[2017.04.01-18.20.04:516][ 83]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/poster 1.jpg)
+[2017.04.01-18.20.05:998][ 83]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.06:010][ 84]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/2/CubeMat.CubeMat Referenced by 2
+[2017.04.01-18.20.06:010][ 84]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/2/PlaneMat.PlaneMat Referenced by 2
+[2017.04.01-18.20.06:011][ 84]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/2.obj]
+[2017.04.01-18.20.06:015][ 84]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/2.obj
+[2017.04.01-18.20.06:016][ 84]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.20.06:025][ 84]LogStaticMesh: Building static mesh 2...
+[2017.04.01-18.20.06:028][ 84]LogStaticMesh: Built static mesh [0.00s] /Game/Imported_Content/Posters/FNAF_Inspired_posters/2/2.2
+[2017.04.01-18.20.06:030][ 84]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.06:043][ 85]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/poster 2v2.jpg]
+[2017.04.01-18.20.06:043][ 85]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/poster 2v2.jpg)
+[2017.04.01-18.20.07:834][ 85]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.07:847][ 86]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/3/CubeMat.CubeMat Referenced by 3
+[2017.04.01-18.20.07:847][ 86]LoadErrors: Info Failed to load /Game/Imported_Content/Whion_2017-03-29_at_4_37_31_PM/FNAF_Inspired_posters/3/PlaneMat.PlaneMat Referenced by 3
+[2017.04.01-18.20.07:848][ 86]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/3.obj]
+[2017.04.01-18.20.07:852][ 86]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/3.obj
+[2017.04.01-18.20.07:853][ 86]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.20.07:863][ 86]LogStaticMesh: Building static mesh 3...
+[2017.04.01-18.20.07:865][ 86]LogStaticMesh: Built static mesh [0.00s] /Game/Imported_Content/Posters/FNAF_Inspired_posters/3/3.3
+[2017.04.01-18.20.07:867][ 86]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.07:881][ 87]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/poster 3.jpg]
+[2017.04.01-18.20.07:881][ 87]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/poster 3.jpg)
+[2017.04.01-18.20.09:586][ 87]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.09:596][ 88]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/Teen Poster.zip/Teen Poster/poster6.jpg]
+[2017.04.01-18.20.09:596][ 88]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/Teen Poster.zip/Teen Poster/poster6.jpg)
+[2017.04.01-18.20.09:611][ 88]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.09:620][ 89]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/Coffeet2.obj]
+[2017.04.01-18.20.09:625][ 89]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/Coffeet2.obj
+[2017.04.01-18.20.09:698][ 89]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.20.10:197][ 89]LogStaticMesh: Building static mesh Coffeet2...
+[2017.04.01-18.20.10:286][ 89]LogStaticMesh: Built static mesh [0.09s] /Game/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/Coffeet2.Coffeet2
+[2017.04.01-18.20.10:315][ 89]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.10:374][ 90]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.obj]
+[2017.04.01-18.20.10:379][ 90]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.obj
+[2017.04.01-18.20.10:464][ 90]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.20.10:947][ 90]LogStaticMesh: Building static mesh Coffeet2...
+[2017.04.01-18.20.11:042][ 90]LogStaticMesh: Built static mesh [0.09s] /Game/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.Coffeet2
+[2017.04.01-18.20.11:058][ 90]LogEditorFactories: -- imported successfully
+[2017.04.01-18.20.11:385][ 91]LogSavePackage: Save=195.56ms
+[2017.04.01-18.20.11:386][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Dgart_Wallpaper04F57201DE4EB37F60103D4F9C468B024A.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Dgart_Wallpaper04_jpg/Dgart_Wallpaper04.uasset'
+[2017.04.01-18.20.11:390][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Dgart_Wallpaper04_jpg/Dgart_Wallpaper04.uasset
+[2017.04.01-18.20.12:162][ 91]LogSavePackage: Save=731.19ms
+[2017.04.01-18.20.12:162][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/DSC_0119769DC50D45AD8F6D41BD1AA376A0A819.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Easter_0001/DSC_0119.uasset'
+[2017.04.01-18.20.12:165][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Easter_0001/DSC_0119.uasset
+[2017.04.01-18.20.12:262][ 91]LogSavePackage: Save=60.91ms
+[2017.04.01-18.20.12:262][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/pear_export7BDF9F834D2B5814D7331F8ACDC8C471.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Green_Pears/pear_export.uasset'
+[2017.04.01-18.20.12:269][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Green_Pears/pear_export.uasset
+[2017.04.01-18.20.12:285][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/maps/1" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/1.uasset" SILENT=true
+[2017.04.01-18.20.12:420][ 91]LogSavePackage: Save=106.00ms
+[2017.04.01-18.20.12:420][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/1FF03AED141E607A0724B94BA12C5E3C6.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/1.uasset'
+[2017.04.01-18.20.12:423][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/1.uasset
+[2017.04.01-18.20.12:430][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/maps/2" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/2.uasset" SILENT=true
+[2017.04.01-18.20.12:519][ 91]LogSavePackage: Save=74.21ms
+[2017.04.01-18.20.12:519][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/215C34133400D65D38792DC828616F2B9.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/2.uasset'
+[2017.04.01-18.20.12:521][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/2.uasset
+[2017.04.01-18.20.12:527][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/maps/3" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/3.uasset" SILENT=true
+[2017.04.01-18.20.12:678][ 91]LogSavePackage: Save=135.38ms
+[2017.04.01-18.20.12:678][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/3462273F14B1AB6F1B22C12A94FCB2241.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/3.uasset'
+[2017.04.01-18.20.12:680][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/3.uasset
+[2017.04.01-18.20.12:689][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/maps/7_2_1_b" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_b.uasset" SILENT=true
+[2017.04.01-18.20.13:701][ 91]LogSavePackage: Save=952.04ms
+[2017.04.01-18.20.13:701][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/7_2_1_b38EB67A541C73CF9213BC897E15FE9BB.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_b.uasset'
+[2017.04.01-18.20.13:704][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_b.uasset
+[2017.04.01-18.20.13:713][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/maps/7_2_1_d" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_d.uasset" SILENT=true
+[2017.04.01-18.20.14:695][ 91]LogSavePackage: Save=931.06ms
+[2017.04.01-18.20.14:695][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/7_2_1_dA742B453424DF99540375E96105DCB67.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_d.uasset'
+[2017.04.01-18.20.14:698][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/maps/7_2_1_d.uasset
+[2017.04.01-18.20.14:725][ 91]LogSavePackage: Save=9.57ms
+[2017.04.01-18.20.14:725][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/164A80061496FE3BE54E214ADA4DF1A9E.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset'
+[2017.04.01-18.20.14:727][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/1.uasset
+[2017.04.01-18.20.15:132][ 91]LogSavePackage: Save=379.06ms
+[2017.04.01-18.20.15:132][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/poster_14E4BF3E94B7DC7D64F4721BBD1FC130D.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/poster_1.uasset'
+[2017.04.01-18.20.15:134][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/1/poster_1.uasset
+[2017.04.01-18.20.15:160][ 91]LogSavePackage: Save=9.70ms
+[2017.04.01-18.20.15:160][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/237356BDA469DFB8D0FF02EB02328E8EF.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/2/2.uasset'
+[2017.04.01-18.20.15:162][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/2/2.uasset
+[2017.04.01-18.20.15:483][ 91]LogSavePackage: Save=293.84ms
+[2017.04.01-18.20.15:483][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/poster_2v2D4F2BF3545DDF05EC4A7B4AEC09C70AC.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/2/poster_2v2.uasset'
+[2017.04.01-18.20.15:485][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/2/poster_2v2.uasset
+[2017.04.01-18.20.15:514][ 91]LogSavePackage: Save=10.58ms
+[2017.04.01-18.20.15:514][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/30546F5804CC64531E9210C99D6D0137D.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/3/3.uasset'
+[2017.04.01-18.20.15:516][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/3/3.uasset
+[2017.04.01-18.20.15:845][ 91]LogSavePackage: Save=275.45ms
+[2017.04.01-18.20.15:845][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/poster_3CDD33304453DBB7B29DA54B6925FFEAA.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/3/poster_3.uasset'
+[2017.04.01-18.20.15:847][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/FNAF_Inspired_posters/3/poster_3.uasset
+[2017.04.01-18.20.15:883][ 91]LogSavePackage: Save=20.61ms
+[2017.04.01-18.20.15:883][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/poster6CF3150C94D8A93341B50C58D362DCD06.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/Teen_Poster_zip/Teen_Poster/poster6.uasset'
+[2017.04.01-18.20.15:885][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Posters/Teen_Poster_zip/Teen_Poster/poster6.uasset
+[2017.04.01-18.20.15:917][ 91]LogSavePackage: Save=9.60ms
+[2017.04.01-18.20.15:917][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Coffeet253B3FA6549B065259EFB5CACADCD117F.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/Coffeet2.uasset'
+[2017.04.01-18.20.15:919][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/Coffeet2.uasset
+[2017.04.01-18.20.15:945][ 91]LogSavePackage: Save=9.81ms
+[2017.04.01-18.20.15:945][ 91]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Coffeet25304E1C6491BD4ABC8BB6BA3EC167F39.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.uasset'
+[2017.04.01-18.20.15:948][ 91]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Coffee_table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.uasset
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset banana from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.fbx.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset banana from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.obj.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset banana from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Banana/banana.png.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset tour from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.FBX.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset tour from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Tour de Eiffel poster/tour.obj.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset Dgart_Wallpaper04 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Dgart_Wallpaper04.jpg/Dgart_Wallpaper04.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset DSC_0119 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Easter_0001/DSC_0119.JPG.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset pear_export from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Green Pears/pear_export.fbx.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 1 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/1.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 2 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/2.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 3 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/3.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 7_2_1_b from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_b.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 7_2_1_d from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/maps/7_2_1_d.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 1 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/1.obj.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset poster_1 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/1/poster 1.jpg.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset 2 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/2.obj.
+[2017.04.01-18.20.18:955][451]AssetReimport: Info Reimported asset poster_2v2 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/2/poster 2v2.jpg.
+[2017.04.01-18.20.18:956][451]AssetReimport: Info Reimported asset 3 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/3.obj.
+[2017.04.01-18.20.18:956][451]AssetReimport: Info Reimported asset poster_3 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/FNAF Inspired posters/3/poster 3.jpg.
+[2017.04.01-18.20.18:956][451]AssetReimport: Info Reimported asset poster6 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported Content/Whion 2017-03-29 at 4.37.31 PM/Teen Poster.zip/Teen Poster/poster6.jpg.
+[2017.04.01-18.20.18:956][451]AssetReimport: Info Reimported asset Coffeet2 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/Coffeet2.obj.
+[2017.04.01-18.20.18:956][451]AssetReimport: Info Reimported asset Coffeet2 from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other Stuff/Coffee table/Coffeet2OBJ/p1bce3lcm01vab1fdm1m6b43q15ie4/Coffeet2.obj.
+[2017.04.01-18.20.49:917][139]Cmd: TRANSACTION UNDO
+[2017.04.01-18.20.49:917][139]LogEditorTransaction: Undo Move Actors
+[2017.04.01-18.21.38:715][578]AssetReimport: New page: Outstanding source content changes 9:21:38 AM
+[2017.04.01-18.21.38:716][578]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final Revolver_OBJ.obj)
+[2017.04.01-18.21.38:735][578]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final Revolver_OBJ.obj
+[2017.04.01-18.21.39:151][578]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.21.40:472][578]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final Revolver_OBJ.obj
+[2017.04.01-18.21.40:892][578]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.21.40:914][578]LogMaterial: Missing cached shader map for material Back_TriggerMat, compiling. 
+[2017.04.01-18.21.41:115][578]LogMaterial: Missing cached shader map for material BarrelMat, compiling. 
+[2017.04.01-18.21.44:316][578]LogMaterial: Missing cached shader map for material BodyMat, compiling. 
+[2017.04.01-18.21.45:709][578]LogMaterial: Missing cached shader map for material ChamberMat, compiling. 
+[2017.04.01-18.21.46:943][578]LogMaterial: Missing cached shader map for material Chamber_HolderMat, compiling. 
+[2017.04.01-18.21.47:204][578]LogMaterial: Missing cached shader map for material HandleMat, compiling. 
+[2017.04.01-18.21.48:156][578]LogMaterial: Missing cached shader map for material TriggerMat, compiling. 
+[2017.04.01-18.21.48:494][578]LogStaticMesh: Building static mesh Final_Revolver_OBJ...
+[2017.04.01-18.21.50:896][578]LogStaticMesh: Built static mesh [2.40s] /Game/Imported_Content/Final_Revolver_OBJ.Final_Revolver_OBJ
+[2017.04.01-18.21.51:524][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Final_Revolver_OBJ" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final_Revolver_OBJ.uasset" SILENT=true
+[2017.04.01-18.21.51:539][579]LogSavePackage: Save=13.73ms
+[2017.04.01-18.21.51:539][579]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Final_Revolver_OBJD236A97543B6961CFBE84CAD51923794.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final_Revolver_OBJ.uasset'
+[2017.04.01-18.21.51:541][579]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Final_Revolver_OBJ.uasset
+[2017.04.01-18.21.54:549][931]AssetReimport: Info Importing new asset /Game/Imported_Content/Final_Revolver_OBJ.
+[2017.04.01-18.22.02:070][821]LogActorFactory: Actor Factory created Final_Revolver_OBJ
+[2017.04.01-18.22.02:304][844]LogActorFactory: Actor Factory created Final_Revolver_OBJ
+[2017.04.01-18.23.19:004][481]AssetReimport: New page: Outstanding source content changes 9:23:19 AM
+[2017.04.01-18.23.19:004][481]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All the guns/RevolverSkin.jpg)
+[2017.04.01-18.23.19:153][482]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Revolver" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Revolver.uasset" SILENT=true
+[2017.04.01-18.23.19:180][482]LogSavePackage: Save=25.07ms
+[2017.04.01-18.23.19:180][482]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Revolver738948CE4447ECECC12208A70C796F05.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Revolver.uasset'
+[2017.04.01-18.23.19:274][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/RevolverSkin" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin.uasset" SILENT=true
+[2017.04.01-18.23.19:295][483]LogSavePackage: Save=19.31ms
+[2017.04.01-18.23.19:295][483]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/RevolverSkin17046FE740DFC23F28406994A02B441A.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin.uasset'
+[2017.04.01-18.23.19:297][483]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin.uasset
+[2017.04.01-18.23.19:297][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Revolver" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Revolver.uasset" SILENT=true
+[2017.04.01-18.23.19:320][483]LogSavePackage: Save=6.50ms
+[2017.04.01-18.23.19:320][483]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Revolver0178A82E4876ED5BD8112FAC3F7D9F8F.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Revolver.uasset'
+[2017.04.01-18.23.19:323][483]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Revolver.uasset
+[2017.04.01-18.23.22:324][835]AssetReimport: Info Importing new asset /Game/Imported_Content/All_the_guns/RevolverSkin.
+[2017.04.01-18.23.22:324][835]AssetReimport: Info Moving asset /Game/Imported_Content/Final_Revolver_OBJ to /Game/Imported_Content/All_the_guns/Revolver.
+[2017.04.01-18.23.23:695][995]LogMaterial: Missing cached shader map for material RevolverSkin_Mat, compiling. 
+[2017.04.01-18.23.29:626][682]Cmd: TRANSACTION UNDO
+[2017.04.01-18.23.29:626][682]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.23.36:138][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Final_Revolver_OBJ)
+[2017.04.01-18.23.36:524][459]Cmd: DELETE
+[2017.04.01-18.23.36:524][459]Cmd: ACTOR DELETE
+[2017.04.01-18.23.36:602][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.23.36:632][459]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2017.04.01-18.25.21:535][323]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x512)
+[2017.04.01-18.25.22:185][396]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.25.22:467][425]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x513)
+[2017.04.01-18.25.50:699][699]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.26.04:177][ 25]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Assault Rifle with Holographic Sight/Assault Rifle OBJ/Assault Rifle.obj)
+[2017.04.01-18.26.04:182][ 25]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Assault Rifle with Holographic Sight/Assault Rifle OBJ/Assault Rifle.obj
+[2017.04.01-18.26.04:198][ 25]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.26.05:533][ 25]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Assault Rifle with Holographic Sight/Assault Rifle OBJ/Assault Rifle.obj
+[2017.04.01-18.26.05:549][ 25]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.26.05:551][ 25]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/defaultMat'
+[2017.04.01-18.26.05:551][ 25]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/defaultMat'
+[2017.04.01-18.26.05:555][ 25]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.04.01-18.26.05:563][ 25]LogFbx:Warning: Triangulating static mesh default
+[2017.04.01-18.26.05:886][ 25]LogStaticMesh: Building static mesh Assault_Rifle...
+[2017.04.01-18.26.05:891][ 25]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.01-18.26.06:076][ 25]LogStaticMesh: Built static mesh [0.19s] /Game/Imported_Content/All_the_guns/Assault_Rifle.Assault_Rifle
+[2017.04.01-18.26.06:085][ 25]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.01-18.26.06:085][ 25]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.04.01-18.26.06:095][ 25]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Assault Rifle with Holographic Sight/Assault Rifle OBJ/Diffuse.png)
+[2017.04.01-18.26.06:402][ 25]LogTexture:Display: Building textures: Diffuse (AutoDXT)
+[2017.04.01-18.26.13:485][461]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.26.13:688][483]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.26.16:663][828]Cmd: TRANSACTION UNDO
+[2017.04.01-18.26.16:663][828]LogEditorTransaction: Undo Scale Actors
+[2017.04.01-18.26.17:916][972]Cmd: DELETE
+[2017.04.01-18.26.17:916][972]Cmd: ACTOR DELETE
+[2017.04.01-18.26.17:916][972]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.26.17:924][972]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-18.26.21:431][391]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.26.21:752][429]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.26.25:162][819]Cmd: DELETE
+[2017.04.01-18.26.25:162][819]Cmd: ACTOR DELETE
+[2017.04.01-18.26.25:162][819]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.26.25:169][819]LogEditorActor: Deleted 1 Actors (0.007 secs)
+[2017.04.01-18.26.38:064][584]LogMaterial:Warning: Material /Game/Imported_Content/All_the_guns/defaultMat.defaultMat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.01-18.26.38:067][584]LogMaterial: Missing cached shader map for material defaultMat, compiling. 
+[2017.04.01-18.26.38:083][584]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.01-18.26.39:560][758]LogMaterial: Missing cached shader map for material Diffuse_Mat, compiling. 
+[2017.04.01-18.26.39:580][758]LogMaterial:Warning: Material /Game/Imported_Content/All_the_guns/Diffuse_Mat.Diffuse_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.01-18.26.39:585][758]LogMaterial: Missing cached shader map for material Diffuse_Mat, compiling. 
+[2017.04.01-18.26.39:602][758]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.01-18.26.41:333][957]Cmd: TRANSACTION UNDO
+[2017.04.01-18.26.41:333][957]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.26.41:699][995]Cmd: TRANSACTION UNDO
+[2017.04.01-18.26.41:699][995]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.27.47:060][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/PPSH-41/obj/ppsh41.bmp)
+[2017.04.01-18.27.47:064][620]LogTexture:Display: Building textures: ppsh41 (AutoDXT)
+[2017.04.01-18.27.47:163][620]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/PPSH-41/obj/ppsh41.obj)
+[2017.04.01-18.27.47:168][620]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/PPSH-41/obj/ppsh41.obj
+[2017.04.01-18.27.47:176][620]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.27.48:358][620]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/PPSH-41/obj/ppsh41.obj
+[2017.04.01-18.27.48:366][620]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.27.48:368][620]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/default00'
+[2017.04.01-18.27.48:368][620]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/default00'
+[2017.04.01-18.27.48:384][620]LogTexture:Display: Building textures: ppsh41 (AutoDXT)
+[2017.04.01-18.27.48:463][620]LogMaterial: Missing cached shader map for material default00, compiling. 
+[2017.04.01-18.27.48:474][620]LogStaticMesh: Building static mesh ppsh41_0...
+[2017.04.01-18.27.48:475][620]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.01-18.27.48:491][620]LogStaticMesh: Built static mesh [0.02s] /Game/Imported_Content/All_the_guns/ppsh41_0.ppsh41_0
+[2017.04.01-18.27.48:493][620]LogStaticMesh:Warning: ppsh41_0 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2017.04.01-18.27.48:498][620]FBXImport:Warning: Warning Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.04.01-18.27.48:498][620]FBXImport:Warning: Warning ppsh41_0 has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2017.04.01-18.27.48:508][620]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/PPSH-41/obj/ppsh41_n.bmp)
+[2017.04.01-18.27.48:517][620]LogTexture:Display: Building textures: ppsh41_n (BC5)
+[2017.04.01-18.28.01:614][ 77]LogActorFactory: Actor Factory created ppsh41_0
+[2017.04.01-18.28.01:734][ 90]LogActorFactory: Actor Factory created ppsh41_0
+[2017.04.01-18.28.07:407][744]Cmd: DELETE
+[2017.04.01-18.28.07:407][744]Cmd: ACTOR DELETE
+[2017.04.01-18.28.07:407][744]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.28.07:415][744]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-18.28.26:518][174]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Gun/gun.obj)
+[2017.04.01-18.28.26:523][174]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Gun/gun.obj
+[2017.04.01-18.28.26:527][174]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.28.27:457][174]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Whion 2017-04-01 at 1.14.41 PM/Gun/gun.obj
+[2017.04.01-18.28.27:459][174]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.28.27:461][174]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/Material'
+[2017.04.01-18.28.27:461][174]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/Material'
+[2017.04.01-18.28.27:463][174]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/tex'
+[2017.04.01-18.28.27:463][174]LogLinker:Warning: Can't find file '/Game/Imported_Content/All_the_guns/tex'
+[2017.04.01-18.28.27:463][174]LogUObjectGlobals:Warning: Failed to find object 'Texture /Game/Imported_Content/All_the_guns/tex.tex'
+[2017.04.01-18.28.27:489][174]LogTexture:Display: Building textures: tex (BGRA8)
+[2017.04.01-18.28.27:505][174]LogMaterial: Missing cached shader map for material Material, compiling. 
+[2017.04.01-18.28.27:514][174]LogFbx:Warning: Triangulating static mesh default
+[2017.04.01-18.28.27:553][174]LogStaticMesh: Building static mesh gun...
+[2017.04.01-18.28.27:553][174]LogMeshUtilities:Warning: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.04.01-18.28.27:566][174]LogStaticMesh: Built static mesh [0.01s] /Game/Imported_Content/All_the_guns/gun.gun
+[2017.04.01-18.28.27:572][174]FBXImport:Warning: Warning Warning: The imported mesh is very small. This is most likely an issue with the units used when exporting to FBX. 
+[2017.04.01-18.28.36:171][746]LogMaterial: Missing cached shader map for material tex_Mat, compiling. 
+[2017.04.01-18.28.36:184][746]LogMaterial:Warning: Material /Game/Imported_Content/All_the_guns/tex_Mat.tex_Mat needed to have new flag set bUsedWithStaticLighting !
+[2017.04.01-18.28.36:187][746]LogMaterial: Missing cached shader map for material tex_Mat, compiling. 
+[2017.04.01-18.28.36:198][746]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.04.01-18.28.37:639][916]Cmd: TRANSACTION UNDO
+[2017.04.01-18.28.37:639][916]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.28.40:389][208]LogActorFactory: Actor Factory created gun
+[2017.04.01-18.28.40:475][215]LogActorFactory: Actor Factory created gun
+[2017.04.01-18.28.44:634][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/glocki" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glocki.uasset" SILENT=true
+[2017.04.01-18.28.44:645][686]LogSavePackage: Save=9.51ms
+[2017.04.01-18.28.44:645][686]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/glocki6616AB8447B02DE4634C9FAAC997DE44.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glocki.uasset'
+[2017.04.01-18.28.44:648][686]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glocki.uasset
+[2017.04.01-18.28.49:326][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/glock" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glock.uasset" SILENT=true
+[2017.04.01-18.28.49:348][229]LogSavePackage: Save=20.69ms
+[2017.04.01-18.28.49:348][229]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/glockC321078146DC549FF51C979B3CD4EFE7.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glock.uasset'
+[2017.04.01-18.28.49:350][229]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/glock.uasset
+[2017.04.01-18.29.15:846][360]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.29.17:157][510]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (gun)
+[2017.04.01-18.29.26:560][537]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.29.30:834][ 14]Cmd: TRANSACTION UNDO
+[2017.04.01-18.29.30:834][ 14]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-18.31.25:150][144]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (gun)
+[2017.04.01-18.31.25:522][186]Cmd: DELETE
+[2017.04.01-18.31.25:522][186]Cmd: ACTOR DELETE
+[2017.04.01-18.31.25:523][186]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.31.25:530][186]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2017.04.01-18.31.28:025][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2017.04.01-18.31.31:464][682]LogMaterial: Missing cached shader map for material glock_Mat, compiling. 
+[2017.04.01-18.31.32:678][807]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.32:678][807]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.31.33:081][811]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.33:726][852]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.34:049][887]Cmd: DUPLICATE
+[2017.04.01-18.31.34:049][887]Cmd: ACTOR DUPLICATE
+[2017.04.01-18.31.35:526][ 44]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.35:526][ 44]LogEditorTransaction: Undo Rotate Actors
+[2017.04.01-18.31.35:780][ 73]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.35:780][ 73]LogEditorTransaction: Undo Duplicate Actors
+[2017.04.01-18.31.36:039][ 96]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.36:039][ 96]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.31.36:968][203]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.37:416][236]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.37:732][268]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.37:732][268]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.31.38:762][387]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.39:110][423]LogActorFactory: Actor Factory created glocki
+[2017.04.01-18.31.46:982][312]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.46:982][312]LogEditorTransaction: Undo Scale Actors
+[2017.04.01-18.31.47:270][345]Cmd: TRANSACTION UNDO
+[2017.04.01-18.31.47:270][345]LogEditorTransaction: Undo Scale Actors
+[2017.04.01-18.31.56:230][373]LogActorFactory: Actor Factory created ppsh41_0
+[2017.04.01-18.31.56:636][415]LogActorFactory: Actor Factory created ppsh41_0
+[2017.04.01-18.32.09:105][859]LogActorFactory: Actor Factory created Revolver
+[2017.04.01-18.32.09:771][933]LogActorFactory: Actor Factory created Revolver
+[2017.04.01-18.32.13:519][352]Cmd: TRANSACTION UNDO
+[2017.04.01-18.32.13:519][352]LogEditorTransaction: Undo Scale Actors
+[2017.04.01-18.32.30:587][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.32.59:104][ 66]AssetReimport: New page: Outstanding source content changes 9:32:59 AM
+[2017.04.01-18.32.59:104][ 66]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All the guns/Colt.obj)
+[2017.04.01-18.32.59:116][ 66]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All the guns/Colt.obj
+[2017.04.01-18.32.59:531][ 66]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.33.00:508][ 66]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All the guns/Colt.obj
+[2017.04.01-18.33.00:925][ 66]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.01-18.33.00:930][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_BackStrapSGMat, compiling. 
+[2017.04.01-18.33.00:982][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_blinn1SGMat, compiling. 
+[2017.04.01-18.33.05:813][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_blinn2SGMat, compiling. 
+[2017.04.01-18.33.05:840][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_checkering_lambert2SGMat, compiling. 
+[2017.04.01-18.33.05:957][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_FrameLeftSGMat, compiling. 
+[2017.04.01-18.33.05:978][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_FrameRightSGMat, compiling. 
+[2017.04.01-18.33.06:011][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_Gun1SGMat, compiling. 
+[2017.04.01-18.33.06:705][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_SlideLeftSGMat, compiling. 
+[2017.04.01-18.33.06:732][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_SpringPlugSGMat, compiling. 
+[2017.04.01-18.33.06:922][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_StRtCheckerSGMat, compiling. 
+[2017.04.01-18.33.07:285][ 66]LogMaterial: Missing cached shader map for material Colt_Colt_TriggerSGMat, compiling. 
+[2017.04.01-18.33.07:556][ 66]LogStaticMesh: Building static mesh Colt...
+[2017.04.01-18.33.36:322][ 66]LogStaticMesh: Built static mesh [28.77s] /Game/Imported_Content/All_the_guns/Colt.Colt
+[2017.04.01-18.33.36:571][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Colt" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt.uasset" SILENT=true
+[2017.04.01-18.33.36:584][ 67]LogSavePackage: Save=11.97ms
+[2017.04.01-18.33.36:584][ 67]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/ColtB43F10C444DC7E45E5B6408E5A304BFE.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt.uasset'
+[2017.04.01-18.33.36:589][ 67]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt.uasset
+[2017.04.01-18.33.39:592][236]AssetReimport: Info Importing new asset /Game/Imported_Content/All_the_guns/Colt.
+[2017.04.01-18.33.43:349][670]LogActorFactory: Actor Factory created Colt
+[2017.04.01-18.33.43:540][688]LogActorFactory: Actor Factory created Colt
+[2017.04.01-18.33.46:387][ 13]Cmd: DELETE
+[2017.04.01-18.33.46:387][ 13]Cmd: ACTOR DELETE
+[2017.04.01-18.33.46:388][ 13]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.04.01-18.33.46:396][ 13]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.04.01-18.33.49:377][247]Cmd: TRANSACTION UNDO
+[2017.04.01-18.33.49:377][247]LogEditorTransaction: Undo Delete Actors
+[2017.04.01-18.33.49:859][295]Cmd: TRANSACTION UNDO
+[2017.04.01-18.33.49:860][295]LogEditorTransaction: Undo Move Actors
+[2017.04.01-18.33.50:328][347]Cmd: TRANSACTION UNDO
+[2017.04.01-18.33.50:328][347]LogEditorTransaction: Undo Create Actors
+[2017.04.01-18.33.50:775][396]Cmd: TRANSACTION UNDO
+[2017.04.01-18.33.50:775][396]LogEditorTransaction: Undo Clicking on Actors
+[2017.04.01-18.33.51:363][461]Cmd: TRANSACTION UNDO
+[2017.04.01-18.33.51:363][461]LogEditorTransaction: Undo Move Actors
+[2017.04.01-18.33.56:177][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.01-18.33.56:218][980]PIE: New page: PIE session: BarebonesCafeteria (Apr 1, 2017, 9:33:56 AM)
+[2017.04.01-18.33.56:218][980]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_BarebonesCafeteria
+[2017.04.01-18.33.56:249][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030960s)
+[2017.04.01-18.33.56:252][980]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.04.01-18.33.56:252][980]LogPlayLevel: PIE: World Init took: (0.002996s)
+[2017.04.01-18.33.56:253][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/BarebonesCafeteria.BarebonesCafeteria to /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria (0.035020s)
+[2017.04.01-18.33.56:313][980]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.01-18.33.56:325][980]LogInit: FAudioDevice initialized.
+[2017.04.01-18.33.56:523][980]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.01-18.33.56:627][980]LogWorld: Bringing World /Game/Maps/UEDPIE_0_BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 0) at 2017.04.01-14.33.56
+[2017.04.01-18.33.56:655][980]LogWorld: Bringing up level for play took: 0.049508
+[2017.04.01-18.33.56:787][980]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
+[2017.04.01-18.33.56:837][980]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.01-18.33.56:897][980]LogScript:Warning: Accessed None trying to read property My Character
+	HUDP1_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDP1_C_0
+	Function /Game/Blueprints/UI/HUDP1.HUDP1_C:GetText_0:003D
+[2017.04.01-18.33.56:897][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUDP1 with description: Accessed None trying to read property My Character
+[2017.04.01-18.33.56:935][980]LogScript:Warning: Accessed None trying to read property My Character
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.HUDP2_C_0
+	Function /Game/Blueprints/UI/HUDP2.HUDP2_C:GetText_0:003D
+[2017.04.01-18.33.56:935][980]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property My Character from function: 'GetText_0' from node: Return Node in graph: GetText_0 in object: HUDP2 with description: Accessed None trying to read property My Character
+[2017.04.01-18.33.56:945][980]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_BarebonesCafeteria 0.138
+[2017.04.01-18.34.24:025][ 22]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Coffeet2)
+[2017.04.01-18.34.44:433][ 51]LogTexture:Display: Building textures: SimplygonLogo (AutoDXT)
+[2017.04.01-18.34.44:771][ 51]LogRenderer: Reallocating scene render targets to support 768x548 (Frame:23874).
+[2017.04.01-18.34.55:862][ 88]LogActorFactory: Actor Factory created Colt
+[2017.04.01-18.34.56:943][187]LogActorFactory: Actor Factory created Colt
+[2017.04.01-18.35.11:608][804]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.35.11:885][830]LogActorFactory: Actor Factory created Assault_Rifle
+[2017.04.01-18.35.32:689][172]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.35.33:572][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Assault_Rifle)
+[2017.04.01-18.36.05:970][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Colt)
+[2017.04.01-18.36.20:588][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.01-18.36.22:533][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Assault_Rifle" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Assault_Rifle.uasset" SILENT=true
+[2017.04.01-18.36.22:544][537]LogSavePackage: Save=9.16ms
+[2017.04.01-18.36.22:544][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Assault_RifleC78DD6C44362180302F5B983D187D259.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Assault_Rifle.uasset'
+[2017.04.01-18.36.22:546][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Assault_Rifle.uasset
+[2017.04.01-18.36.22:576][537]LogSavePackage: Save=19.05ms
+[2017.04.01-18.36.22:576][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_BackStrapSGMat38B906A948556843BD11BD89543B30CC.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_BackStrapSGMat.uasset'
+[2017.04.01-18.36.22:577][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_BackStrapSGMat.uasset
+[2017.04.01-18.36.22:603][537]LogSavePackage: Save=10.32ms
+[2017.04.01-18.36.22:603][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_blinn1SGMatA15068534241A8966067188CF5C62333.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_blinn1SGMat.uasset'
+[2017.04.01-18.36.22:605][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_blinn1SGMat.uasset
+[2017.04.01-18.36.22:627][537]LogSavePackage: Save=10.51ms
+[2017.04.01-18.36.22:627][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_blinn2SGMatD1EDD0FC4AE78916F7960A800E8FEC65.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_blinn2SGMat.uasset'
+[2017.04.01-18.36.22:628][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_blinn2SGMat.uasset
+[2017.04.01-18.36.22:651][537]LogSavePackage: Save=10.32ms
+[2017.04.01-18.36.22:651][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_checkering_lambert2SGMat8F97C74C4CD2552321EC47BF01F7A011.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_checkering_lambert2SGMat.uasset'
+[2017.04.01-18.36.22:652][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_checkering_lambert2SGMat.uasset
+[2017.04.01-18.36.22:679][537]LogSavePackage: Save=10.34ms
+[2017.04.01-18.36.22:679][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_FrameLeftSGMatDA8D0AD64446CDC4E65A58B245171600.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_FrameLeftSGMat.uasset'
+[2017.04.01-18.36.22:680][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_FrameLeftSGMat.uasset
+[2017.04.01-18.36.22:702][537]LogSavePackage: Save=10.16ms
+[2017.04.01-18.36.22:702][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_FrameRightSGMat6A0BA0DE4A8D3FD5EA3A69826BC9D6CB.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_FrameRightSGMat.uasset'
+[2017.04.01-18.36.22:704][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_FrameRightSGMat.uasset
+[2017.04.01-18.36.22:730][537]LogSavePackage: Save=10.32ms
+[2017.04.01-18.36.22:730][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_Gun1SGMatF17DD69F4B414DA6CD5F79A8A5AC42AA.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_Gun1SGMat.uasset'
+[2017.04.01-18.36.22:731][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_Gun1SGMat.uasset
+[2017.04.01-18.36.22:757][537]LogSavePackage: Save=10.28ms
+[2017.04.01-18.36.22:757][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_SlideLeftSGMatD89BA5EB4192E5099CCCB0ACA875C85B.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_SlideLeftSGMat.uasset'
+[2017.04.01-18.36.22:759][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_SlideLeftSGMat.uasset
+[2017.04.01-18.36.22:781][537]LogSavePackage: Save=10.31ms
+[2017.04.01-18.36.22:781][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_SpringPlugSGMatC510EF5044DC9203914BECBA8DA77B1E.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_SpringPlugSGMat.uasset'
+[2017.04.01-18.36.22:782][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_SpringPlugSGMat.uasset
+[2017.04.01-18.36.22:808][537]LogSavePackage: Save=10.55ms
+[2017.04.01-18.36.22:808][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_StRtCheckerSGMat6E84EA74435A3D0B96AF2E814DB78F71.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_StRtCheckerSGMat.uasset'
+[2017.04.01-18.36.22:810][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_StRtCheckerSGMat.uasset
+[2017.04.01-18.36.22:832][537]LogSavePackage: Save=10.29ms
+[2017.04.01-18.36.22:832][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Colt_Colt_TriggerSGMatA77C26204D3B69A89123AEB55F584528.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_TriggerSGMat.uasset'
+[2017.04.01-18.36.22:834][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Colt_Colt_TriggerSGMat.uasset
+[2017.04.01-18.36.22:844][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/default00" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/default00.uasset" SILENT=true
+[2017.04.01-18.36.22:858][537]LogSavePackage: Save=12.70ms
+[2017.04.01-18.36.22:858][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/default00F3C1203E493774132AB2108758F805A7.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/default00.uasset'
+[2017.04.01-18.36.22:860][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/default00.uasset
+[2017.04.01-18.36.22:874][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/defaultMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/defaultMat.uasset" SILENT=true
+[2017.04.01-18.36.22:890][537]LogSavePackage: Save=14.56ms
+[2017.04.01-18.36.22:890][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/defaultMat4318314C44EC41C3390A6BB92B58E979.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/defaultMat.uasset'
+[2017.04.01-18.36.22:891][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/defaultMat.uasset
+[2017.04.01-18.36.22:897][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Diffuse" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Diffuse.uasset" SILENT=true
+[2017.04.01-18.36.23:502][537]LogSavePackage: Save=603.46ms
+[2017.04.01-18.36.23:502][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Diffuse4C6C0543426CFBCF2B9D9B99D20BA0B5.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Diffuse.uasset'
+[2017.04.01-18.36.23:506][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Diffuse.uasset
+[2017.04.01-18.36.23:507][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/gun" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/gun.uasset" SILENT=true
+[2017.04.01-18.36.23:514][537]LogSavePackage: Save=5.46ms
+[2017.04.01-18.36.23:514][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/gun7C53C43742A5CFDB774DC9878D8A1D2B.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/gun.uasset'
+[2017.04.01-18.36.23:519][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/gun.uasset
+[2017.04.01-18.36.23:547][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/Material" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Material.uasset" SILENT=true
+[2017.04.01-18.36.23:572][537]LogSavePackage: Save=21.87ms
+[2017.04.01-18.36.23:572][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Material18953B054F83D9F0839E0293FD82FE10.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Material.uasset'
+[2017.04.01-18.36.23:574][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/Material.uasset
+[2017.04.01-18.36.23:583][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/ppsh41" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41.uasset" SILENT=true
+[2017.04.01-18.36.23:625][537]LogSavePackage: Save=40.11ms
+[2017.04.01-18.36.23:625][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/ppsh413563CA444F5695D06D4BB4A4AC61C92E.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41.uasset'
+[2017.04.01-18.36.23:627][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41.uasset
+[2017.04.01-18.36.23:644][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/ppsh41_0" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_0.uasset" SILENT=true
+[2017.04.01-18.36.23:660][537]LogSavePackage: Save=13.86ms
+[2017.04.01-18.36.23:660][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/ppsh41_0214DB9A7406D25C6341F93A038189C52.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_0.uasset'
+[2017.04.01-18.36.23:663][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_0.uasset
+[2017.04.01-18.36.23:675][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/ppsh41_n" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_n.uasset" SILENT=true
+[2017.04.01-18.36.23:728][537]LogSavePackage: Save=51.04ms
+[2017.04.01-18.36.23:728][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/ppsh41_n7BCDFF4149524B52781C62BC94C66F72.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_n.uasset'
+[2017.04.01-18.36.23:730][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/ppsh41_n.uasset
+[2017.04.01-18.36.23:746][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/RevolverSkin_Mat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin_Mat.uasset" SILENT=true
+[2017.04.01-18.36.23:764][537]LogSavePackage: Save=16.53ms
+[2017.04.01-18.36.23:764][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/RevolverSkin_Mat9D090A8F49A80349C476B685948F7E8A.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin_Mat.uasset'
+[2017.04.01-18.36.23:767][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/RevolverSkin_Mat.uasset
+[2017.04.01-18.36.23:767][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/All_the_guns/tex" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/tex.uasset" SILENT=true
+[2017.04.01-18.36.23:774][537]LogSavePackage: Save=4.83ms
+[2017.04.01-18.36.23:774][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/tex992C034D4C89373E4CC477A301163436.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/tex.uasset'
+[2017.04.01-18.36.23:777][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/All_the_guns/tex.uasset
+[2017.04.01-18.36.23:790][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Back_TriggerMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Back_TriggerMat.uasset" SILENT=true
+[2017.04.01-18.36.23:806][537]LogSavePackage: Save=14.76ms
+[2017.04.01-18.36.23:806][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Back_TriggerMat938595B3498E77F352BA89BB0B16AEC4.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Back_TriggerMat.uasset'
+[2017.04.01-18.36.23:809][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Back_TriggerMat.uasset
+[2017.04.01-18.36.23:827][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/BarrelMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BarrelMat.uasset" SILENT=true
+[2017.04.01-18.36.23:843][537]LogSavePackage: Save=14.58ms
+[2017.04.01-18.36.23:843][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/BarrelMat8D1993364B0C767660648790312AF29E.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BarrelMat.uasset'
+[2017.04.01-18.36.23:845][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BarrelMat.uasset
+[2017.04.01-18.36.23:859][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/BodyMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BodyMat.uasset" SILENT=true
+[2017.04.01-18.36.23:873][537]LogSavePackage: Save=12.36ms
+[2017.04.01-18.36.23:873][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/BodyMat5824F3EB48ADBE34067FC4B0E333E99D.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BodyMat.uasset'
+[2017.04.01-18.36.23:875][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/BodyMat.uasset
+[2017.04.01-18.36.23:891][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Chamber_HolderMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Chamber_HolderMat.uasset" SILENT=true
+[2017.04.01-18.36.23:904][537]LogSavePackage: Save=11.68ms
+[2017.04.01-18.36.23:904][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Chamber_HolderMat402280C8445CB6C897F1B09123FC2F4D.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Chamber_HolderMat.uasset'
+[2017.04.01-18.36.23:906][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Chamber_HolderMat.uasset
+[2017.04.01-18.36.23:917][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/ChamberMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/ChamberMat.uasset" SILENT=true
+[2017.04.01-18.36.23:929][537]LogSavePackage: Save=11.18ms
+[2017.04.01-18.36.23:929][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/ChamberMat8D8C63174231B28262853D808D68BFB4.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/ChamberMat.uasset'
+[2017.04.01-18.36.23:931][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/ChamberMat.uasset
+[2017.04.01-18.36.23:946][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/HandleMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/HandleMat.uasset" SILENT=true
+[2017.04.01-18.36.23:958][537]LogSavePackage: Save=10.31ms
+[2017.04.01-18.36.23:958][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/HandleMat7283823D4515830DED06DE99D85EAE34.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/HandleMat.uasset'
+[2017.04.01-18.36.23:959][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/HandleMat.uasset
+[2017.04.01-18.36.23:967][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/Other_Stuff/Banana/banana" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Banana/banana.uasset" SILENT=true
+[2017.04.01-18.36.24:497][537]LogSavePackage: Save=506.82ms
+[2017.04.01-18.36.24:497][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/banana0504AF2E4227B5FD8FB4939C764CDA6A.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Banana/banana.uasset'
+[2017.04.01-18.36.24:500][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Banana/banana.uasset
+[2017.04.01-18.36.24:540][537]LogSavePackage: Save=12.08ms
+[2017.04.01-18.36.24:540][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/tour3E3D8733448D6DC25AA4B09C1A14F667.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Tour_de_Eiffel_poster/tour.uasset'
+[2017.04.01-18.36.24:542][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/Other_Stuff/Tour_de_Eiffel_poster/tour.uasset
+[2017.04.01-18.36.24:553][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Imported_Content/TriggerMat" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/TriggerMat.uasset" SILENT=true
+[2017.04.01-18.36.24:565][537]LogSavePackage: Save=11.06ms
+[2017.04.01-18.36.24:565][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/TriggerMatAB46520D473A4EE707CA65BEBF92C650.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/TriggerMat.uasset'
+[2017.04.01-18.36.24:567][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Imported_Content/TriggerMat.uasset
+[2017.04.01-18.36.24:641][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/BarebonesCafeteria" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.01-18.36.24:801][537]LogSavePackage: Save=141.69ms
+[2017.04.01-18.36.24:801][537]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/BarebonesCafeteriaDF1D981D4A513F260C78B08077A4A7A3.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap'
+[2017.04.01-18.36.24:804][537]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap
+[2017.04.01-18.36.24:831][537]LogFileHelpers: Saving map 'BarebonesCafeteria' took 0.253
+[2017.04.01-18.36.25:091][538]Cmd: QUIT_EDITOR
+[2017.04.01-18.36.25:785][538]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.01-18.36.25:846][538]LogExit: Preparing to exit.
+[2017.04.01-18.36.26:841][538]LogExit: Editor shut down
+[2017.04.01-18.36.26:841][538]LogExit: Transaction tracking system shut down
+[2017.04.01-18.36.26:989][538]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.01-18.36.26:989][538]LogExit: Object subsystem successfully closed.
+[2017.04.01-18.36.27:005][538]LogD3D11RHI: Shutdown
+[2017.04.01-18.36.27:005][538]LogD3D11RHI: CleanupD3DDevice
+[2017.04.01-18.36.27:019][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.01-18.36.27:203][538]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (215)
+[2017.04.01-18.36.27:203][538]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (214)
+[2017.04.01-18.36.27:212][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2017.04.01-18.36.27:212][538]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2017.04.01-18.36.27:213][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2017.04.01-18.36.27:213][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2017.04.01-18.36.27:213][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.04.01-18.36.27:214][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.04.01-18.36.27:215][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.04.01-18.36.27:215][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.04.01-18.36.27:286][538]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.04.01-18.36.27:287][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.04.01-18.36.27:288][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.04.01-18.36.27:288][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.04.01-18.36.27:288][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.04.01-18.36.27:288][538]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.04.01-18.36.27:339][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.04.01-18.36.27:340][538]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.04.01-18.36.27:436][538]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.04.01-18.36.27:437][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.04.01-18.36.27:438][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.04.01-18.36.27:438][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.04.01-18.36.27:438][538]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.04.01-18.36.27:438][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.04.01-18.36.27:438][538]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.04.01-18.36.27:439][538]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.04.01-18.36.27:439][538]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.04.01-18.36.27:441][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.04.01-18.36.27:444][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.04.01-18.36.27:444][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.04.01-18.36.27:545][538]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.04.01-18.36.27:546][538]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.04.01-18.36.27:550][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.04.01-18.36.27:551][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.04.01-18.36.27:551][538]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.04.01-18.36.27:551][538]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.04.01-18.36.27:551][538]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.04.01-18.36.27:551][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.04.01-18.36.27:552][538]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.04.01-18.36.27:702][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.04.01-18.36.27:702][538]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.04.01-18.36.27:702][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.04.01-18.36.27:702][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.04.01-18.36.27:724][538]LogDerivedDataCache: Shutdown
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.01-18.36.27:725][538]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.01-18.36.31:733][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.01-18.36.31:734][538]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.01-18.36.31:736][538]LogExit: Exiting.
+[2017.04.01-18.36.31:748][538]Log file closed, 04/01/17 14:36:31
