@@ -1,0 +1,20 @@
+
+C:\windows\system32>D:
+
+D:\uploadedFiles\9745d29ad268763535d3ea5a942acef-3f77a1f8ecb2353>cd D:\uploadedFiles\ae1d229e94bd2c8c81a054e343ffa652-c1808ae3fe14da99\ 
+
+D:\uploadedFiles\ae1d229e94bd2c8c81a054e343ffa652-c1808ae3fe14da99>C:\ZamApps\ConversionTools\IZArc\izarce -e "D:\uploadedFiles\ae1d229e94bd2c8c81a054e343ffa652-c1808ae3fe14da99\p1bce3lcm01vab1fdm1m6b43q15ie4.rar" 
+IZArc Command Line Extraction Add-On Version 1.1 (Build: 130)
+Copyright(c) 2007 Ivan Zahariev, All Rights Reserved.
+http://www.izarc.org    contact@izarc.org
+
+
+Archive File: p1bce3lcm01vab1fdm1m6b43q15ie4.rar
+
+  extracting: Coffeet2.obj                                        OK
+  extracting: Coffeet2.mtl                                        OK
+
+D:\uploadedFiles\ae1d229e94bd2c8c81a054e343ffa652-c1808ae3fe14da99>C:\ZamApps\ConversionTools\IZArc\izarcc -a "D:\uploadedFiles\ae1d229e94bd2c8c81a054e343ffa652-c1808ae3fe14da99\p1bce3lcm01vab1fdm1m6b43q15ie4.zip" "*.*" 
+IZArc Command Line Compression Add-On Version 1.1 (Build: 130)
+Copyright(c) 2007 Ivan Zahariev, All Rights Reserved.
+http://ww
