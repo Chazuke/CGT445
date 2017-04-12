@@ -1,0 +1,57 @@
+Begin Object Class=Material Name="M_Lava_Flowing"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_1"
+   End Object
+   Begin Object Class=MaterialExpressionPanner Name="MaterialExpressionPanner_4"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_45"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_22"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-260
+      MaterialExpressionEditorY=40
+      MaterialExpressionGuid=919E776E44063B6807F4A0BECF6748C7
+      Material=Material'M_Lava_Flowing'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_1"
+      B=(Expression=MaterialExpressionTextureSample'M_Lava_Flowing:MaterialExpressionTextureSample_45',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstA=5.000000
+      MaterialExpressionEditorX=-320
+      MaterialExpressionEditorY=180
+      MaterialExpressionGuid=0FC4E53149ABCE1D991446B0B7EAC4FC
+      Material=Material'M_Lava_Flowing'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPanner_4"
+      SpeedY=-0.250000
+      MaterialExpressionEditorX=-880
+      MaterialExpressionEditorY=140
+      MaterialExpressionGuid=DCC110794F54443BB34687B68A3B292F
+      Material=Material'M_Lava_Flowing'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_45"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Lava_Flowing:MaterialExpressionPanner_4')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Fire_Lava.T_Fire_Lava'
+      MaterialExpressionEditorX=-560
+      MaterialExpressionEditorY=160
+      MaterialExpressionGuid=A03C37CE45DD84B44E463481FF6AB734
+      Material=Material'M_Lava_Flowing'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_22"
+   End Object
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_0')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_1')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(1)=MaterialExpressionMultiply'MaterialExpressionMultiply_1'
+   Expressions(2)=MaterialExpressionPanner'MaterialExpressionPanner_4'
+   Expressions(3)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_45'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=A53077234787F618D9344EA375903210
+   ReferencedTextureGuids(0)=8BDDEB284DE02B7DAD6A4DA050DC7005
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_22'
+   LightingGuid=FA6BD3254AD69F3078C4FBABAB07566F
+End Object

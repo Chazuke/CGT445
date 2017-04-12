@@ -1,0 +1,126 @@
+Begin Object Class=Material Name="M_Lava_Pulse"
+   Begin Object Class=MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_17"
+   End Object
+   Begin Object Class=MaterialExpressionLinearInterpolate Name="MaterialExpressionLinearInterpolate_20"
+   End Object
+   Begin Object Class=MaterialExpressionMultiply Name="MaterialExpressionMultiply_2"
+   End Object
+   Begin Object Class=MaterialExpressionPanner Name="MaterialExpressionPanner_1"
+   End Object
+   Begin Object Class=MaterialExpressionPanner Name="MaterialExpressionPanner_2"
+   End Object
+   Begin Object Class=MaterialExpressionSine Name="MaterialExpressionSine_0"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_48"
+   End Object
+   Begin Object Class=MaterialExpressionTextureSample Name="MaterialExpressionTextureSample_50"
+   End Object
+   Begin Object Class=MaterialExpressionTime Name="MaterialExpressionTime_0"
+   End Object
+   Begin Object Class=SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_23"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-200
+      MaterialExpressionEditorY=40
+      MaterialExpressionGuid=128242FA40CA98FD7F727FABDD3F58B7
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_17"
+      Alpha=(Expression=MaterialExpressionSine'M_Lava_Pulse:MaterialExpressionSine_0')
+      ConstA=1.250000
+      ConstB=1.800000
+      MaterialExpressionEditorX=-820
+      MaterialExpressionEditorY=480
+      MaterialExpressionGuid=02BBE7BD4FA57E8CFD3D069FE8E1E58A
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionLinearInterpolate_20"
+      A=(Expression=MaterialExpressionTextureSample'M_Lava_Pulse:MaterialExpressionTextureSample_48',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      B=(Expression=MaterialExpressionTextureSample'M_Lava_Pulse:MaterialExpressionTextureSample_50',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      Alpha=(Expression=MaterialExpressionLinearInterpolate'M_Lava_Pulse:MaterialExpressionLinearInterpolate_17')
+      ConstAlpha=1.000000
+      MaterialExpressionEditorX=-460
+      MaterialExpressionEditorY=280
+      MaterialExpressionGuid=97DB1B9F4115D0354D137E981C19B809
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionMultiply_2"
+      A=(Expression=MaterialExpressionLinearInterpolate'M_Lava_Pulse:MaterialExpressionLinearInterpolate_20')
+      B=(Mask=1,MaskR=1,MaskG=1,MaskB=1)
+      ConstA=5.000000
+      MaterialExpressionEditorX=-260
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=3AF9E2244294E011CD9BE3AB2403A0AF
+      Material=Material'M_Lava_Pulse'
+      bCollapsed=False
+   End Object
+   Begin Object Name="MaterialExpressionPanner_1"
+      SpeedX=0.150000
+      SpeedY=0.150000
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=DCAC635C4AF5B86C9AD2F88F06591290
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionPanner_2"
+      SpeedX=0.120000
+      SpeedY=0.120000
+      MaterialExpressionEditorX=-1200
+      MaterialExpressionEditorY=-60
+      MaterialExpressionGuid=795177E946BEB9251D2F1EABC1C47F94
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionSine_0"
+      Input=(Expression=MaterialExpressionTime'M_Lava_Pulse:MaterialExpressionTime_0')
+      Period=5.000000
+      MaterialExpressionEditorX=-1040
+      MaterialExpressionEditorY=520
+      MaterialExpressionGuid=813713214A6F9840500B4F8DA394D917
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_48"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Lava_Pulse:MaterialExpressionPanner_2')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Fire_Lava.T_Fire_Lava'
+      MaterialExpressionEditorX=-837
+      MaterialExpressionEditorY=-57
+      MaterialExpressionGuid=A881910144E2AF125DFE5581B0D2696F
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionTextureSample_50"
+      Coordinates=(Expression=MaterialExpressionPanner'M_Lava_Pulse:MaterialExpressionPanner_1')
+      Texture=Texture2D'/Game/InfinityBladeFireLands/Environments/Fire/Env_Fire_Terrain2/Textures/T_Fire_Lava_2.T_Fire_Lava_2'
+      MaterialExpressionEditorX=-840
+      MaterialExpressionEditorY=220
+      MaterialExpressionGuid=00E29AF94A1ACC2C618973BBC3C5A793
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="MaterialExpressionTime_0"
+      MaterialExpressionEditorX=-1280
+      MaterialExpressionEditorY=500
+      MaterialExpressionGuid=F2DA5964476D92FA17A90F8717198FA8
+      Material=Material'M_Lava_Pulse'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_23"
+   End Object
+   Roughness=(Expression=MaterialExpressionConstant'MaterialExpressionConstant_0')
+   EmissiveColor=(Expression=MaterialExpressionMultiply'MaterialExpressionMultiply_2')
+   Expressions(0)=MaterialExpressionConstant'MaterialExpressionConstant_0'
+   Expressions(1)=MaterialExpressionMultiply'MaterialExpressionMultiply_2'
+   Expressions(2)=MaterialExpressionPanner'MaterialExpressionPanner_1'
+   Expressions(3)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_50'
+   Expressions(4)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_17'
+   Expressions(5)=MaterialExpressionSine'MaterialExpressionSine_0'
+   Expressions(6)=MaterialExpressionTime'MaterialExpressionTime_0'
+   Expressions(7)=MaterialExpressionTextureSample'MaterialExpressionTextureSample_48'
+   Expressions(8)=MaterialExpressionLinearInterpolate'MaterialExpressionLinearInterpolate_20'
+   Expressions(9)=MaterialExpressionPanner'MaterialExpressionPanner_2'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=7D41DE4848332A5E31B8D9BF76C4694A
+   ReferencedTextureGuids(0)=8BDDEB284DE02B7DAD6A4DA050DC7005
+   ReferencedTextureGuids(1)=B1E5E2CD4289C97C20523C985AAAD819
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'SceneThumbnailInfoWithPrimitive_23'
+   LightingGuid=2213F03F426F8D04E7074AA8AF45A8DA
+End Object
