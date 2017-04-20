@@ -1,0 +1,10 @@
+newmtl diningtable:walnut
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.40 0.40 0.40
+Tf 1.00 1.00 1.00
+map_Kd texture.jpg
+bump texture.jpg -bm 0
+Ni 1.00
+Ks 0.30 0.30 0.30
+Ns 50.78
