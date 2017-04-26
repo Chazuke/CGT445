@@ -1,0 +1,923 @@
+﻿Log file open, 04/25/17 07:43:26
+LogInit:Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1897857768) SRandInit(-1897857765).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.175752
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  
+LogInit: Base directory: E:/New folder/Paragon/UE_4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.25-11.43.26:883][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.25-11.43.26:883][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.25-11.43.26:901][  0]LogInit: Computer: DESKTOP-JAT82AM
+[2017.04.25-11.43.26:901][  0]LogInit: User: Alex
+[2017.04.25-11.43.26:901][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.25-11.43.26:901][  0]LogInit: High frequency timer resolution =3.906245 MHz
+[2017.04.25-11.43.26:902][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.04.25-11.43.26:902][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.25-11.43.26:902][  0]LogMemory: Process Physical Memory: 192.45 MB used, 192.45 MB peak
+[2017.04.25-11.43.26:902][  0]LogMemory: Process Virtual Memory: 195.44 MB used, 195.44 MB peak
+[2017.04.25-11.43.26:902][  0]LogMemory: Physical Memory: 5007.25 MB used, 16332.62 MB total
+[2017.04.25-11.43.26:902][  0]LogMemory: Virtual Memory: 581.54 MB used, 134217728.00 MB total
+[2017.04.25-11.43.27:277][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.25-11.43.27:634][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.25-11.43.27:656][  0]LogD3D11RHI:    0. 'AMD Radeon R9 200 Series' (Feature Level 11_0)
+[2017.04.25-11.43.27:656][  0]LogD3D11RHI:       4073/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.04.25-11.43.27:657][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.25-11.43.27:657][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.25-11.43.27:657][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.25-11.43.27:661][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.25-11.43.27:661][  0]LogD3D11RHI:     GPU DeviceId: 0x67b0 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.25-11.43.27:661][  0]LogWindows: EnumDisplayDevices:
+[2017.04.25-11.43.27:661][  0]LogWindows:    0. 'AMD Radeon R9 200 Series' (P:1 D:1)
+[2017.04.25-11.43.27:661][  0]LogWindows:    1. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.25-11.43.27:662][  0]LogWindows:    2. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.25-11.43.27:662][  0]LogWindows:    3. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.25-11.43.27:662][  0]LogWindows:    4. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.25-11.43.27:662][  0]LogWindows:    5. 'AMD Radeon R9 200 Series' (P:0 D:0)
+[2017.04.25-11.43.27:662][  0]LogWindows: DebugString: FoundDriverCount:6 
+[2017.04.25-11.43.27:662][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R9 200 Series
+[2017.04.25-11.43.27:662][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.1.1 (internal:21.19.411.0, unified:21.19.411.0)
+[2017.04.25-11.43.27:662][  0]LogD3D11RHI:      Driver Date: 1-13-2017
+[2017.04.25-11.43.27:662][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.25-11.43.27:670][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2017.04.25-11.43.27:682][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.04.25-11.43.27:683][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (C:/Users/Alex/Desktop/Gith/CGT445/Game/Intermediate/Shaders/WorkingDirectory/12904/).
+[2017.04.25-11.43.27:683][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Alex/AppData/Local/Temp/UnrealShaderWorkingDir/EB2A5D6B4CE7F5D67C488D9990841C0C/'.
+[2017.04.25-11.43.27:683][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.25-11.43.29:959][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.04.25-11.43.29:971][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.25-11.43.29:980][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.25-11.43.29:987][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.25-11.43.29:995][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.25-11.43.30:004][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.04.25-11.43.30:010][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.04.25-11.43.30:016][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.04.25-11.43.30:022][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.04.25-11.43.30:028][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.04.25-11.43.30:035][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.04.25-11.43.30:046][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.04.25-11.43.30:046][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.04.25-11.43.30:047][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.04.25-11.43.30:120][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.04.25-11.43.30:133][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.04.25-11.43.30:146][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.04.25-11.43.30:157][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.04.25-11.43.30:165][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.04.25-11.43.30:165][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.25-11.43.30:839][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.25-11.43.31:057][  0]LogDerivedDataCache: Loaded boot cache 0.22s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.25-11.43.31:058][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.04.25-11.43.31:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.25-11.43.31:058][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.25-11.43.31:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Alex/Desktop/Gith/CGT445/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.25-11.43.31:058][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.25-11.43.31:185][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.25-11.43.31:199][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Alex/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.25-11.43.39:356][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.25-11.43.39:396][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.04.25-11.43.41:849][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.25-11.43.41:849][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.25-11.43.41:849][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.25-11.43.45:613][  0]LogAssetRegistry: FAssetRegistry took 0.0265 seconds to start up
+[2017.04.25-11.43.45:777][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.086319 seconds
+[2017.04.25-11.43.45:842][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2017.04.25-11.43.45:842][  0]LogUObjectAllocator: 5855624 out of 0 bytes used by permanent object pool.
+[2017.04.25-11.43.45:842][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.25-11.43.45:911][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.25-11.43.53:691][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.25-11.43.53:698][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.25-11.44.15:695][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.25-11.44.17:878][  0]SourceControl: Info Source control is disabled
+[2017.04.25-11.44.17:895][  0]SourceControl: Info Source control is disabled
+[2017.04.25-11.44.18:021][  0]SourceControl: Info Source control is disabled
+[2017.04.25-11.44.18:182][  0]SourceControl: Info Source control is disabled
+[2017.04.25-11.44.21:233][  0]LogEngine: Initializing Engine...
+[2017.04.25-11.44.21:370][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.25-11.44.21:384][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.25-11.44.22:488][  0]LogAIModule: Creating AISystem for world NewWorld
+[2017.04.25-11.44.22:889][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.25-11.44.22:945][  0]LogInit: FAudioDevice initialized.
+[2017.04.25-11.44.22:967][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/Alex/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.25-11.44.22:974][  0]LogInit: Texture streaming: Enabled
+[2017.04.25-11.44.23:803][  0]LogInit: Transaction tracking system initialized
+[2017.04.25-11.44.25:558][  0]BlueprintLog: New page: Editor Load
+[2017.04.25-11.44.29:289][  0]LocalizationService: Info Localization service is disabled
+[2017.04.25-11.44.32:233][  0]LogConsoleResponse:Display: 
+[2017.04.25-11.44.34:338][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 0.02s
+[2017.04.25-11.44.34:338][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2017.04.25-11.44.34:338][  0]LogCook:Display: Mobile HDR setting 1
+[2017.04.25-11.44.41:487][  0]SourceControl: Info Source control is disabled
+[2017.04.25-11.44.41:707][  0]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.25-11.44.41:784][  0]LogEditorServer:Warning: Can't find file 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2017.04.25-11.44.41:811][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.25-11.44.41:994][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 182.362ms to complete.
+[2017.04.25-11.44.41:994][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.419
+[2017.04.25-11.44.46:917][  0]LogCollectionManager: Loaded 0 collections in 0.017937 seconds
+[2017.04.25-11.44.47:291][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Collections/' took 0.01s
+[2017.04.25-11.44.47:291][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Developers/Alex/Collections/' took 0.01s
+[2017.04.25-11.44.47:291][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Collections/' took 0.01s
+[2017.04.25-11.44.47:291][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000012 seconds
+[2017.04.25-11.44.47:411][  0]LogContentBrowser: Native class hierarchy populated in 0.0421 seconds. Added 2047 classes and 369 folders.
+[2017.04.25-11.44.47:557][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.04.25-11.44.47:574][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.017 s
+[2017.04.25-11.44.47:590][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0025 seconds. Added 12 classes and 0 folders.
+[2017.04.25-11.44.47:692][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.04.25-11.44.50:145][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.04.25-11.44.50:272][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.25-11.44.51:282][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.04.25-11.44.51:481][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.04.25-11.44.51:589][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.04.25-11.44.51:590][  0]LogLoad: Full Startup: 88.07 seconds (BP compile: 0.45 seconds)
+[2017.04.25-11.44.51:590][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.04.25-11.44.51:631][  0]LogOcInput: OculusInput pre-init called
+[2017.04.25-11.44.51:817][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.04.25-11.44.52:647][  0]LogRenderer: Reallocating scene render targets to support 952x576 (Frame:2).
+[2017.04.25-11.44.53:310][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/' took 1.59s
+[2017.04.25-11.44.53:991][  4]LogAssetRegistry: Asset discovery search completed in 68.4015 seconds
+[2017.04.25-11.44.53:996][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.04.25-11.44.53:996][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.005496 seconds (updated 0 objects)
+[2017.04.25-11.44.57:588][177]AssetReimport: New page: Outstanding source content changes 2:44:57 AM
+[2017.04.25-11.44.57:701][178]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Sounds/Projectile Hits You.wav)
+[2017.04.25-11.44.58:068][179]LogStaticMesh: Building static mesh modern_staircase...
+[2017.04.25-11.44.58:564][179]LogStaticMesh: Built static mesh [0.51s] /Game/Meshs/modern_staircase.modern_staircase
+[2017.04.25-11.44.58:749][179]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern staircase.obj]
+[2017.04.25-11.44.58:788][179]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern staircase.obj
+[2017.04.25-11.44.58:861][179]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.25-11.44.59:144][179]LogStaticMesh: Building static mesh modern_staircase...
+[2017.04.25-11.44.59:483][179]LogStaticMesh: Built static mesh [0.34s] /Game/Meshs/modern_staircase.modern_staircase
+[2017.04.25-11.44.59:591][179]LogEditorFactories: -- imported successfully
+[2017.04.25-11.44.59:670][180]LogStaticMesh: Building static mesh Pumpkin...
+[2017.04.25-11.44.59:771][180]LogStaticMesh: Built static mesh [0.10s] /Game/Meshs/food/Pumpkin.Pumpkin
+[2017.04.25-11.44.59:775][180]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.obj]
+[2017.04.25-11.44.59:779][180]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.obj
+[2017.04.25-11.44.59:802][180]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.25-11.45.00:028][180]LogStaticMesh: Building static mesh Pumpkin...
+[2017.04.25-11.45.00:106][180]LogStaticMesh: Built static mesh [0.08s] /Game/Meshs/food/Pumpkin.Pumpkin
+[2017.04.25-11.45.00:111][180]LogEditorFactories: -- imported successfully
+[2017.04.25-11.45.00:128][181]LogStaticMesh: Building static mesh dining_table_fixed...
+[2017.04.25-11.45.00:201][181]LogStaticMesh: Built static mesh [0.07s] /Game/Meshs/dining-table_obj/dining-table_obj/dining_table_fixed.dining_table_fixed
+[2017.04.25-11.45.00:251][181]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/dining table fixed.obj]
+[2017.04.25-11.45.00:255][181]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/dining table fixed.obj
+[2017.04.25-11.45.00:285][181]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.25-11.45.00:557][181]LogStaticMesh: Building static mesh dining_table_fixed...
+[2017.04.25-11.45.00:632][181]LogStaticMesh: Built static mesh [0.08s] /Game/Meshs/dining-table_obj/dining-table_obj/dining_table_fixed.dining_table_fixed
+[2017.04.25-11.45.00:638][181]LogEditorFactories: -- imported successfully
+[2017.04.25-11.45.00:661][182]LogStaticMesh: Building static mesh diningtable...
+[2017.04.25-11.45.00:775][182]LogStaticMesh: Built static mesh [0.11s] /Game/Meshs/dining-table_obj/dining-table_obj/diningtable.diningtable
+[2017.04.25-11.45.00:789][182]LogEditorFactories: Performing atomic reimport of [C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/diningtable.obj]
+[2017.04.25-11.45.00:793][182]LogFbx: Loading FBX Scene from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/diningtable.obj
+[2017.04.25-11.45.00:878][182]LogFbx: FBX Scene Loaded Succesfully
+[2017.04.25-11.45.01:153][182]LogStaticMesh: Building static mesh diningtable...
+[2017.04.25-11.45.01:233][182]LogStaticMesh: Built static mesh [0.08s] /Game/Meshs/dining-table_obj/dining-table_obj/diningtable.diningtable
+[2017.04.25-11.45.01:242][182]LogEditorFactories: -- imported successfully
+[2017.04.25-11.45.01:531][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Projectile_Hits_You" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Sounds/Projectile_Hits_You.uasset" SILENT=true
+[2017.04.25-11.45.01:770][183]LogSavePackage: Save=189.51ms
+[2017.04.25-11.45.01:770][183]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Projectile_Hits_You1C241CB84BB7F63B3559709FFD01C828.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Sounds/Projectile_Hits_You.uasset'
+[2017.04.25-11.45.01:812][183]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Sounds/Projectile_Hits_You.uasset
+[2017.04.25-11.45.02:012][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/modern_staircase" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern_staircase.uasset" SILENT=true
+[2017.04.25-11.45.02:096][183]LogSavePackage: Save=26.35ms
+[2017.04.25-11.45.02:096][183]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/modern_staircaseA4BC7E064EB34340129F2C9E6B3FFAAE.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern_staircase.uasset'
+[2017.04.25-11.45.02:099][183]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern_staircase.uasset
+[2017.04.25-11.45.02:123][183]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/food/Pumpkin" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.uasset" SILENT=true
+[2017.04.25-11.45.02:167][183]LogSavePackage: Save=16.80ms
+[2017.04.25-11.45.02:168][183]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/PumpkinAF5BF7264A34E7C2B946F9B03734DC5D.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.uasset'
+[2017.04.25-11.45.02:170][183]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.uasset
+[2017.04.25-11.45.02:210][183]LogSavePackage: Save=10.53ms
+[2017.04.25-11.45.02:210][183]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/dining_table_fixed240DDB2E4425C3FB99B74CA1918E64F9.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table_obj/dining-table_obj/dining_table_fixed.uasset'
+[2017.04.25-11.45.02:212][183]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table_obj/dining-table_obj/dining_table_fixed.uasset
+[2017.04.25-11.45.02:255][183]LogSavePackage: Save=12.77ms
+[2017.04.25-11.45.02:255][183]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/diningtable858F048B42B33B290B46A487739BC232.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table_obj/dining-table_obj/diningtable.uasset'
+[2017.04.25-11.45.02:257][183]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table_obj/dining-table_obj/diningtable.uasset
+[2017.04.25-11.45.05:284][193]AssetReimport: Info Importing new asset /Game/Sounds/Projectile_Hits_You.
+[2017.04.25-11.45.05:284][193]AssetReimport: Info Reimported asset modern_staircase from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/modern staircase.obj.
+[2017.04.25-11.45.05:284][193]AssetReimport: Info Reimported asset Pumpkin from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/food/Pumpkin.obj.
+[2017.04.25-11.45.05:284][193]AssetReimport: Info Reimported asset dining_table_fixed from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/dining table fixed.obj.
+[2017.04.25-11.45.05:284][193]AssetReimport: Info Reimported asset diningtable from C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Meshs/dining-table.obj/dining-table.obj/diningtable.obj.
+[2017.04.25-11.45.48:951][765]LogLinker:Warning: Can't find file '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat'
+[2017.04.25-11.45.48:951][765]LogLinker:Warning: Can't find file for asset '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap.
+[2017.04.25-11.45.48:951][765]LoadErrors:Error: Error /Game/Maps/BarebonesCafeteria : Can't find file for asset. /Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat
+[2017.04.25-11.45.48:964][765]LogLinker:Warning: Can't find file '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat'
+[2017.04.25-11.45.48:964][765]LogLinker:Warning: Can't find file for asset '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat' while loading C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap.
+[2017.04.25-11.45.49:267][765]LogLinker:Warning: Can't find file '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat'
+[2017.04.25-11.45.49:267][765]LoadErrors: Info Failed to load /Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat.texture_Mat Referenced by dining_table_fixed_2
+[2017.04.25-11.45.49:267][765]LogLinker:Warning: Can't find file for asset '/Game/Meshs/dining-table_obj/dining-table_obj/texture_Mat' while loading NULL.
+[2017.04.25-11.45.51:916][765]LogAudioDerivedData:Display: Building compressed audio format OGG wave normal-hitnormal...
+[2017.04.25-11.45.52:063][765]LogAudioDerivedData:Display: Building compressed audio format OGG wave menuclick...
+[2017.04.25-11.45.52:152][765]LogAudioDerivedData:Display: Building compressed audio format OGG wave endgameMusic...
+[2017.04.25-11.45.53:113][765]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.04.25-11.45.54:492][765]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/BarebonesCafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.25-11.45.54:496][765]LightingResults: New page: Lighting Build
+[2017.04.25-11.45.54:596][765]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0014 seconds. Added 5 classes and 0 folders.
+[2017.04.25-11.45.54:599][765]LoadErrors: New page: Loading map: BarebonesCafeteria.umap
+[2017.04.25-11.45.54:694][765]MapCheck: New page: Map Check
+[2017.04.25-11.45.54:694][765]LightingResults: New page: Lighting Build
+[2017.04.25-11.45.56:400][765]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.25-11.45.56:484][765]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.25-11.45.56:542][765]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.303ms to complete.
+[2017.04.25-11.45.56:542][765]LogFileHelpers: Loading map 'BarebonesCafeteria' took 2.081
+[2017.04.25-11.46.02:918][411]LogTexture:Display: Building textures: T_Wood_Oak_N (BC5)
+[2017.04.25-11.46.03:474][411]LogTexture:Display: Building textures: T_Wood_Oak_D (AutoDXT)
+[2017.04.25-11.46.05:368][411]LogTexture:Display: Building textures: ThumbnailTexture (DXT1)
+[2017.04.25-11.46.05:408][411]LogTexture:Display: Building textures: T_Statue_N (BC5)
+[2017.04.25-11.46.05:529][411]LogTexture:Display: Building textures: T_Statue_M (AutoDXT)
+[2017.04.25-11.46.06:002][411]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.25-11.46.06:051][411]Cmd: MAP LOAD FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.25-11.46.06:051][411]LightingResults: New page: Lighting Build
+[2017.04.25-11.46.06:051][411]LoadErrors: New page: Loading map: Grand_Cafeteria.umap
+[2017.04.25-11.46.06:088][411]MapCheck: New page: Map Check
+[2017.04.25-11.46.06:088][411]LightingResults: New page: Lighting Build
+[2017.04.25-11.46.06:935][411]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.25-11.46.06:973][411]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.25-11.46.07:029][411]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.037ms to complete.
+[2017.04.25-11.46.07:029][411]LogFileHelpers: Loading map 'Grand_Cafeteria' took 0.979
+[2017.04.25-11.46.10:290][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.46.12:486][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.46.12:798][749]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x402)
+[2017.04.25-11.46.16:659][139]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2017.04.25-11.46.18:945][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.46.19:988][510]Cmd: TRANSACTION UNDO
+[2017.04.25-11.46.19:988][510]LogEditorTransaction: Undo Scale Actors
+[2017.04.25-11.46.20:563][555]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2017.04.25-11.46.23:305][865]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.46.30:542][667]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2017.04.25-11.46.36:071][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2017.04.25-11.46.36:369][336]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x404)
+[2017.04.25-11.46.43:163][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x405)
+[2017.04.25-11.47.00:236][954]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_N (BC5)
+[2017.04.25-11.47.00:702][954]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_M (AutoDXT)
+[2017.04.25-11.47.03:326][954]LogTexture:Display: Building textures: T_Wood_Floor_Walnut_D (AutoDXT)
+[2017.04.25-11.47.05:769][954]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.47.13:238][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x404)
+[2017.04.25-11.47.17:696][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x402)
+[2017.04.25-11.47.19:673][408]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.47.22:390][706]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x403)
+[2017.04.25-11.47.23:048][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2017.04.25-11.47.27:206][265]MapCheck: New page: Map Check
+[2017.04.25-11.47.27:732][265]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.25-11.47.27:748][265]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.25-11.47.28:881][265]LightingResults: New page: Lighting Build - Apr 25, 2017, 2:47:28 AM
+[2017.04.25-11.47.29:661][265]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.25-11.47.29:989][265]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.25-11.47.30:007][265]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.25-11.47.31:041][265]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.25-11.47.31:042][265]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12904
+[2017.04.25-11.47.33:885][265]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.25-11.47.33:891][265]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.25-11.47.33:891][265]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.25-11.47.33:891][265]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.25-11.47.33:891][265]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.25-11.47.33:891][265]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.25-11.47.34:372][265]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.04.25-11.47.34:372][265]MapCheck: New page: Grand_Cafeteria - Apr 25, 2017, 2:47:34 AM
+[2017.04.25-11.47.34:528][265]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.04.25-11.47.34:627][265]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 255.024ms to complete.
+[2017.04.25-11.47.34:648][265]LogEditorBuildUtils: Build time 0:07
+[2017.04.25-11.47.35:372][266]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Red_carpet_texture_Mat, compiling. 
+[2017.04.25-11.47.35:688][266]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Red_carpet_texture_Mat, compiling. 
+[2017.04.25-11.47.35:718][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer walnut, compiling. 
+[2017.04.25-11.47.35:726][267]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer walnut, compiling. 
+[2017.04.25-11.47.35:746][268]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Silver, compiling. 
+[2017.04.25-11.47.35:750][268]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Silver, compiling. 
+[2017.04.25-11.47.35:754][268]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Plastic01, compiling. 
+[2017.04.25-11.47.35:758][268]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Plastic01, compiling. 
+[2017.04.25-11.47.35:780][269]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _3___Default, compiling. 
+[2017.04.25-11.47.35:784][269]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _3___Default, compiling. 
+[2017.04.25-11.47.35:788][269]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer dfo, compiling. 
+[2017.04.25-11.47.35:792][269]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer dfo, compiling. 
+[2017.04.25-11.47.35:809][270]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Basic_Wall, compiling. 
+[2017.04.25-11.47.35:834][271]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.04.25-11.47.35:855][271]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Oak, compiling. 
+[2017.04.25-11.47.35:874][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2017.04.25-11.47.35:878][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Wood_Floor_Walnut_Worn, compiling. 
+[2017.04.25-11.47.35:884][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.04.25-11.47.35:889][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2017.04.25-11.47.54:085][590]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:085][590]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:085][590]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:085][590]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:085][590]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:085][590]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:085][590]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:085][590]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:418][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:418][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:418][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:418][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:418][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:418][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:418][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:418][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:418][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:418][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.54:752][592]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.54:752][592]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:085][593]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:085][593]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:085][593]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:085][593]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:085][593]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:085][593]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:085][593]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:085][593]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:418][594]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:418][594]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:418][594]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:418][594]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:418][594]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:418][594]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:418][594]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:418][594]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:418][594]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:418][594]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:751][595]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:752][595]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.55:752][595]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.55:752][595]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:084][596]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:085][596]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:085][596]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:085][596]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:085][596]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:085][596]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:085][596]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:085][596]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:418][597]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:418][597]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:418][597]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:418][597]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:418][597]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:418][597]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:418][597]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:418][597]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:418][597]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:418][597]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:752][598]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:752][598]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:752][598]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:752][598]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.56:752][598]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.56:752][598]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:085][599]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:085][599]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:085][599]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:085][599]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:085][599]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:085][599]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:085][599]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:085][599]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:418][600]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:418][600]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:418][600]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:418][600]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:418][600]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:418][600]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:418][600]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:418][600]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:752][601]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:752][601]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:752][601]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:752][601]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.57:752][601]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.57:752][601]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:084][602]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:085][602]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:085][602]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:085][602]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:418][603]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:419][603]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:419][603]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:419][603]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:419][603]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:419][603]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:419][603]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:419][603]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:419][603]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:419][603]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:752][604]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:752][604]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:752][604]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:752][604]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:752][604]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:752][604]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.58:752][604]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.58:752][604]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.59:085][605]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.59:085][605]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.59:085][605]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.59:085][605]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.59:419][606]Job is a success!
+[2017.04.25-11.47.59:420][606]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.59:420][606]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.59:420][606]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.59:420][606]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.47.59:420][606]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.47.59:420][606]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2017.04.25-11.48.35:505][711]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.04.25-11.48.35:506][711]Lightmass on DESKTOP-JAT82AM: 44.4 sec total, 132 ms importing, 408 ms setup, 905 ms photons, 42.9 sec processing, 0 ms extra exporting [85/85 mappings]. Threads: 5:00 min total, 38.5 sec processing.
+[2017.04.25-11.48.35:699][711]LogStaticLightingSystem: Illumination: 31.8 sec (338 ms encoding lightmaps, 145 ms encoding shadowmaps)
+[2017.04.25-11.48.35:699][711]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.04.25-11.48.35:699][711]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.25-11.48.36:068][712]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.25-11.48.36:068][712]MapCheck: New page: Grand_Cafeteria - Apr 25, 2017, 2:48:36 AM
+[2017.04.25-11.48.36:149][712]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.93ms to complete.
+[2017.04.25-11.49.01:391][331]LogTexture:Warning: Failed to stream mip data from the derived data cache for /Game/Maps/Grand_Cafeteria.HQ_Lightmap1_1. Streaming mips will be recached.
+[2017.04.25-11.49.01:392][331]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.04.25-11.49.15:837][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x405)
+[2017.04.25-11.49.16:690][988]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.04.25-11.49.28:640][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.25-11.49.28:681][302]PIE: New page: PIE session: Grand_Cafeteria (Apr 25, 2017, 2:49:28 AM)
+[2017.04.25-11.49.28:681][302]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.04.25-11.49.28:724][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043195s)
+[2017.04.25-11.49.28:725][302]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.25-11.49.28:725][302]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2017.04.25-11.49.28:745][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.063733s)
+[2017.04.25-11.49.28:898][302]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.04.25-11.49.28:918][302]LogInit: FAudioDevice initialized.
+[2017.04.25-11.49.29:708][302]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.25-11.49.31:155][302]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.25-07.49.31
+[2017.04.25-11.49.31:406][302]LogWorld: Bringing up level for play took: 0.312205
+[2017.04.25-11.49.31:847][302]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.04.25-11.49.34:087][302]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.25-11.49.34:453][302]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 5.931
+[2017.04.25-11.50.29:051][301]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=3483.517 Y=1036.459 Z=334.477] for [StandardProjectile_C]
+[2017.04.25-11.50.37:401][217]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:514][218]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:654][219]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:671][220]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:688][221]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:699][222]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:711][223]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:723][224]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:735][225]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:747][226]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:754][227]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:762][228]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:770][229]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:779][230]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:786][231]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:796][232]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.37:803][233]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00F6
+[2017.04.25-11.50.49:898][384]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.04.25-11.50.50:105][401]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2017.04.25-11.50.58:948][409]MapCheck: New page: Map Check
+[2017.04.25-11.50.58:960][409]Cmd: MAP REBUILD ALLVISIBLE
+[2017.04.25-11.50.58:960][409]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.04.25-11.50.59:049][409]LightingResults: New page: Lighting Build - Apr 25, 2017, 2:50:59 AM
+[2017.04.25-11.50.59:074][409]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.04.25-11.50.59:076][409]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.04.25-11.50.59:076][409]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.04.25-11.50.59:077][409]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.04.25-11.50.59:077][409]LogSwarmInterface: [TryOpenConnection] Local Process ID is 12904
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.04.25-11.51.03:707][409]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.04.25-11.51.03:816][409]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2017.04.25-11.51.03:816][409]MapCheck: New page: Grand_Cafeteria - Apr 25, 2017, 2:51:03 AM
+[2017.04.25-11.51.03:817][409]MapCheck:Error: Error WorldSettings_1 Maps need lighting rebuilt 
+[2017.04.25-11.51.03:896][409]MapCheck: Info Map check complete: 1 Error(s), 0 Warning(s), took 79.937ms to complete.
+[2017.04.25-11.51.03:918][409]LogEditorBuildUtils: Build time 0:04
+[2017.04.25-11.51.07:939][422]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.07:939][422]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.07:939][422]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.07:939][422]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.07:939][422]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.07:939][422]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:272][423]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:272][423]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:273][423]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:273][423]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:605][424]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:605][424]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:605][424]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:606][424]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:606][424]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:606][424]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:939][425]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:939][425]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.08:939][425]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.08:939][425]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:272][426]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:273][426]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:273][426]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:273][426]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:273][426]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:273][426]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.09:606][427]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.09:606][427]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:274][429]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:274][429]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:275][429]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:275][429]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:275][429]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:275][429]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:607][430]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:608][430]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:608][430]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:608][430]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:608][430]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:608][430]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:608][430]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:608][430]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:941][431]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:941][431]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.10:941][431]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.10:941][431]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:274][432]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:275][432]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:275][432]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:275][432]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:275][432]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:275][432]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:275][432]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:275][432]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:608][433]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:608][433]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:608][433]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:608][433]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:608][433]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:608][433]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:941][434]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:942][434]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.11:942][434]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.11:942][434]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:275][435]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:275][435]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:275][435]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:275][435]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:275][435]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:275][435]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:609][436]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:609][436]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:609][436]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:609][436]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:609][436]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:609][436]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:942][437]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:943][437]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.12:943][437]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.12:943][437]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:276][438]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:276][438]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:276][438]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:276][438]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:276][438]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:276][438]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:609][439]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:610][439]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:610][439]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:610][439]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:610][439]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:610][439]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:943][440]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:943][440]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.13:943][440]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.13:943][440]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:276][441]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:276][441]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:277][441]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:277][441]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:277][441]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:277][441]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:610][442]Job is a success!
+[2017.04.25-11.51.14:610][442]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:610][442]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:610][442]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:610][442]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:610][442]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:610][442]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.51.14:610][442]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.04.25-11.51.14:610][442]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2017.04.25-11.52.51:607][731]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2017.04.25-11.52.51:619][731]Lightmass on DESKTOP-JAT82AM: 1:46 min total, 210 ms importing, 451 ms setup, 665 ms photons, 1:45 min processing, 0 ms extra exporting [85/85 mappings]. Threads: 12:15 min total, 46.5 sec processing.
+[2017.04.25-11.52.51:619][731]LogStaticLightingSystem: Illumination: 16.2 sec (395 ms encoding lightmaps, 103 ms encoding shadowmaps)
+[2017.04.25-11.52.51:619][731]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (2.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.04.25-11.52.51:619][731]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.04.25-11.52.51:799][732]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.04.25-11.52.51:799][732]MapCheck: New page: Grand_Cafeteria - Apr 25, 2017, 2:52:51 AM
+[2017.04.25-11.52.51:872][732]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 72.726ms to complete.
+[2017.04.25-11.55.53:289][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.04.25-11.55.53:999][874]LogSavePackage: Save=452.70ms
+[2017.04.25-11.55.53:999][874]LogSavePackage: Moving 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Saved/Grand_Cafeteria7D59925C49278C6B9E92A89D24076EC5.tmp' to 'C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.04.25-11.55.54:002][874]LogSavePackage:Display: Finished SavePackage C:/Users/Alex/Desktop/Gith/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.04.25-11.55.54:107][874]LogFileHelpers: Saving map 'Grand_Cafeteria' took 0.938
+[2017.04.25-11.55.55:902][875]Cmd: QUIT_EDITOR
+[2017.04.25-11.55.58:033][875]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.25-11.55.58:276][875]LogExit: Preparing to exit.
+[2017.04.25-11.56.00:423][875]LogExit: Editor shut down
+[2017.04.25-11.56.00:423][875]LogExit: Transaction tracking system shut down
+[2017.04.25-11.56.07:100][875]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.25-11.56.07:101][875]LogExit: Object subsystem successfully closed.
+[2017.04.25-11.56.07:738][875]LogD3D11RHI: Shutdown
+[2017.04.25-11.56.07:778][875]LogD3D11RHI: CleanupD3DDevice
+[2017.04.25-11.56.08:227][875]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.25-11.56.10:409][875]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2017.04.25-11.56.10:446][875]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (214)
+[2017.04.25-11.56.10:457][875]LogModuleManager: Shutting down and abandoning module StatsViewer (213)
+[2017.04.25-11.56.10:488][875]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (212)
+[2017.04.25-11.56.10:514][875]LogModuleManager: Shutting down and abandoning module CrashTracker (211)
+[2017.04.25-11.56.10:514][875]LogModuleManager: Shutting down and abandoning module SceneOutliner (210)
+[2017.04.25-11.56.10:514][875]LogModuleManager: Shutting down and abandoning module WidgetCarousel (209)
+[2017.04.25-11.56.10:521][875]LogModuleManager: Shutting down and abandoning module AddContentDialog (208)
+[2017.04.25-11.56.10:653][875]LogModuleManager: Shutting down and abandoning module GameplayTags (207)
+[2017.04.25-11.56.10:654][875]LogModuleManager: Shutting down and abandoning module EditorWidgets (206)
+[2017.04.25-11.56.10:654][875]LogModuleManager: Shutting down and abandoning module CollectionManager (205)
+[2017.04.25-11.56.10:693][875]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2017.04.25-11.56.10:712][875]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2017.04.25-11.56.10:938][875]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2017.04.25-11.56.10:938][875]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2017.04.25-11.56.10:938][875]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2017.04.25-11.56.10:938][875]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2017.04.25-11.56.10:938][875]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2017.04.25-11.56.10:989][875]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2017.04.25-11.56.11:032][875]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2017.04.25-11.56.11:041][875]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2017.04.25-11.56.11:094][875]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2017.04.25-11.56.11:094][875]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2017.04.25-11.56.11:106][875]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2017.04.25-11.56.11:183][875]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2017.04.25-11.56.11:295][875]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2017.04.25-11.56.11:295][875]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2017.04.25-11.56.11:295][875]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2017.04.25-11.56.11:295][875]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2017.04.25-11.56.11:295][875]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2017.04.25-11.56.11:328][875]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2017.04.25-11.56.11:683][875]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2017.04.25-11.56.11:735][875]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2017.04.25-11.56.11:743][875]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2017.04.25-11.56.11:753][875]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2017.04.25-11.56.11:753][875]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2017.04.25-11.56.12:721][875]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2017.04.25-11.56.12:737][875]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2017.04.25-11.56.12:737][875]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2017.04.25-11.56.12:737][875]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2017.04.25-11.56.12:801][875]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2017.04.25-11.56.12:801][875]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2017.04.25-11.56.12:845][875]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2017.04.25-11.56.12:876][875]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2017.04.25-11.56.12:972][875]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2017.04.25-11.56.12:979][875]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2017.04.25-11.56.12:990][875]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2017.04.25-11.56.13:017][875]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2017.04.25-11.56.13:023][875]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2017.04.25-11.56.13:023][875]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2017.04.25-11.56.13:029][875]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2017.04.25-11.56.13:037][875]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2017.04.25-11.56.13:048][875]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2017.04.25-11.56.13:048][875]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2017.04.25-11.56.13:078][875]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2017.04.25-11.56.13:078][875]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2017.04.25-11.56.13:100][875]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2017.04.25-11.56.13:111][875]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2017.04.25-11.56.13:229][875]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2017.04.25-11.56.13:285][875]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2017.04.25-11.56.13:285][875]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2017.04.25-11.56.13:347][875]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2017.04.25-11.56.13:444][875]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2017.04.25-11.56.13:470][875]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2017.04.25-11.56.13:491][875]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2017.04.25-11.56.13:491][875]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2017.04.25-11.56.13:505][875]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2017.04.25-11.56.13:506][875]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2017.04.25-11.56.13:592][875]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2017.04.25-11.56.13:595][875]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2017.04.25-11.56.13:640][875]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2017.04.25-11.56.13:656][875]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2017.04.25-11.56.13:666][875]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2017.04.25-11.56.13:702][875]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2017.04.25-11.56.13:743][875]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2017.04.25-11.56.13:942][875]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2017.04.25-11.56.13:972][875]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2017.04.25-11.56.14:013][875]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2017.04.25-11.56.14:025][875]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2017.04.25-11.56.14:025][875]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2017.04.25-11.56.14:136][875]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2017.04.25-11.56.14:187][875]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2017.04.25-11.56.14:199][875]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2017.04.25-11.56.14:215][875]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2017.04.25-11.56.14:215][875]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2017.04.25-11.56.14:361][875]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2017.04.25-11.56.14:361][875]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2017.04.25-11.56.14:361][875]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2017.04.25-11.56.14:361][875]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2017.04.25-11.56.14:361][875]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2017.04.25-11.56.14:387][875]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2017.04.25-11.56.14:387][875]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2017.04.25-11.56.14:453][875]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2017.04.25-11.56.14:484][875]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2017.04.25-11.56.14:484][875]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2017.04.25-11.56.14:521][875]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2017.04.25-11.56.14:629][875]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2017.04.25-11.56.14:739][875]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2017.04.25-11.56.14:821][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2017.04.25-11.56.14:821][875]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2017.04.25-11.56.14:833][875]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2017.04.25-11.56.14:978][875]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2017.04.25-11.56.14:995][875]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2017.04.25-11.56.15:011][875]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2017.04.25-11.56.15:048][875]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2017.04.25-11.56.15:056][875]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2017.04.25-11.56.15:070][875]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2017.04.25-11.56.15:073][875]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2017.04.25-11.56.15:091][875]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2017.04.25-11.56.15:192][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.04.25-11.56.15:192][875]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.04.25-11.56.15:215][875]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.04.25-11.56.15:226][875]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.04.25-11.56.15:227][875]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.04.25-11.56.15:238][875]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.04.25-11.56.15:238][875]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.04.25-11.56.15:284][875]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.04.25-11.56.15:284][875]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.04.25-11.56.15:284][875]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.04.25-11.56.15:323][875]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.04.25-11.56.15:323][875]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.04.25-11.56.15:324][875]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.04.25-11.56.15:491][875]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.04.25-11.56.15:507][875]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.04.25-11.56.15:656][875]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.04.25-11.56.15:690][875]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.04.25-11.56.15:690][875]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.04.25-11.56.15:690][875]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.04.25-11.56.16:279][875]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.04.25-11.56.16:355][875]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.04.25-11.56.16:355][875]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.04.25-11.56.16:387][875]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.04.25-11.56.16:387][875]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.04.25-11.56.16:398][875]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.04.25-11.56.16:574][875]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.04.25-11.56.16:574][875]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.04.25-11.56.16:574][875]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.04.25-11.56.16:601][875]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.04.25-11.56.16:644][875]LogDerivedDataCache: Shutdown
+[2017.04.25-11.56.16:644][875]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.04.25-11.56.16:656][875]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.04.25-11.56.16:774][875]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.04.25-11.56.16:835][875]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.04.25-11.56.16:902][875]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.04.25-11.56.16:902][875]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.04.25-11.56.16:919][875]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.04.25-11.56.16:938][875]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.04.25-11.56.16:938][875]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.04.25-11.56.16:938][875]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.04.25-11.56.16:938][875]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.04.25-11.56.16:938][875]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.04.25-11.56.16:989][875]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.04.25-11.56.16:989][875]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.04.25-11.56.17:074][875]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.04.25-11.56.17:074][875]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.04.25-11.56.17:113][875]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.04.25-11.56.17:121][875]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.04.25-11.56.17:130][875]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.04.25-11.56.17:145][875]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.04.25-11.56.17:194][875]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.04.25-11.56.17:240][875]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.04.25-11.56.17:240][875]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.25-11.56.17:271][875]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.25-11.56.17:271][875]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.25-11.56.17:345][875]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.25-11.56.17:355][875]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.25-11.56.18:858][875]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.25-11.56.18:886][875]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.25-11.56.18:904][875]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.25-11.56.18:904][875]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.25-11.56.18:909][875]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.25-11.56.18:909][875]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.25-11.56.18:909][875]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.25-11.56.18:946][875]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.25-11.56.19:017][875]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.25-11.56.19:078][875]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.25-11.56.19:083][875]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.25-11.56.19:101][875]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.25-11.56.19:120][875]LogExit: Exiting.
+[2017.04.25-11.56.19:177][875]Log file closed, 04/25/17 07:56:19
