@@ -1,0 +1,1955 @@
+﻿Log file open, 04/30/17 03:39:39
+LogInit:Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1301912208) SRandInit(1301912229).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097050
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMain -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -windowed -messaging -SessionName="Play in Standalone Game" 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.04.30-07.39.39:397][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-07.39.39:397][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.04.30-07.39.39:569][  0]LogInit: Computer: SCOTT-PC
+[2017.04.30-07.39.39:569][  0]LogInit: User: Scott
+[2017.04.30-07.39.39:569][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.04.30-07.39.39:569][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.04.30-07.39.39:569][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.04.30-07.39.39:569][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-07.39.39:569][  0]LogMemory: Process Physical Memory: 190.07 MB used, 190.07 MB peak
+[2017.04.30-07.39.39:569][  0]LogMemory: Process Virtual Memory: 195.27 MB used, 195.27 MB peak
+[2017.04.30-07.39.39:569][  0]LogMemory: Physical Memory: 7577.25 MB used, 12202.02 MB total
+[2017.04.30-07.39.39:569][  0]LogMemory: Virtual Memory: 553.80 MB used, 134217728.00 MB total
+[2017.04.30-07.39.39:613][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.04.30-07.39.40:142][  0]LogD3D11RHI: D3D11 adapters:
+[2017.04.30-07.39.40:206][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.04.30-07.39.40:206][  0]LogD3D11RHI:       8110/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.04.30-07.39.40:208][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.04.30-07.39.40:208][  0]LogD3D11RHI:       0/0/6101 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.04.30-07.39.40:208][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.04.30-07.39.40:215][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.04.30-07.39.40:215][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.04.30-07.39.40:215][  0]LogWindows: EnumDisplayDevices:
+[2017.04.30-07.39.40:215][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.04.30-07.39.40:216][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.04.30-07.39.40:216][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.30-07.39.40:216][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.04.30-07.39.40:217][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.04.30-07.39.40:217][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.04.30-07.39.40:217][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.04.30-07.39.40:217][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.04.30-07.39.40:217][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.04.30-07.39.40:239][  0]LogD3D11RHI: Async texture creation enabled
+[2017.04.30-07.39.40:259][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.04.30-07.39.40:259][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Intermediate/Shaders/WorkingDirectory/1008/).
+[2017.04.30-07.39.40:259][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Scott/AppData/Local/Temp/UnrealShaderWorkingDir/E67359C84CD01D58D9152881D6335EE4/'.
+[2017.04.30-07.39.40:259][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.04.30-07.39.42:390][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.04.30-07.39.42:403][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.04.30-07.39.42:416][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.04.30-07.39.42:429][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.04.30-07.39.42:429][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.04.30-07.39.42:547][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.04.30-07.39.42:826][  0]LogDerivedDataCache: Loaded boot cache 0.28s 48MB C:/Users/Scott/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2017.04.30-07.39.42:827][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Scott/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2017.04.30-07.39.42:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.04.30-07.39.42:827][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.04.30-07.39.42:827][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.04.30-07.39.42:827][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.04.30-07.39.42:848][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.04.30-07.39.42:860][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.04.30-07.39.43:117][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2017.04.30-07.39.43:121][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.004478 seconds
+[2017.04.30-07.39.43:126][  0]LogInit: Selected Device Profile: [Windows]
+[2017.04.30-07.39.43:127][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2017.04.30-07.39.43:305][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2017.04.30-07.39.43:305][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.04.30-07.39.43:305][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2017.04.30-07.39.43:635][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.04.30-07.39.43:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-07.39.43:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.04.30-07.39.44:068][  0]LogMoviePlayer: Initializing movie player
+[2017.04.30-07.39.44:202][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Movies/Default_Startup.mp4
+[2017.04.30-07.39.44:298][  0]LogSubstanceCoreModule: Substance CPU Engine Loaded, Max Texture Size 2048
+[2017.04.30-07.39.44:316][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.04.30-07.39.44:391][  0]SourceControl: Info Source control is disabled
+[2017.04.30-07.39.44:392][  0]SourceControl: Info Source control is disabled
+[2017.04.30-07.39.44:406][  0]SourceControl: Info Source control is disabled
+[2017.04.30-07.39.44:614][  0]LogUObjectArray: 31128 objects as part of root set at end of initial load.
+[2017.04.30-07.39.44:614][  0]LogUObjectAllocator: 6742592 out of 0 bytes used by permanent object pool.
+[2017.04.30-07.39.44:614][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.04.30-07.39.44:687][  0]LogEngine: Initializing Engine...
+[2017.04.30-07.39.44:734][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.30-07.39.44:735][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2017.04.30-07.39.44:930][  0]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-07.39.44:949][  0]LogInit: FAudioDevice initialized.
+[2017.04.30-07.39.44:961][  0]LogInit: Texture streaming: Enabled
+[2017.04.30-07.39.45:056][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMain?Name=Player
+[2017.04.30-07.39.45:056][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMain?Name=Player
+[2017.04.30-07.39.45:086][  0]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-07.39.45:086][  0]LogMemory: Process Physical Memory: 553.84 MB used, 572.83 MB peak
+[2017.04.30-07.39.45:086][  0]LogMemory: Process Virtual Memory: 602.38 MB used, 609.76 MB peak
+[2017.04.30-07.39.45:086][  0]LogMemory: Physical Memory: 7888.71 MB used, 12202.02 MB total
+[2017.04.30-07.39.45:086][  0]LogMemory: Virtual Memory: 1205.79 MB used, 134217728.00 MB total
+[2017.04.30-07.39.45:086][  0]LogMemory: 
+[2017.04.30-07.39.45:086][  0]Allocator Stats for TBB: (not implemented)
+[2017.04.30-07.39.45:342][  0]LogAIModule: Creating AISystem for world Main
+[2017.04.30-07.39.45:342][  0]LogWorld: Game class is 'GameMode'
+[2017.04.30-07.39.45:344][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMain.Main up for play (max tick rate 0) at 2017.04.30-03.39.45
+[2017.04.30-07.39.45:345][  0]LogWorld: Bringing up level for play took: 0.000827
+[2017.04.30-07.39.45:355][  0]LogLoad: Took 0.298516 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCMain)
+[2017.04.30-07.39.45:355][  0]LogInit:Display: Game Engine Initialized.
+[2017.04.30-07.39.45:611][  0]LogLoad: Full Startup: 7.42 seconds (BP compile: 0.07 seconds)
+[2017.04.30-07.39.45:611][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.04.30-07.39.45:611][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.04.30-07.39.45:628][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.30-07.39.45:629][  0]LogOcInput: OculusInput pre-init called
+[2017.04.30-07.39.45:784][  2]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2017.04.30-07.39.49:368][208]LogPackageName: SearchForPackageOnDisk took   0.121s to resolve Grand_Cafeteria.umap.
+[2017.04.30-07.39.49:494][208]LogPackageName: SearchForPackageOnDisk took   0.125s to resolve Grand_Cafeteria.umap.
+[2017.04.30-07.39.49:494][208]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-07.39.49:494][208]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-07.39.49:531][208]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-07.39.49:531][208]LogMemory: Process Physical Memory: 614.46 MB used, 621.77 MB peak
+[2017.04.30-07.39.49:531][208]LogMemory: Process Virtual Memory: 825.79 MB used, 837.61 MB peak
+[2017.04.30-07.39.49:531][208]LogMemory: Physical Memory: 7936.63 MB used, 12202.02 MB total
+[2017.04.30-07.39.49:531][208]LogMemory: Virtual Memory: 1427.36 MB used, 134217728.00 MB total
+[2017.04.30-07.39.49:531][208]LogMemory: 
+[2017.04.30-07.39.49:531][208]Allocator Stats for TBB: (not implemented)
+[2017.04.30-07.39.51:488][208]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-07.39.51:488][208]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-07.39.51:513][208]LogWorld: Bringing World /Game/Maps/Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-03.39.51
+[2017.04.30-07.39.51:515][208]LogWorld: Bringing up level for play took: 0.024332
+[2017.04.30-07.39.51:519][208]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-07.39.51:530][208]LogLoad: Took 2.036145 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-07.39.59:434][685]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.39.59:434][685]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.39.59:434][685]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.39.59:434][685]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.02:446][871]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-07.40.02:446][871]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.02:446][871]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.02:446][871]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-07.40.02:446][871]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.02:446][871]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.05:447][ 57]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.05:447][ 57]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.05:447][ 57]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.05:447][ 57]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.08:430][242]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-07.40.08:430][242]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.08:430][242]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.08:430][242]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-07.40.08:430][242]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.08:430][242]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.09:607][315]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-667.943 Y=-1329.731 Z=241.954] for [FireProjectile_C]
+[2017.04.30-07.40.10:431][366]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:431][366]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:449][367]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:449][367]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:463][368]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:463][368]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:479][369]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:479][369]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:495][370]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:495][370]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:511][371]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:511][371]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:527][372]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:527][372]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:543][373]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:543][373]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:559][374]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:559][374]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:575][375]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:575][375]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:592][376]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:592][376]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:607][377]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:607][377]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:623][378]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:623][378]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:640][379]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:640][379]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:656][380]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:656][380]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:672][381]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:672][381]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:688][382]LogScript:Warning: Attempted to access FoodFightersChar_C_1 via property My Character, but FoodFightersChar_C_1 is pending kill
+	HUDP2_C /Engine/Transient.GameEngine_0:FoodFightersGI_C_0.HUDP2_C_0
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2:00E6
+[2017.04.30-07.40.10:688][382]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:704][383]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:720][384]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:736][385]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:753][386]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:769][387]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:785][388]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:801][389]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:817][390]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:833][391]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:849][392]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:865][393]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:882][394]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:898][395]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:914][396]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:930][397]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:946][398]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:962][399]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:978][400]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.10:995][401]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:011][402]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:027][403]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:043][404]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:059][405]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:075][406]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:091][407]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:108][408]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:124][409]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:140][410]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:156][411]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:172][412]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:188][413]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:204][414]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:220][415]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:236][416]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:253][417]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:269][418]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:285][419]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:301][420]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:317][421]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:333][422]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:349][423]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:366][424]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:382][425]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:398][426]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:414][427]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:429][428]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-07.40.11:429][428]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.11:429][428]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.11:429][428]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-07.40.11:429][428]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.11:429][428]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.11:430][428]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:446][429]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:462][430]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:478][431]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:494][432]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:511][433]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:527][434]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:543][435]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:560][436]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:575][437]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:592][438]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:608][439]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:624][440]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:640][441]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:656][442]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:672][443]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:688][444]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:704][445]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:721][446]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:737][447]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:753][448]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:769][449]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:785][450]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:801][451]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:817][452]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:833][453]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:849][454]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:866][455]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:882][456]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:898][457]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:914][458]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:930][459]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:946][460]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:963][461]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:979][462]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.11:995][463]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:011][464]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:027][465]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:043][466]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:060][467]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:076][468]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:092][469]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:108][470]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:124][471]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:140][472]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:156][473]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:172][474]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:188][475]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:204][476]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:221][477]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:237][478]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:253][479]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:269][480]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:285][481]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:301][482]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:317][483]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:333][484]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:350][485]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:366][486]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:382][487]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:398][488]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:414][489]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:430][490]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:446][491]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:463][492]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:479][493]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:495][494]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:511][495]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:527][496]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:543][497]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:559][498]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:575][499]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:592][500]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:608][501]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:624][502]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:640][503]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:656][504]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:672][505]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:688][506]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:704][507]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:721][508]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:736][509]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:753][510]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:769][511]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:785][512]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:801][513]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:817][514]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:833][515]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:849][516]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:866][517]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:882][518]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:898][519]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:914][520]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:930][521]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:946][522]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:962][523]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:979][524]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.12:995][525]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:011][526]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:027][527]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:043][528]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:059][529]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:075][530]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:092][531]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:108][532]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:124][533]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:140][534]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:156][535]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:172][536]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:189][537]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:205][538]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:221][539]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:237][540]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:253][541]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:269][542]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:286][543]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:301][544]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:317][545]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:334][546]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:350][547]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:366][548]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:382][549]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:398][550]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:414][551]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:430][552]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:446][553]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:462][554]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:479][555]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:495][556]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:511][557]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:527][558]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:543][559]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:559][560]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:576][561]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:592][562]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:608][563]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:624][564]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:640][565]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:656][566]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:672][567]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:688][568]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:705][569]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:721][570]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:737][571]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:753][572]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:769][573]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:785][574]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:801][575]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:817][576]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:834][577]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:850][578]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:866][579]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:882][580]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:898][581]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:914][582]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:930][583]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:946][584]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:962][585]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:978][586]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.13:995][587]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:011][588]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:027][589]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:043][590]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:059][591]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:076][592]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:092][593]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:107][594]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:124][595]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:140][596]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:156][597]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:172][598]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:188][599]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:205][600]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:221][601]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:237][602]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:253][603]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:269][604]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:285][605]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:302][606]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:318][607]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:334][608]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:350][609]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:366][610]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:382][611]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:399][612]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:415][613]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:430][614]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.14:430][614]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.14:430][614]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.14:430][614]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.14:432][614]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:447][615]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:463][616]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:479][617]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:495][618]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:511][619]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:528][620]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:543][621]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:560][622]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:576][623]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:592][624]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:608][625]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:624][626]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:640][627]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:656][628]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:672][629]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:689][630]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:705][631]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:721][632]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:737][633]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:753][634]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:769][635]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:785][636]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:802][637]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:818][638]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:834][639]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:850][640]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:866][641]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:882][642]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:899][643]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:915][644]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:931][645]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:947][646]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:963][647]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:979][648]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.14:995][649]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:011][650]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:027][651]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:044][652]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:060][653]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:076][654]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:092][655]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:108][656]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:124][657]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:140][658]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:156][659]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:173][660]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:189][661]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:205][662]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:221][663]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:237][664]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:254][665]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:269][666]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:285][667]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:302][668]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:318][669]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:334][670]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:350][671]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:366][672]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:382][673]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:399][674]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:415][675]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:431][676]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:447][677]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:463][678]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:479][679]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:495][680]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:511][681]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:527][682]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:543][683]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:559][684]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:576][685]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:592][686]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:608][687]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:624][688]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:641][689]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:657][690]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:673][691]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:689][692]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:705][693]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:721][694]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:737][695]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:753][696]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:769][697]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:785][698]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:802][699]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:818][700]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:834][701]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:850][702]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:866][703]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:882][704]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:898][705]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:915][706]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:931][707]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:947][708]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:963][709]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:979][710]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.15:995][711]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:011][712]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:027][713]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:043][714]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:060][715]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:076][716]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:092][717]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:108][718]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:124][719]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:140][720]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:156][721]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:172][722]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:189][723]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:205][724]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:221][725]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:237][726]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:253][727]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:269][728]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:285][729]LogScript:Warning: Script call stack:
+	Function /Game/UI/HUDP2.HUDP2_C:Tick
+	Function /Game/UI/HUDP2.HUDP2_C:ExecuteUbergraph_HUDP2
+
+[2017.04.30-07.40.16:412][730]LogPackageName: SearchForPackageOnDisk took   0.112s to resolve BarebonesCafeteria.umap.
+[2017.04.30-07.40.16:521][730]LogPackageName: SearchForPackageOnDisk took   0.108s to resolve BarebonesCafeteria.umap.
+[2017.04.30-07.40.16:521][730]LogNet: Browse: /Game/Maps/BarebonesCafeteria
+[2017.04.30-07.40.16:521][730]LogLoad: LoadMap: /Game/Maps/BarebonesCafeteria
+[2017.04.30-07.40.16:646][730]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-07.40.16:646][730]LogMemory: Process Physical Memory: 762.18 MB used, 828.62 MB peak
+[2017.04.30-07.40.16:646][730]LogMemory: Process Virtual Memory: 1092.18 MB used, 1153.52 MB peak
+[2017.04.30-07.40.16:646][730]LogMemory: Physical Memory: 7946.88 MB used, 12202.02 MB total
+[2017.04.30-07.40.16:646][730]LogMemory: Virtual Memory: 1745.05 MB used, 134217728.00 MB total
+[2017.04.30-07.40.16:646][730]LogMemory: 
+[2017.04.30-07.40.16:646][730]Allocator Stats for TBB: (not implemented)
+[2017.04.30-07.40.18:511][730]LogAIModule: Creating AISystem for world BarebonesCafeteria
+[2017.04.30-07.40.18:511][730]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-07.40.18:525][730]LogBlueprintUserMessages: [FoodFightersGM_C_0] Warning! Not Enough Player Starts!
+[2017.04.30-07.40.18:525][730]LogWorld: Bringing World /Game/Maps/BarebonesCafeteria.BarebonesCafeteria up for play (max tick rate 0) at 2017.04.30-03.40.18
+[2017.04.30-07.40.18:526][730]LogWorld: Bringing up level for play took: 0.010572
+[2017.04.30-07.40.18:528][730]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersChar_C_0
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:01DC
+[2017.04.30-07.40.18:528][730]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript
+
+[2017.04.30-07.40.18:528][730]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersChar_C_0
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:0272
+[2017.04.30-07.40.18:528][730]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript
+
+[2017.04.30-07.40.18:529][730]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersChar_C_1
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:01DC
+[2017.04.30-07.40.18:529][730]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript
+
+[2017.04.30-07.40.18:529][730]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersChar_C_1
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:0272
+[2017.04.30-07.40.18:530][730]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript
+
+[2017.04.30-07.40.18:530][730]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-07.40.18:531][730]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.04.30-07.40.18:534][730]LogLoad: Took 2.012209 seconds to LoadMap(/Game/Maps/BarebonesCafeteria)
+[2017.04.30-07.40.26:354][213]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [3/2]!
+
+[2017.04.30-07.40.26:436][218]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.26:436][218]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.26:436][218]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.26:436][218]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.29:436][404]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-07.40.29:436][404]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.29:436][404]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.29:436][404]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-07.40.29:436][404]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0A11
+[2017.04.30-07.40.29:436][404]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.32:436][590]LogScript:Warning: Accessed None trying to read property SpriteComponent
+	FoodFightersGM_C /Game/Maps/BarebonesCafeteria.BarebonesCafeteria:PersistentLevel.FoodFightersGM_C_0
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner:0929
+[2017.04.30-07.40.32:436][590]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.32:436][590]LogScript:Warning: Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-07.40.32:678][605]Closing by request
+[2017.04.30-07.40.32:679][605]LogWindows: FPlatformMisc::RequestExit(0)
+[2017.04.30-07.40.32:682][606]LogMoviePlayer: Shutting down movie player
+[2017.04.30-07.40.32:787][606]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.30-07.40.32:800][606]LogExit: Preparing to exit.
+[2017.04.30-07.40.33:512][606]LogExit: Game engine shut down
+[2017.04.30-07.40.33:710][606]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.30-07.40.33:711][606]LogExit: Object subsystem successfully closed.
+[2017.04.30-07.40.33:742][606]LogD3D11RHI: Shutdown
+[2017.04.30-07.40.33:742][606]LogD3D11RHI: CleanupD3DDevice
+[2017.04.30-07.40.33:855][606]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.30-07.40.33:877][606]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (113)
+[2017.04.30-07.40.33:877][606]LogModuleManager: Shutting down and abandoning module SequenceRecorder (112)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module AutomationController (111)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module AutomationWorker (110)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module CharacterAI (109)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module SessionServices (108)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module GameplayDebugger (107)
+[2017.04.30-07.40.33:878][606]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module AIModule (105)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (104)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (103)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module PortalServices (102)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module PortalRpc (101)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module MessagingRpc (100)
+[2017.04.30-07.40.33:879][606]LogModuleManager: Shutting down and abandoning module ProfilerService (99)
+[2017.04.30-07.40.33:950][606]LogModuleManager: Shutting down and abandoning module TaskGraph (98)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module SlateRemote (97)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module SteamVRController (96)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module SteamVR (95)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (94)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module OculusLibrary (93)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module OculusInput (92)
+[2017.04.30-07.40.33:952][606]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (91)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module CableComponent (90)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (89)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module HTML5Networking (88)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module DesktopPlatform (87)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (84)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module UObjectPlugin (83)
+[2017.04.30-07.40.33:953][606]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (82)
+[2017.04.30-07.40.33:954][606]LogModuleManager: Shutting down and abandoning module SourceControl (81)
+[2017.04.30-07.40.33:955][606]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (80)
+[2017.04.30-07.40.33:955][606]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2017.04.30-07.40.34:056][606]LogModuleManager: Shutting down and abandoning module SubstanceCore (78)
+[2017.04.30-07.40.34:059][606]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (77)
+[2017.04.30-07.40.34:059][606]LogModuleManager: Shutting down and abandoning module Paper2D (76)
+[2017.04.30-07.40.34:060][606]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (75)
+[2017.04.30-07.40.34:060][606]LogModuleManager: Shutting down and abandoning module Media (74)
+[2017.04.30-07.40.34:060][606]LogModuleManager: Shutting down and abandoning module WmfMedia (73)
+[2017.04.30-07.40.34:060][606]LogModuleManager: Shutting down and abandoning module MediaAssets (72)
+[2017.04.30-07.40.34:061][606]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (71)
+[2017.04.30-07.40.34:061][606]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (70)
+[2017.04.30-07.40.34:061][606]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (69)
+[2017.04.30-07.40.34:061][606]LogModuleManager: Shutting down and abandoning module VREditor (68)
+[2017.04.30-07.40.34:062][606]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (67)
+[2017.04.30-07.40.34:062][606]LogModuleManager: Shutting down and abandoning module PropertyEditor (66)
+[2017.04.30-07.40.34:062][606]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (65)
+[2017.04.30-07.40.34:063][606]LogModuleManager: Shutting down and abandoning module FunctionalTesting (64)
+[2017.04.30-07.40.34:063][606]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (63)
+[2017.04.30-07.40.34:064][606]LogModuleManager: Shutting down and abandoning module Sequencer (62)
+[2017.04.30-07.40.34:064][606]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (61)
+[2017.04.30-07.40.34:064][606]LogModuleManager: Shutting down and abandoning module MessageLog (60)
+[2017.04.30-07.40.34:064][606]LogModuleManager: Shutting down and abandoning module AssetTools (59)
+[2017.04.30-07.40.34:065][606]LogModuleManager: Shutting down and abandoning module UMGEditor (58)
+[2017.04.30-07.40.34:065][606]LogModuleManager: Shutting down and abandoning module UMG (57)
+[2017.04.30-07.40.34:065][606]LogModuleManager: Shutting down and abandoning module SlateReflector (56)
+[2017.04.30-07.40.34:067][606]LogModuleManager: Shutting down and abandoning module Slate (55)
+[2017.04.30-07.40.34:067][606]LogModuleManager: Shutting down and abandoning module EditorStyle (54)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module Messaging (53)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (52)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (51)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module XAudio2 (50)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module Networking (48)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module Core (47)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module KismetCompiler (46)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module PhysXFormats (45)
+[2017.04.30-07.40.34:069][606]LogModuleManager: Shutting down and abandoning module MeshUtilities (44)
+[2017.04.30-07.40.34:070][606]LogModuleManager: Shutting down and abandoning module AssetRegistry (43)
+[2017.04.30-07.40.34:071][606]LogModuleManager: Shutting down and abandoning module DerivedDataCache (42)
+[2017.04.30-07.40.34:397][606]LogDerivedDataCache: Shutdown
+[2017.04.30-07.40.34:397][606]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (41)
+[2017.04.30-07.40.34:397][606]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (40)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (39)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (38)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (37)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (36)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (35)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (34)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module ImageWrapper (33)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (32)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (31)
+[2017.04.30-07.40.34:398][606]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (30)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (29)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (28)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (27)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (26)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (25)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (24)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.30-07.40.34:399][606]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.30-07.40.34:400][606]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.30-07.40.34:401][606]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.30-07.40.34:401][606]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.30-07.40.34:401][606]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.30-07.40.34:401][606]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.30-07.40.34:401][606]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.30-07.40.34:403][606]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.30-07.40.34:407][606]LogExit: Exiting.
+[2017.04.30-07.40.34:408][606]Log file closed, 04/30/17 03:40:34
