@@ -5250,4 +5250,595 @@ Script call stack:
 [2017.04.30-10.00.02:671][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
 [2017.04.30-10.00.02:680][679]BlueprintEditorCompileResults: Info [3881.33] Compile of FoodFightersGM successful! [in 707 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
 [2017.04.30-10.00.34:728][549]BlueprintLog: New page: Compile FoodFightersChar
-[2017.04.30-10.00.35:371][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILEN
+[2017.04.30-10.00.35:371][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-10.00.35:877][549]LogSavePackage: Save=482.34ms
+[2017.04.30-10.00.35:877][549]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar06CF5D1648D9740CBB1A67B97DAC226F.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-10.00.35:882][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-10.00.35:895][549]BlueprintEditorCompileResults: Info [3914.54] Compile of FoodFightersChar successful! [in 1,166 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.00.54:291][348]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-10.01.11:773][964]BlueprintLog: New page: Compile PauseMenu
+[2017.04.30-10.01.12:016][964]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset" SILENT=true
+[2017.04.30-10.01.12:125][964]LogSavePackage: Save=85.32ms
+[2017.04.30-10.01.12:125][964]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/PauseMenu1ADD8321486F093FA8FAD58B4651B301.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset'
+[2017.04.30-10.01.12:129][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset
+[2017.04.30-10.01.12:139][964]BlueprintEditorCompileResults: Info [3950.79] Compile of PauseMenu successful! [in 365 ms] (/Game/UI/PauseMenu.PauseMenu)
+[2017.04.30-10.01.13:052][ 52]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.01.13:052][ 52]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.01.13:052][ 52]PIE: New page: PIE session: Main (Apr 30, 2017, 1:01:13 AM)
+[2017.04.30-10.01.13:053][ 52]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.01.13:054][ 52]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001388s)
+[2017.04.30-10.01.13:055][ 52]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.01.13:055][ 52]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2017.04.30-10.01.13:055][ 52]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002822s)
+[2017.04.30-10.01.13:135][ 52]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.01.13:149][ 52]LogInit: FAudioDevice initialized.
+[2017.04.30-10.01.13:248][ 52]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.01.13:251][ 52]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.01.13
+[2017.04.30-10.01.13:252][ 52]LogWorld: Bringing up level for play took: 0.001383
+[2017.04.30-10.01.13:253][ 52]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.01.13:265][ 52]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.131
+[2017.04.30-10.01.13:266][ 52]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.01.15:153][222]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.01.15:153][222]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.01.15:203][222]Cmd: MEM
+[2017.04.30-10.01.15:236][222]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.01.15:236][222]LogMemory: Process Physical Memory: 1678.21 MB used, 2448.64 MB peak
+[2017.04.30-10.01.15:237][222]LogMemory: Process Virtual Memory: 5845.37 MB used, 5845.37 MB peak
+[2017.04.30-10.01.15:237][222]LogMemory: Physical Memory: 8588.10 MB used, 12202.02 MB total
+[2017.04.30-10.01.15:237][222]LogMemory: Virtual Memory: 6944.11 MB used, 134217728.00 MB total
+[2017.04.30-10.01.15:237][222]LogMemory: 
+[2017.04.30-10.01.15:237][222]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.01.15:718][222]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.01.15:718][222]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.01.15:749][222]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.01.15
+[2017.04.30-10.01.15:751][222]LogWorld: Bringing up level for play took: 0.030640
+[2017.04.30-10.01.15:754][222]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.01.15:760][222]LogLoad: Took 0.607366 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.01.28:539][210]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue out of bounds [0/0]!
+
+[2017.04.30-10.01.28:539][210]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	FoodFightersChar_C /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersChar_C_0
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:pauseGame:00D8
+[2017.04.30-10.01.28:540][210]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'pauseGame' from node: Set Volume Multiplier in graph: pauseGame in object: FoodFightersChar with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.30-10.01.36:262][839]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetComponentsByClass_ReturnValue out of bounds [0/0]!
+
+[2017.04.30-10.01.36:262][839]LogScript:Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	PauseMenu_C /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_46.PauseMenu_C_3
+	Function /Game/UI/PauseMenu.PauseMenu_C:ExecuteUbergraph_PauseMenu:00D9
+[2017.04.30-10.01.36:262][839]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Array_Get_Item from function: 'ExecuteUbergraph_PauseMenu' from node: Set Volume Multiplier in graph: EventGraph in object: PauseMenu with description: Accessed None trying to read property CallFunc_Array_Get_Item
+[2017.04.30-10.01.36:265][839]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.01.36:332][839]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.02.54:389][ 78]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.02.54:784][ 78]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.02.54:972][ 78]LogSavePackage: Save=169.12ms
+[2017.04.30-10.02.54:972][ 78]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM3CEC860E43A9CDBD799DADA8D65A8F6E.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.02.54:976][ 78]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.02.54:987][ 78]BlueprintEditorCompileResults: Info [4053.63] Compile of FoodFightersGM successful! [in 598 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.03.13:816][ 28]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.03.14:220][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.03.14:411][ 28]LogSavePackage: Save=171.78ms
+[2017.04.30-10.03.14:411][ 28]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM6B80B7EA4E76F3BFC5189D9C6EB5FCC5.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.03.14:415][ 28]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.03.14:426][ 28]BlueprintEditorCompileResults: Info [4073.07] Compile of FoodFightersGM successful! [in 609 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.03.51:851][722]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.03.52:586][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-10.03.53:087][722]LogSavePackage: Save=482.27ms
+[2017.04.30-10.03.53:087][722]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharFB4253BA4887746C6FFECEB1DE1555D7.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-10.03.53:091][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-10.03.53:094][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset" SILENT=true
+[2017.04.30-10.03.53:195][722]LogSavePackage: Save=82.48ms
+[2017.04.30-10.03.53:195][722]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/PauseMenuD8529705493038754CEA4B904220DD96.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset'
+[2017.04.30-10.03.53:200][722]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset
+[2017.04.30-10.03.53:211][722]BlueprintEditorCompileResults: Info [4111.86] Compile of FoodFightersChar successful! [in 1,360 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.04.10:305][483]BlueprintLog: New page: Compile PauseMenu
+[2017.04.30-10.04.10:548][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/PauseMenu" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset" SILENT=true
+[2017.04.30-10.04.10:655][483]LogSavePackage: Save=86.45ms
+[2017.04.30-10.04.10:655][483]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/PauseMenu6B2A10AF414C08B1BDB3E79BF7E5E906.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset'
+[2017.04.30-10.04.10:659][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/PauseMenu.uasset
+[2017.04.30-10.04.10:670][483]BlueprintEditorCompileResults: Info [4129.32] Compile of PauseMenu successful! [in 364 ms] (/Game/UI/PauseMenu.PauseMenu)
+[2017.04.30-10.04.11:084][519]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.04.11:084][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.04.11:084][519]PIE: New page: PIE session: Main (Apr 30, 2017, 1:04:11 AM)
+[2017.04.30-10.04.11:084][519]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.04.11:086][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001479s)
+[2017.04.30-10.04.11:087][519]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.04.11:087][519]LogPlayLevel: PIE: World Init took: (0.000789s)
+[2017.04.30-10.04.11:087][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002752s)
+[2017.04.30-10.04.11:167][519]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.04.11:181][519]LogInit: FAudioDevice initialized.
+[2017.04.30-10.04.11:284][519]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.04.11:287][519]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.04.11
+[2017.04.30-10.04.11:287][519]LogWorld: Bringing up level for play took: 0.001480
+[2017.04.30-10.04.11:288][519]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.04.11:298][519]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.164
+[2017.04.30-10.04.11:299][519]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.04.13:196][723]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.04.13:196][723]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.04.13:241][723]Cmd: MEM
+[2017.04.30-10.04.13:276][723]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.04.13:276][723]LogMemory: Process Physical Memory: 1730.02 MB used, 2448.64 MB peak
+[2017.04.30-10.04.13:277][723]LogMemory: Process Virtual Memory: 5956.88 MB used, 5956.88 MB peak
+[2017.04.30-10.04.13:277][723]LogMemory: Physical Memory: 8613.94 MB used, 12202.02 MB total
+[2017.04.30-10.04.13:277][723]LogMemory: Virtual Memory: 7066.86 MB used, 134217728.00 MB total
+[2017.04.30-10.04.13:277][723]LogMemory: 
+[2017.04.30-10.04.13:277][723]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.04.13:749][723]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.04.13:749][723]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.04.13:783][723]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.04.13
+[2017.04.30-10.04.13:784][723]LogWorld: Bringing up level for play took: 0.032996
+[2017.04.30-10.04.13:788][723]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.04.13:795][723]LogLoad: Took 0.598889 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.04.21:728][473]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-10.04.21:728][473]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-10.04.51:248][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.04.51:319][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.05.18:017][548]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.05.18:317][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.05.18:518][548]LogSavePackage: Save=176.02ms
+[2017.04.30-10.05.18:519][548]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM40BE349F439930AF15EF14ADD4667075.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.05.18:523][548]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.05.18:534][548]BlueprintEditorCompileResults: Info [4197.18] Compile of FoodFightersGM successful! [in 516 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.05.20:741][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.05.20:742][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.05.20:742][778]PIE: New page: PIE session: Main (Apr 30, 2017, 1:05:20 AM)
+[2017.04.30-10.05.20:742][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.05.20:744][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001340s)
+[2017.04.30-10.05.20:744][778]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.05.20:745][778]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2017.04.30-10.05.20:745][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002675s)
+[2017.04.30-10.05.20:824][778]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.05.20:836][778]LogInit: FAudioDevice initialized.
+[2017.04.30-10.05.20:932][778]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.05.20:935][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.05.20
+[2017.04.30-10.05.20:935][778]LogWorld: Bringing up level for play took: 0.001602
+[2017.04.30-10.05.20:936][778]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.05.20:946][778]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.812
+[2017.04.30-10.05.20:946][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.05.22:859][967]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.05.22:859][967]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.05.22:899][967]Cmd: MEM
+[2017.04.30-10.05.22:932][967]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.05.22:932][967]LogMemory: Process Physical Memory: 1730.96 MB used, 2448.64 MB peak
+[2017.04.30-10.05.22:932][967]LogMemory: Process Virtual Memory: 5956.84 MB used, 6037.44 MB peak
+[2017.04.30-10.05.22:932][967]LogMemory: Physical Memory: 8554.29 MB used, 12202.02 MB total
+[2017.04.30-10.05.22:932][967]LogMemory: Virtual Memory: 7077.48 MB used, 134217728.00 MB total
+[2017.04.30-10.05.22:932][967]LogMemory: 
+[2017.04.30-10.05.22:932][967]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.05.23:402][967]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.05.23:403][967]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.05.23:435][967]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.05.23
+[2017.04.30-10.05.23:436][967]LogWorld: Bringing up level for play took: 0.031217
+[2017.04.30-10.05.23:439][967]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.05.23:445][967]LogLoad: Took 0.586114 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.05.37:382][165]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-10.05.37:382][165]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-10.05.40:383][428]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-10.05.40:383][428]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-10.05.46:195][937]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.05.46:268][937]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.35:227][907]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.12.35:526][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.12.35:727][907]LogSavePackage: Save=170.81ms
+[2017.04.30-10.12.35:728][907]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM6B96D4274A8744388791CF886C1AFCFE.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.12.35:732][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.12.35:740][907]BlueprintEditorCompileResults: Info [4634.39] Compile of FoodFightersGM successful! [in 512 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.12.37:436][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.37:436][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.12.37:437][ 36]PIE: New page: PIE session: Main (Apr 30, 2017, 1:12:37 AM)
+[2017.04.30-10.12.37:437][ 36]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.12.37:439][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001717s)
+[2017.04.30-10.12.37:440][ 36]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.12.37:440][ 36]LogPlayLevel: PIE: World Init took: (0.001112s)
+[2017.04.30-10.12.37:440][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003347s)
+[2017.04.30-10.12.37:522][ 36]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.12.37:535][ 36]LogInit: FAudioDevice initialized.
+[2017.04.30-10.12.37:594][ 36]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.12.37:597][ 36]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.12.37
+[2017.04.30-10.12.37:597][ 36]LogWorld: Bringing up level for play took: 0.001437
+[2017.04.30-10.12.37:601][ 36]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.534
+[2017.04.30-10.12.37:601][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.41:248][360]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.12.41:248][360]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.12.41:289][360]Cmd: MEM
+[2017.04.30-10.12.41:325][360]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.12.41:325][360]LogMemory: Process Physical Memory: 1471.35 MB used, 2448.64 MB peak
+[2017.04.30-10.12.41:325][360]LogMemory: Process Virtual Memory: 5950.80 MB used, 6050.50 MB peak
+[2017.04.30-10.12.41:325][360]LogMemory: Physical Memory: 8370.99 MB used, 12202.02 MB total
+[2017.04.30-10.12.41:325][360]LogMemory: Virtual Memory: 7110.29 MB used, 134217728.00 MB total
+[2017.04.30-10.12.41:325][360]LogMemory: 
+[2017.04.30-10.12.41:325][360]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.12.41:799][360]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.12.41:799][360]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.12.41:831][360]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.12.41
+[2017.04.30-10.12.41:833][360]LogWorld: Bringing up level for play took: 0.031690
+[2017.04.30-10.12.41:836][360]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.12.41:842][360]LogLoad: Took 0.594707 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.12.53:028][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.53:063][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.58:787][778]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.12.59:089][778]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.12.59:283][778]LogSavePackage: Save=174.78ms
+[2017.04.30-10.12.59:284][778]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM2087BE994CC0EC8716E0E9B5F7FB4302.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.12.59:288][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.12.59:296][778]BlueprintEditorCompileResults: Info [4657.94] Compile of FoodFightersGM successful! [in 509 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.12.59:699][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.12.59:699][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.12.59:699][810]PIE: New page: PIE session: Main (Apr 30, 2017, 1:12:59 AM)
+[2017.04.30-10.12.59:699][810]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.12.59:701][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001705s)
+[2017.04.30-10.12.59:702][810]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.12.59:702][810]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2017.04.30-10.12.59:703][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.003140s)
+[2017.04.30-10.12.59:783][810]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.12.59:795][810]LogInit: FAudioDevice initialized.
+[2017.04.30-10.12.59:897][810]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.12.59:900][810]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.12.59
+[2017.04.30-10.12.59:900][810]LogWorld: Bringing up level for play took: 0.001281
+[2017.04.30-10.12.59:901][810]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.12.59:913][810]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.221
+[2017.04.30-10.12.59:914][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.01:638][955]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.13.01:638][955]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.13.01:676][955]Cmd: MEM
+[2017.04.30-10.13.01:712][955]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.13.01:712][955]LogMemory: Process Physical Memory: 1478.29 MB used, 2448.64 MB peak
+[2017.04.30-10.13.01:712][955]LogMemory: Process Virtual Memory: 5969.43 MB used, 6050.50 MB peak
+[2017.04.30-10.13.01:712][955]LogMemory: Physical Memory: 8370.22 MB used, 12202.02 MB total
+[2017.04.30-10.13.01:713][955]LogMemory: Virtual Memory: 7138.29 MB used, 134217728.00 MB total
+[2017.04.30-10.13.01:713][955]LogMemory: 
+[2017.04.30-10.13.01:713][955]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.13.02:185][955]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.13.02:185][955]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.13.02:217][955]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.13.02
+[2017.04.30-10.13.02:218][955]LogWorld: Bringing up level for play took: 0.031382
+[2017.04.30-10.13.02:222][955]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.13.02:228][955]LogLoad: Took 0.589992 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.13.10:175][576]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-10.13.10:175][576]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-10.13.10:944][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.11:017][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.21:016][549]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.13.21:321][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.13.21:640][549]LogSavePackage: Save=300.21ms
+[2017.04.30-10.13.21:641][549]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM25F002AF454F1FE999CB86A0C3CF6158.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.13.21:645][549]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.13.21:657][549]BlueprintEditorCompileResults: Info [4680.30] Compile of FoodFightersGM successful! [in 640 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.13.22:176][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.22:176][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.13.22:176][589]PIE: New page: PIE session: Main (Apr 30, 2017, 1:13:22 AM)
+[2017.04.30-10.13.22:177][589]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.13.22:178][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001365s)
+[2017.04.30-10.13.22:179][589]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.13.22:179][589]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2017.04.30-10.13.22:179][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002595s)
+[2017.04.30-10.13.22:260][589]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.13.22:274][589]LogInit: FAudioDevice initialized.
+[2017.04.30-10.13.22:382][589]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.13.22:385][589]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.13.22
+[2017.04.30-10.13.22:386][589]LogWorld: Bringing up level for play took: 0.001684
+[2017.04.30-10.13.22:386][589]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.13.22:399][589]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.265
+[2017.04.30-10.13.22:400][589]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.23:994][729]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.13.23:994][729]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.13.24:034][729]Cmd: MEM
+[2017.04.30-10.13.24:072][729]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.13.24:072][729]LogMemory: Process Physical Memory: 1490.34 MB used, 2448.64 MB peak
+[2017.04.30-10.13.24:072][729]LogMemory: Process Virtual Memory: 5969.04 MB used, 6050.50 MB peak
+[2017.04.30-10.13.24:072][729]LogMemory: Physical Memory: 8326.46 MB used, 12202.02 MB total
+[2017.04.30-10.13.24:072][729]LogMemory: Virtual Memory: 7146.29 MB used, 134217728.00 MB total
+[2017.04.30-10.13.24:072][729]LogMemory: 
+[2017.04.30-10.13.24:072][729]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.13.24:544][729]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.13.24:544][729]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.13.24:576][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.13.24
+[2017.04.30-10.13.24:578][729]LogWorld: Bringing up level for play took: 0.031887
+[2017.04.30-10.13.24:581][729]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.13.24:588][729]LogLoad: Took 0.593289 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.13.31:632][273]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.31:702][273]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.13.34:933][507]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.30-10.13.35:076][507]LogSavePackage: Save=118.85ms
+[2017.04.30-10.13.35:076][507]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain05D70ADB495F124D4A54EE86AAA7B19D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.04.30-10.13.35:078][507]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.04.30-10.13.35:088][507]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.30-10.14.14:001][941]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.14.14:298][941]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.14.14:495][941]LogSavePackage: Save=171.93ms
+[2017.04.30-10.14.14:495][941]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM04A73295443649819E0B889C573E882D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.14.14:500][941]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.14.14:511][941]BlueprintEditorCompileResults: Info [4733.16] Compile of FoodFightersGM successful! [in 508 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.14.15:489][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.30-10.14.15:628][ 16]LogSavePackage: Save=118.64ms
+[2017.04.30-10.14.15:628][ 16]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain7961B7044088753C2520AC806AA507B4.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.04.30-10.14.15:630][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.04.30-10.14.15:644][ 16]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.30-10.14.50:218][338]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.14.50:527][338]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.14.50:723][338]LogSavePackage: Save=173.26ms
+[2017.04.30-10.14.50:724][338]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGMC399EF78423FA4657BB5028B9F38065A.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.14.50:728][338]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.14.50:739][338]BlueprintEditorCompileResults: Info [4769.39] Compile of FoodFightersGM successful! [in 519 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.14.51:537][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.30-10.14.51:676][392]LogSavePackage: Save=119.59ms
+[2017.04.30-10.14.51:676][392]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain001F9B194A68EDD9B216B389B44BF5DD.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.04.30-10.14.51:677][392]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.04.30-10.14.51:691][392]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.30-10.16.30:865][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.16.30:865][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.16.30:865][729]PIE: New page: PIE session: Main (Apr 30, 2017, 1:16:30 AM)
+[2017.04.30-10.16.30:866][729]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.16.30:867][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2017.04.30-10.16.30:868][729]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.16.30:868][729]LogPlayLevel: PIE: World Init took: (0.000925s)
+[2017.04.30-10.16.30:869][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002898s)
+[2017.04.30-10.16.30:953][729]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.16.30:968][729]LogInit: FAudioDevice initialized.
+[2017.04.30-10.16.31:025][729]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.16.31:028][729]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.16.31
+[2017.04.30-10.16.31:028][729]LogWorld: Bringing up level for play took: 0.001386
+[2017.04.30-10.16.31:033][729]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.899
+[2017.04.30-10.16.31:033][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.16.33:990][968]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.16.33:991][968]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.16.34:032][968]Cmd: MEM
+[2017.04.30-10.16.34:068][968]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.16.34:068][968]LogMemory: Process Physical Memory: 1517.92 MB used, 2448.64 MB peak
+[2017.04.30-10.16.34:068][968]LogMemory: Process Virtual Memory: 5979.73 MB used, 6050.50 MB peak
+[2017.04.30-10.16.34:068][968]LogMemory: Physical Memory: 8390.52 MB used, 12202.02 MB total
+[2017.04.30-10.16.34:068][968]LogMemory: Virtual Memory: 7158.29 MB used, 134217728.00 MB total
+[2017.04.30-10.16.34:068][968]LogMemory: 
+[2017.04.30-10.16.34:068][968]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.16.34:558][968]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.16.34:559][968]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.16.34:594][968]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.16.34
+[2017.04.30-10.16.34:596][968]LogWorld: Bringing up level for play took: 0.034908
+[2017.04.30-10.16.34:599][968]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.16.34:606][968]LogLoad: Took 0.615224 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.16.49:699][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.16.49:736][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.16.59:047][874]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-10.16.59:586][874]LogSavePackage: Save=504.28ms
+[2017.04.30-10.16.59:586][874]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar92090D664B8296830E5078BFD4FE59FE.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-10.16.59:591][874]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-10.17.00:332][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.04.30-10.17.01:980][875]Cmd: QUIT_EDITOR
+[2017.04.30-10.17.02:729][875]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.04.30-10.17.02:867][875]LogExit: Preparing to exit.
+[2017.04.30-10.17.03:296][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.30-10.17.03:296][875]LogActorComponent: UnregisterComponent: (None.None) Not registered. Aborting.
+[2017.04.30-10.17.03:458][875]LogExit: Editor shut down
+[2017.04.30-10.17.03:464][875]LogExit: Transaction tracking system shut down
+[2017.04.30-10.17.04:949][875]LogObj: Freed 0b from 0 cluster array pools.
+[2017.04.30-10.17.04:953][875]LogExit: Object subsystem successfully closed.
+[2017.04.30-10.17.05:001][875]LogD3D11RHI: Shutdown
+[2017.04.30-10.17.05:001][875]LogD3D11RHI: CleanupD3DDevice
+[2017.04.30-10.17.05:451][875]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.04.30-10.17.05:488][875]LogModuleManager: Shutting down and abandoning module TextureEditor (223)
+[2017.04.30-10.17.05:488][875]LogModuleManager: Shutting down and abandoning module BlueprintNativeCodeGen (222)
+[2017.04.30-10.17.05:489][875]LogModuleManager: Shutting down and abandoning module PackageDependencyInfo (221)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module LauncherServices (220)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module SoundCueEditor (219)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module SequencerWidgets (218)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (217)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module BlueprintGraph (216)
+[2017.04.30-10.17.05:491][875]LogModuleManager: Shutting down and abandoning module StatsViewer (215)
+[2017.04.30-10.17.05:492][875]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (214)
+[2017.04.30-10.17.05:492][875]LogModuleManager: Shutting down and abandoning module CrashTracker (213)
+[2017.04.30-10.17.05:492][875]LogModuleManager: Shutting down and abandoning module SceneOutliner (212)
+[2017.04.30-10.17.05:492][875]LogModuleManager: Shutting down and abandoning module WidgetCarousel (211)
+[2017.04.30-10.17.05:493][875]LogModuleManager: Shutting down and abandoning module AddContentDialog (210)
+[2017.04.30-10.17.05:501][875]LogModuleManager: Shutting down and abandoning module GameplayTags (209)
+[2017.04.30-10.17.05:501][875]LogModuleManager: Shutting down and abandoning module EditorWidgets (208)
+[2017.04.30-10.17.05:501][875]LogModuleManager: Shutting down and abandoning module CollectionManager (207)
+[2017.04.30-10.17.05:502][875]LogModuleManager: Shutting down and abandoning module FoliageEdit (206)
+[2017.04.30-10.17.05:502][875]LogModuleManager: Shutting down and abandoning module LandscapeEditor (205)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (204)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module ActorPickerMode (203)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module GeometryMode (202)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module TextureAlignMode (201)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module BspMode (200)
+[2017.04.30-10.17.05:503][875]LogModuleManager: Shutting down and abandoning module HardwareSurvey (199)
+[2017.04.30-10.17.05:504][875]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (198)
+[2017.04.30-10.17.05:504][875]LogModuleManager: Shutting down and abandoning module SequenceRecorder (197)
+[2017.04.30-10.17.05:504][875]LogModuleManager: Shutting down and abandoning module AutomationWorker (196)
+[2017.04.30-10.17.05:504][875]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (195)
+[2017.04.30-10.17.05:504][875]LogModuleManager: Shutting down and abandoning module PlacementMode (194)
+[2017.04.30-10.17.05:505][875]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (193)
+[2017.04.30-10.17.05:506][875]LogModuleManager: Shutting down and abandoning module CharacterAI (192)
+[2017.04.30-10.17.05:506][875]LogModuleManager: Shutting down and abandoning module SmartSnapping (191)
+[2017.04.30-10.17.05:506][875]LogModuleManager: Shutting down and abandoning module SessionServices (190)
+[2017.04.30-10.17.05:506][875]LogModuleManager: Shutting down and abandoning module ViewportSnapping (189)
+[2017.04.30-10.17.05:506][875]LogModuleManager: Shutting down and abandoning module LogVisualizer (188)
+[2017.04.30-10.17.05:507][875]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (187)
+[2017.04.30-10.17.05:509][875]LogModuleManager: Shutting down and abandoning module IntroTutorials (186)
+[2017.04.30-10.17.05:510][875]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (185)
+[2017.04.30-10.17.05:510][875]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (184)
+[2017.04.30-10.17.05:510][875]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (183)
+[2017.04.30-10.17.05:510][875]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (182)
+[2017.04.30-10.17.06:036][875]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (181)
+[2017.04.30-10.17.06:036][875]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (180)
+[2017.04.30-10.17.06:036][875]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (179)
+[2017.04.30-10.17.06:036][875]LogModuleManager: Shutting down and abandoning module MergeActors (178)
+[2017.04.30-10.17.06:036][875]LogModuleManager: Shutting down and abandoning module SizeMap (177)
+[2017.04.30-10.17.06:037][875]LogModuleManager: Shutting down and abandoning module TreeMap (176)
+[2017.04.30-10.17.06:037][875]LogModuleManager: Shutting down and abandoning module ReferenceViewer (175)
+[2017.04.30-10.17.06:037][875]LogModuleManager: Shutting down and abandoning module LocalizationService (174)
+[2017.04.30-10.17.06:038][875]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (173)
+[2017.04.30-10.17.06:039][875]LogModuleManager: Shutting down and abandoning module HardwareTargeting (172)
+[2017.04.30-10.17.06:039][875]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (171)
+[2017.04.30-10.17.06:039][875]LogModuleManager: Shutting down and abandoning module UndoHistory (170)
+[2017.04.30-10.17.06:040][875]LogModuleManager: Shutting down and abandoning module UserFeedback (169)
+[2017.04.30-10.17.06:040][875]LogModuleManager: Shutting down and abandoning module XmlParser (168)
+[2017.04.30-10.17.06:040][875]LogModuleManager: Shutting down and abandoning module Blutility (167)
+[2017.04.30-10.17.06:040][875]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (166)
+[2017.04.30-10.17.06:041][875]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (165)
+[2017.04.30-10.17.06:041][875]LogModuleManager: Shutting down and abandoning module InputBindingEditor (164)
+[2017.04.30-10.17.06:042][875]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (163)
+[2017.04.30-10.17.06:042][875]LogModuleManager: Shutting down and abandoning module SettingsEditor (162)
+[2017.04.30-10.17.06:043][875]LogModuleManager: Shutting down and abandoning module ProjectLauncher (161)
+[2017.04.30-10.17.06:044][875]LogModuleManager: Shutting down and abandoning module SessionFrontend (160)
+[2017.04.30-10.17.06:044][875]LogModuleManager: Shutting down and abandoning module ProfilerClient (159)
+[2017.04.30-10.17.06:045][875]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (158)
+[2017.04.30-10.17.06:045][875]LogModuleManager: Shutting down and abandoning module DeviceManager (157)
+[2017.04.30-10.17.06:089][875]LogModuleManager: Shutting down and abandoning module AutomationController (156)
+[2017.04.30-10.17.06:089][875]LogModuleManager: Shutting down and abandoning module AutomationWindow (155)
+[2017.04.30-10.17.06:090][875]LogModuleManager: Shutting down and abandoning module Layers (154)
+[2017.04.30-10.17.06:091][875]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (153)
+[2017.04.30-10.17.06:091][875]LogModuleManager: Shutting down and abandoning module DetailCustomizations (152)
+[2017.04.30-10.17.06:092][875]LogModuleManager: Shutting down and abandoning module PackagesDialog (151)
+[2017.04.30-10.17.06:092][875]LogModuleManager: Shutting down and abandoning module Persona (150)
+[2017.04.30-10.17.06:094][875]LogModuleManager: Shutting down and abandoning module Kismet (149)
+[2017.04.30-10.17.06:094][875]LogModuleManager: Shutting down and abandoning module GraphEditor (148)
+[2017.04.30-10.17.06:094][875]LogModuleManager: Shutting down and abandoning module ClassViewer (147)
+[2017.04.30-10.17.06:097][875]LogModuleManager: Shutting down and abandoning module Toolbox (146)
+[2017.04.30-10.17.06:097][875]LogModuleManager: Shutting down and abandoning module ModuleUI (145)
+[2017.04.30-10.17.06:097][875]LogModuleManager: Shutting down and abandoning module MovieSceneTools (144)
+[2017.04.30-10.17.06:097][875]LogModuleManager: Shutting down and abandoning module OutputLog (143)
+[2017.04.30-10.17.06:097][875]LogModuleManager: Shutting down and abandoning module GammaUI (142)
+[2017.04.30-10.17.06:098][875]LogModuleManager: Shutting down and abandoning module Documentation (141)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (140)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module AnalyticsET (139)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module Analytics (138)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module PortalServices (137)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module PortalRpc (136)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module MessagingRpc (135)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module GameplayDebugger (134)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module AITestSuite (133)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module AIModule (132)
+[2017.04.30-10.17.06:099][875]LogModuleManager: Shutting down and abandoning module ProfilerService (131)
+[2017.04.30-10.17.06:252][875]LogModuleManager: Shutting down and abandoning module TaskGraph (130)
+[2017.04.30-10.17.06:253][875]LogModuleManager: Shutting down and abandoning module SubstanceEditor (129)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module SlateRemote (128)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module SteamVRController (127)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module SteamVR (126)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (125)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module OculusLibrary (124)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module OculusInput (123)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (122)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module CableComponent (121)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (120)
+[2017.04.30-10.17.06:254][875]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (119)
+[2017.04.30-10.17.06:257][875]LogModuleManager: Shutting down and abandoning module HTML5Networking (118)
+[2017.04.30-10.17.06:257][875]LogModuleManager: Shutting down and abandoning module SuperSearch (117)
+[2017.04.30-10.17.06:257][875]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (116)
+[2017.04.30-10.17.06:257][875]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (115)
+[2017.04.30-10.17.06:257][875]LogModuleManager: Shutting down and abandoning module PluginBrowser (114)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module EpicSurvey (113)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module DesktopPlatform (112)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (111)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module UObjectPlugin (110)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (109)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (108)
+[2017.04.30-10.17.06:258][875]LogModuleManager: Shutting down and abandoning module SourceControl (107)
+[2017.04.30-10.17.06:259][875]LogModuleManager: Shutting down and abandoning module GitSourceControl (106)
+[2017.04.30-10.17.06:260][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (105)
+[2017.04.30-10.17.06:260][875]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (104)
+[2017.04.30-10.17.06:260][875]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (103)
+[2017.04.30-10.17.06:260][875]LogModuleManager: Shutting down and abandoning module MeshPaint (102)
+[2017.04.30-10.17.06:260][875]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (101)
+[2017.04.30-10.17.06:262][875]LogModuleManager: Shutting down and abandoning module HotReload (100)
+[2017.04.30-10.17.06:262][875]LogModuleManager: Shutting down and abandoning module MainFrame (99)
+[2017.04.30-10.17.06:263][875]LogModuleManager: Shutting down and abandoning module LevelEditor (98)
+[2017.04.30-10.17.06:266][875]LogModuleManager: Shutting down and abandoning module ContentBrowser (97)
+[2017.04.30-10.17.06:268][875]LogModuleManager: Shutting down and abandoning module Paper2DEditor (96)
+[2017.04.30-10.17.06:269][875]LogModuleManager: Shutting down and abandoning module UdpMessaging (95)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module SubstanceCore (94)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module Media (90)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2017.04.30-10.17.06:370][875]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2017.04.30-10.17.06:371][875]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2017.04.30-10.17.06:372][875]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module Core (64)
+[2017.04.30-10.17.06:377][875]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2017.04.30-10.17.06:385][875]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2017.04.30-10.17.06:554][875]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2017.04.30-10.17.06:554][875]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2017.04.30-10.17.06:554][875]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2017.04.30-10.17.06:554][875]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2017.04.30-10.17.06:637][875]LogDerivedDataCache: Shutdown
+[2017.04.30-10.17.06:637][875]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2017.04.30-10.17.06:637][875]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2017.04.30-10.17.06:638][875]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2017.04.30-10.17.06:639][875]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2017.04.30-10.17.06:640][875]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2017.04.30-10.17.10:652][875]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2017.04.30-10.17.10:720][875]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2017.04.30-10.17.10:747][875]LogExit: Exiting.
+[2017.04.30-10.17.10:842][875]Log file closed, 04/30/17 06:17:10
