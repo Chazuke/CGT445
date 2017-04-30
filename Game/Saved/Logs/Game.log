@@ -4130,4 +4130,1124 @@ Script call stack:
 [2017.04.30-08.14.06:872][570]LogPlayLevel: Program.Main: ERROR: AutomationTool terminated with exception: AutomationTool.AutomationException: Stage Failed. Missing receipt 'Game.target'. Check that this target has been built.
 [2017.04.30-08.14.06:872][570]LogPlayLevel:    at Project.CreateDeploymentContext(ProjectParams Params, Boolean InDedicatedServer, Boolean DoCleanStage)
 [2017.04.30-08.14.06:872][570]LogPlayLevel:    at Project.CopyBuildToStagingDirectory(ProjectParams Params)
-[2017.04
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at BuildCookRun.DoBuildCookRun(ProjectParams Params)
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.BuildCommand.Execute()
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.Automation.Execute(List`1 CommandsToExecute, CaselessDictionary`1 Commands)
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.Automation.Process(String[] CommandLine)
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.Program.MainProc(Object Param)
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.InternalUtils.RunSingleInstance(Func`2 Main, Object Param)
+[2017.04.30-08.14.06:872][570]LogPlayLevel:    at AutomationTool.Program.Main()
+[2017.04.30-08.14.06:872][570]LogPlayLevel: Program.Main: AutomationTool exiting with ExitCode=103 (Error_MissingExecutable)
+[2017.04.30-08.14.06:872][570]LogPlayLevel: Domain_ProcessExit
+[2017.04.30-08.14.06:872][570]LogPlayLevel: copying UAT log files...
+[2017.04.30-08.14.06:872][570]LogPlayLevel: Completed Launch On Stage: Build Task, Time: 1.808238
+[2017.04.30-08.14.06:872][570]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FLauncherTask///Thread_2de4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//FLauncherTask///Thread_cfc_0///####STATCAT_Advanced####
+[2017.04.30-08.14.07:546][572]LogPlayLevel: Completed Launch On Stage: Deploy Task, Time: 0.000080
+[2017.04.30-08.14.07:546][572]LogPlayLevel: BUILD FAILED
+
+[2017.04.30-08.14.07:546][572]PackagingResults:Error: Error Launch failed! Missing UE4Game binary.
+You may have to build the UE4 project with your IDE. Alternatively, build using UnrealBuildTool with the commandline:
+UE4Game <Platform> <Configuration>
+[2017.04.30-08.14.36:015][535]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.30-08.14.36:162][535]LogSavePackage: Save=119.86ms
+[2017.04.30-08.14.36:162][535]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain4877D5C04BA8D675B3522BB6C4AB7F1D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.04.30-08.14.36:163][535]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.04.30-08.14.36:181][535]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.30-08.24.45:499][204]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.038
+[2017.04.30-08.24.45:501][204]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/FoodFightersGM] ([1] browsable assets)...
+[2017.04.30-08.24.45:501][204]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/FoodFightersGM]
+[2017.04.30-08.24.45:701][204]LogSavePackage: Save=168.21ms
+[2017.04.30-08.24.45:702][204]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM_Auto66B718EAA45AEF7E5201236BC2FB426F0.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Blueprints/FoodFightersGM_Auto6.uasset'
+[2017.04.30-08.24.45:705][204]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Blueprints/FoodFightersGM_Auto6.uasset
+[2017.04.30-08.24.45:705][204]LogFileHelpers: Auto-saving content packages took 0.205
+[2017.04.30-08.56.44:285][810]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Scott/Documents/GitHub/CGT445/External Assets/damagetakenscreenoverlay.png)
+[2017.04.30-08.56.44:384][810]LogTexture:Display: Building textures: damagetakenscreenoverlay (AutoDXT)
+[2017.04.30-08.56.46:568][993]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.04.30-08.59.04:749][245]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-08.59.05:303][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-08.59.05:433][245]LogSavePackage: Save=82.08ms
+[2017.04.30-08.59.05:434][245]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP16AAEA8B24399ACC0FFB3E9954356460F.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-08.59.05:437][245]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-08.59.05:441][245]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-08.59.05:637][245]LogSavePackage: Save=168.16ms
+[2017.04.30-08.59.05:638][245]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM760F4C014A84BF706D02F5B1235B7748.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-08.59.05:644][245]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-08.59.05:653][245]BlueprintEditorCompileResults: Info [0224.30] Compile of HUDP1 successful! [in 904 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.00.19:746][ 51]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.037
+[2017.04.30-09.00.19:749][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUDP1] ([1] browsable assets)...
+[2017.04.30-09.00.19:749][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUDP1]
+[2017.04.30-09.00.19:749][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.00.19:847][ 51]LogSavePackage: Save=75.06ms
+[2017.04.30-09.00.19:847][ 51]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1_Auto7CB8CBCF2462C1E410B81D19C40D905BA.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto7.uasset'
+[2017.04.30-09.00.19:849][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto7.uasset
+[2017.04.30-09.00.19:850][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/YouWin] ([1] browsable assets)...
+[2017.04.30-09.00.19:850][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/YouWin]
+[2017.04.30-09.00.19:850][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.00.19:897][ 51]LogSavePackage: Save=20.23ms
+[2017.04.30-09.00.19:897][ 51]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin_Auto7400EA555418475843ECCAB8012BDE65F.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto7.uasset'
+[2017.04.30-09.00.19:899][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto7.uasset
+[2017.04.30-09.00.19:900][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/StartBuffer] ([1] browsable assets)...
+[2017.04.30-09.00.19:900][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/StartBuffer]
+[2017.04.30-09.00.19:900][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.00.19:966][ 51]LogSavePackage: Save=39.07ms
+[2017.04.30-09.00.19:966][ 51]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBuffer_Auto706B77206423050C39F860CAA9AA6C449.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto7.uasset'
+[2017.04.30-09.00.19:968][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto7.uasset
+[2017.04.30-09.00.19:969][ 51]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Textures/damagetakenscreenoverlay] ([1] browsable assets)...
+[2017.04.30-09.00.19:975][ 51]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Textures/damagetakenscreenoverlay.damagetakenscreenoverlay]
+[2017.04.30-09.00.19:976][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Textures/damagetakenscreenoverlay]
+[2017.04.30-09.00.19:991][ 51]LogSavePackage: Save=13.35ms
+[2017.04.30-09.00.19:991][ 51]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/damagetakenscreenoverlay_Auto7A7B7B9FC46180A9FD37B1984EF0BFD5D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Textures/damagetakenscreenoverlay_Auto7.uasset'
+[2017.04.30-09.00.19:993][ 51]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Textures/damagetakenscreenoverlay_Auto7.uasset
+[2017.04.30-09.00.19:993][ 51]LogFileHelpers: Auto-saving content packages took 0.246
+[2017.04.30-09.01.18:711][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.01.18:811][544]LogSavePackage: Save=76.63ms
+[2017.04.30-09.01.18:811][544]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP13C9434924B10FF7E6C1FAF9EC45BF96E.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.01.18:819][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.04.28:589][172]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.04.28:807][172]LogBlueprint:Error: Compiler Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.28:807][172]LogBlueprint:Error: Compiler Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.28:807][172]LogBlueprint:Error: Compiler Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.28:809][172]LogBlueprint:Error: Compiler Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.28:809][172]LogBlueprint:Error: Compiler Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.28:810][172]LogBlueprint:Error: Compiler Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.29:350][172]LogBlueprint:Warning: Compiler Warning [0548.00] Compile of FoodFightersChar failed. 6 Fatal Issue(s) 0 Warning(s) [in 760 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.04.29:350][172]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.29:350][172]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.29:350][172]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To FoodFightersGM  to imply a specific type.
+[2017.04.30-09.04.29:350][172]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.29:350][172]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.29:351][172]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Wildcard on pin Object
+[2017.04.30-09.04.29:351][172]BlueprintEditorCompileResults:Warning: Warning [0548.00] Compile of FoodFightersChar failed. 6 Fatal Issue(s) 0 Warning(s) [in 760 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.04.45:362][632]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.04.46:023][632]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.04.46:533][632]LogSavePackage: Save=472.10ms
+[2017.04.30-09.04.46:533][632]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharA46902FE440B8836CFC35FB98FA77F4B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.04.46:538][632]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.04.46:550][632]BlueprintEditorCompileResults: Info [0565.20] Compile of FoodFightersChar successful! [in 1,188 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.05.23:998][378]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.05.24:237][378]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.05.24:340][378]LogSavePackage: Save=79.93ms
+[2017.04.30-09.05.24:340][378]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP15EBBAE814FEA22B0663496B90F7F2727.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.05.24:344][378]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.05.24:353][378]BlueprintEditorCompileResults: Info [0603.00] Compile of HUDP1 successful! [in 355 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.05.42:147][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Textures/damagetakenscreenoverlay" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Textures/damagetakenscreenoverlay.uasset" SILENT=true
+[2017.04.30-09.05.42:298][933]LogSavePackage: Save=149.30ms
+[2017.04.30-09.05.42:298][933]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/damagetakenscreenoverlay1159D13840CAD4223DF98380BDD66BA3.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Textures/damagetakenscreenoverlay.uasset'
+[2017.04.30-09.05.42:304][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Textures/damagetakenscreenoverlay.uasset
+[2017.04.30-09.05.42:307][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset" SILENT=true
+[2017.04.30-09.05.42:371][933]LogSavePackage: Save=37.21ms
+[2017.04.30-09.05.42:371][933]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBufferE221E92844ACFA6B0385798409373D8C.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset'
+[2017.04.30-09.05.42:378][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset
+[2017.04.30-09.05.42:381][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset" SILENT=true
+[2017.04.30-09.05.42:428][933]LogSavePackage: Save=21.82ms
+[2017.04.30-09.05.42:428][933]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin9DDA62E643A4420E4B7AB8924F44A37D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset'
+[2017.04.30-09.05.42:432][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset
+[2017.04.30-09.05.42:515][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.04.30-09.05.42:661][933]LogSavePackage: Save=123.02ms
+[2017.04.30-09.05.42:661][933]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain1CEAAD84415468B9D6A2FC8F370166DA.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.04.30-09.05.42:663][933]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.04.30-09.05.42:678][933]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.04.30-09.06.45:818][ 56]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.06.46:510][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.06.47:065][ 56]LogSavePackage: Save=528.80ms
+[2017.04.30-09.06.47:066][ 56]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar2C4BD2D145B0DA6256D6DCA9468C6818.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.06.47:070][ 56]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.06.47:081][ 56]BlueprintEditorCompileResults: Info [0685.73] Compile of FoodFightersChar successful! [in 1,263 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.06.50:061][301]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.06.50:061][301]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.06.50:061][301]PIE: New page: PIE session: Main (Apr 30, 2017, 12:06:50 AM)
+[2017.04.30-09.06.50:062][301]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.06.50:063][301]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001416s)
+[2017.04.30-09.06.50:064][301]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.06.50:064][301]LogPlayLevel: PIE: World Init took: (0.000853s)
+[2017.04.30-09.06.50:065][301]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002714s)
+[2017.04.30-09.06.50:146][301]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.06.50:161][301]LogInit: FAudioDevice initialized.
+[2017.04.30-09.06.50:225][301]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.06.50:228][301]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.06.50
+[2017.04.30-09.06.50:228][301]LogWorld: Bringing up level for play took: 0.001313
+[2017.04.30-09.06.50:233][301]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.099
+[2017.04.30-09.06.50:234][301]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.06.54:733][670]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.06.54:733][670]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.06.54:784][670]Cmd: MEM
+[2017.04.30-09.06.54:818][670]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.06.54:818][670]LogMemory: Process Physical Memory: 939.61 MB used, 2448.64 MB peak
+[2017.04.30-09.06.54:818][670]LogMemory: Process Virtual Memory: 4934.12 MB used, 4947.00 MB peak
+[2017.04.30-09.06.54:818][670]LogMemory: Physical Memory: 7514.71 MB used, 12202.02 MB total
+[2017.04.30-09.06.54:818][670]LogMemory: Virtual Memory: 5984.28 MB used, 134217728.00 MB total
+[2017.04.30-09.06.54:818][670]LogMemory: 
+[2017.04.30-09.06.54:818][670]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.06.55:770][670]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.06.55:770][670]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.06.55:808][670]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.06.55
+[2017.04.30-09.06.55:810][670]LogWorld: Bringing up level for play took: 0.037190
+[2017.04.30-09.06.55:813][670]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.06.55:820][670]LogLoad: Took 1.086912 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.07.03:769][237]LogBlueprintDebug:Warning: Hit breakpoint on node 'K2Node_FunctionResult', from offset 2786
+[2017.04.30-09.07.03:769][237]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/FoodFightersGM.FoodFightersGM_C:ammoSpawner
+
+[2017.04.30-09.07.17:474][434]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.07.17:474][434]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.07.23:762][912]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.07.23:802][912]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.07.51:176][253]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.07.51:807][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.07.52:298][253]LogSavePackage: Save=465.97ms
+[2017.04.30-09.07.52:298][253]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar53D1B57E492D2EAA08950E8F54C8A50B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.07.52:303][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.07.52:311][253]BlueprintEditorCompileResults: Info [0750.96] Compile of FoodFightersChar successful! [in 1,134 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.07.53:703][365]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.07.53:703][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.07.53:703][365]PIE: New page: PIE session: Main (Apr 30, 2017, 12:07:53 AM)
+[2017.04.30-09.07.53:704][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.07.53:705][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001347s)
+[2017.04.30-09.07.53:706][365]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.07.53:706][365]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.04.30-09.07.53:706][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002552s)
+[2017.04.30-09.07.53:784][365]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.07.53:797][365]LogInit: FAudioDevice initialized.
+[2017.04.30-09.07.53:861][365]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.07.53:864][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.07.53
+[2017.04.30-09.07.53:864][365]LogWorld: Bringing up level for play took: 0.001345
+[2017.04.30-09.07.53:868][365]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.267
+[2017.04.30-09.07.53:868][365]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.07.56:923][633]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.07.56:923][633]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.07.56:965][633]Cmd: MEM
+[2017.04.30-09.07.57:002][633]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.07.57:002][633]LogMemory: Process Physical Memory: 1151.13 MB used, 2448.64 MB peak
+[2017.04.30-09.07.57:002][633]LogMemory: Process Virtual Memory: 4880.22 MB used, 5014.11 MB peak
+[2017.04.30-09.07.57:002][633]LogMemory: Physical Memory: 7750.89 MB used, 12202.02 MB total
+[2017.04.30-09.07.57:002][633]LogMemory: Virtual Memory: 5940.29 MB used, 134217728.00 MB total
+[2017.04.30-09.07.57:002][633]LogMemory: 
+[2017.04.30-09.07.57:002][633]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.07.57:471][633]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.07.57:471][633]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.07.57:503][633]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.07.57
+[2017.04.30-09.07.57:505][633]LogWorld: Bringing up level for play took: 0.031569
+[2017.04.30-09.07.57:508][633]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.07.57:514][633]LogLoad: Took 0.591399 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.08.03:130][ 52]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_PlayAnimation', from offset 330
+[2017.04.30-09.08.03:130][ 52]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:ReceiveActorBeginOverlap
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:ExecuteUbergraph_FoodFightersChar
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:detectHit
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:flashDamageTakenHUD
+
+[2017.04.30-09.08.11:913][200]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.08.11:913][200]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.08.17:997][662]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.04.30-09.08.25:944][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.08.25:981][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.10.39:829][852]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.10.40:080][852]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.10.40:185][852]LogSavePackage: Save=76.38ms
+[2017.04.30-09.10.40:185][852]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1DDC9257F4BA48980EAE799A91CA529D5.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.10.40:189][852]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.10.40:198][852]BlueprintEditorCompileResults: Info [0918.85] Compile of HUDP1 successful! [in 368 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.10.42:433][ 37]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.10.42:434][ 37]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.10.42:434][ 37]PIE: New page: PIE session: Main (Apr 30, 2017, 12:10:42 AM)
+[2017.04.30-09.10.42:434][ 37]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.10.42:435][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2017.04.30-09.10.42:436][ 37]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.10.42:436][ 37]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2017.04.30-09.10.42:437][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002550s)
+[2017.04.30-09.10.42:514][ 37]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.10.42:529][ 37]LogInit: FAudioDevice initialized.
+[2017.04.30-09.10.42:590][ 37]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.10.42:593][ 37]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.10.42
+[2017.04.30-09.10.42:593][ 37]LogWorld: Bringing up level for play took: 0.001419
+[2017.04.30-09.10.42:597][ 37]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.463
+[2017.04.30-09.10.42:597][ 37]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.10.44:156][170]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.10.44:156][170]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.10.44:194][170]Cmd: MEM
+[2017.04.30-09.10.44:236][170]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.10.44:236][170]LogMemory: Process Physical Memory: 1156.16 MB used, 2448.64 MB peak
+[2017.04.30-09.10.44:236][170]LogMemory: Process Virtual Memory: 4890.95 MB used, 5014.11 MB peak
+[2017.04.30-09.10.44:236][170]LogMemory: Physical Memory: 7982.76 MB used, 12202.02 MB total
+[2017.04.30-09.10.44:236][170]LogMemory: Virtual Memory: 5912.61 MB used, 134217728.00 MB total
+[2017.04.30-09.10.44:236][170]LogMemory: 
+[2017.04.30-09.10.44:236][170]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.10.44:715][170]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.10.44:715][170]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.10.44:752][170]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.10.44
+[2017.04.30-09.10.44:754][170]LogWorld: Bringing up level for play took: 0.036137
+[2017.04.30-09.10.44:758][170]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.10.44:765][170]LogLoad: Took 0.609142 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.11.03:918][620]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.11.03:954][620]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.11.56:993][359]LogEditorTransaction: Undo Edit Top
+[2017.04.30-09.11.58:777][496]Cmd: TRANSACTION UNDO
+[2017.04.30-09.11.58:777][496]LogEditorTransaction: Undo Animatable Property Changed
+[2017.04.30-09.12.49:751][102]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.12.50:011][102]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.12.50:111][102]LogSavePackage: Save=76.05ms
+[2017.04.30-09.12.50:111][102]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1D0D7E36F4060AD696C36D3ABAB35EACD.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.12.50:116][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.12.50:125][102]BlueprintEditorCompileResults: Info [1048.77] Compile of HUDP1 successful! [in 373 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.13.23:745][771]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.035
+[2017.04.30-09.13.23:747][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/YouWin] ([1] browsable assets)...
+[2017.04.30-09.13.23:747][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/YouWin]
+[2017.04.30-09.13.23:747][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.13.23:794][771]LogSavePackage: Save=19.57ms
+[2017.04.30-09.13.23:795][771]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin_Auto8B662A1DB46EE7E4901966DB52B7E24D7.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto8.uasset'
+[2017.04.30-09.13.23:796][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto8.uasset
+[2017.04.30-09.13.23:797][771]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/StartBuffer] ([1] browsable assets)...
+[2017.04.30-09.13.23:797][771]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/StartBuffer]
+[2017.04.30-09.13.23:797][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.13.23:855][771]LogSavePackage: Save=34.73ms
+[2017.04.30-09.13.23:855][771]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBuffer_Auto82ECDC7FE4F2ACC3B0DCCC1B7606F56C8.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto8.uasset'
+[2017.04.30-09.13.23:856][771]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto8.uasset
+[2017.04.30-09.13.23:857][771]LogFileHelpers: Auto-saving content packages took 0.111
+[2017.04.30-09.13.55:628][934]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.13.55:875][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.13.55:967][934]LogSavePackage: Save=74.50ms
+[2017.04.30-09.13.55:967][934]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1A4FF29854133757B3EEC39B3B9D2B980.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.13.55:971][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.13.55:979][934]BlueprintEditorCompileResults: Info [1114.63] Compile of HUDP1 successful! [in 350 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.13.57:181][ 24]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.13.57:181][ 24]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.13.57:181][ 24]PIE: New page: PIE session: Main (Apr 30, 2017, 12:13:57 AM)
+[2017.04.30-09.13.57:182][ 24]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.13.57:183][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001381s)
+[2017.04.30-09.13.57:184][ 24]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.13.57:184][ 24]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.04.30-09.13.57:184][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002574s)
+[2017.04.30-09.13.57:262][ 24]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.13.57:275][ 24]LogInit: FAudioDevice initialized.
+[2017.04.30-09.13.57:371][ 24]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.13.57:375][ 24]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.13.57
+[2017.04.30-09.13.57:375][ 24]LogWorld: Bringing up level for play took: 0.001736
+[2017.04.30-09.13.57:376][ 24]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.13.57:387][ 24]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.748
+[2017.04.30-09.13.57:387][ 24]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.14.02:631][425]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.14.02:631][425]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.14.02:671][425]Cmd: MEM
+[2017.04.30-09.14.02:704][425]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.14.02:704][425]LogMemory: Process Physical Memory: 1150.50 MB used, 2448.64 MB peak
+[2017.04.30-09.14.02:704][425]LogMemory: Process Virtual Memory: 4887.35 MB used, 5014.11 MB peak
+[2017.04.30-09.14.02:704][425]LogMemory: Physical Memory: 7942.53 MB used, 12202.02 MB total
+[2017.04.30-09.14.02:705][425]LogMemory: Virtual Memory: 5920.61 MB used, 134217728.00 MB total
+[2017.04.30-09.14.02:705][425]LogMemory: 
+[2017.04.30-09.14.02:705][425]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.14.03:175][425]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.14.03:176][425]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.14.03:209][425]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.14.03
+[2017.04.30-09.14.03:211][425]LogWorld: Bringing up level for play took: 0.032978
+[2017.04.30-09.14.03:214][425]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.14.03:221][425]LogLoad: Took 0.589863 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.14.17:177][357]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.14.17:178][357]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.14.19:575][516]LogNet: Browse: /Game/Maps/Main
+[2017.04.30-09.14.19:575][516]LogLoad: LoadMap: /Game/Maps/Main
+[2017.04.30-09.14.19:628][516]Cmd: MEM
+[2017.04.30-09.14.19:665][516]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.14.19:665][516]LogMemory: Process Physical Memory: 1159.93 MB used, 2448.64 MB peak
+[2017.04.30-09.14.19:665][516]LogMemory: Process Virtual Memory: 4907.61 MB used, 5014.11 MB peak
+[2017.04.30-09.14.19:665][516]LogMemory: Physical Memory: 7924.11 MB used, 12202.02 MB total
+[2017.04.30-09.14.19:665][516]LogMemory: Virtual Memory: 5952.61 MB used, 134217728.00 MB total
+[2017.04.30-09.14.19:665][516]LogMemory: 
+[2017.04.30-09.14.19:665][516]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.14.19:665][516]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.14.19:667][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001471s)
+[2017.04.30-09.14.19:667][516]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.14.19:668][516]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2017.04.30-09.14.19:668][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002687s)
+[2017.04.30-09.14.19:668][516]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.14.19:670][516]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.14.19
+[2017.04.30-09.14.19:671][516]LogWorld: Bringing up level for play took: 0.001151
+[2017.04.30-09.14.19:671][516]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.14.19:672][516]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.14.19:676][516]LogLoad: Took 0.100311 seconds to LoadMap(/Game/Maps/UEDPIE_0_Main)
+[2017.04.30-09.14.25:565][957]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.14.25:565][957]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.14.25:603][957]Cmd: MEM
+[2017.04.30-09.14.25:639][957]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.14.25:639][957]LogMemory: Process Physical Memory: 1157.93 MB used, 2448.64 MB peak
+[2017.04.30-09.14.25:639][957]LogMemory: Process Virtual Memory: 4897.09 MB used, 5014.11 MB peak
+[2017.04.30-09.14.25:639][957]LogMemory: Physical Memory: 7920.46 MB used, 12202.02 MB total
+[2017.04.30-09.14.25:639][957]LogMemory: Virtual Memory: 5940.61 MB used, 134217728.00 MB total
+[2017.04.30-09.14.25:639][957]LogMemory: 
+[2017.04.30-09.14.25:639][957]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.14.26:132][957]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.14.26:132][957]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.14.26:164][957]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.14.26
+[2017.04.30-09.14.26:166][957]LogWorld: Bringing up level for play took: 0.031198
+[2017.04.30-09.14.26:171][957]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.14.26:173][957]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.04.30-09.14.26:182][957]LogLoad: Took 0.617440 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.14.37:150][600]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.14.37:150][600]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.14.40:140][774]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.14.40:140][774]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.14.47:212][196]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.14.47:286][196]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.15.04:204][662]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.15.04:450][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.15.04:544][662]LogSavePackage: Save=76.14ms
+[2017.04.30-09.15.04:544][662]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1B3CB0F564E358D677901FBA11CAF45AC.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.15.04:548][662]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.15.04:556][662]BlueprintEditorCompileResults: Info [1183.20] Compile of HUDP1 successful! [in 350 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.15.05:057][697]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.15.05:058][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.15.05:058][697]PIE: New page: PIE session: Main (Apr 30, 2017, 12:15:05 AM)
+[2017.04.30-09.15.05:058][697]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.15.05:060][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001383s)
+[2017.04.30-09.15.05:060][697]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.15.05:061][697]LogPlayLevel: PIE: World Init took: (0.000885s)
+[2017.04.30-09.15.05:061][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002723s)
+[2017.04.30-09.15.05:141][697]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.15.05:154][697]LogInit: FAudioDevice initialized.
+[2017.04.30-09.15.05:248][697]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.15.05:251][697]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.15.05
+[2017.04.30-09.15.05:251][697]LogWorld: Bringing up level for play took: 0.001334
+[2017.04.30-09.15.05:252][697]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.15.05:264][697]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.129
+[2017.04.30-09.15.05:264][697]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.15.07:345][851]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.15.07:345][851]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.15.07:381][851]Cmd: MEM
+[2017.04.30-09.15.07:418][851]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.15.07:418][851]LogMemory: Process Physical Memory: 1189.14 MB used, 2448.64 MB peak
+[2017.04.30-09.15.07:418][851]LogMemory: Process Virtual Memory: 4929.61 MB used, 5014.11 MB peak
+[2017.04.30-09.15.07:418][851]LogMemory: Physical Memory: 7956.38 MB used, 12202.02 MB total
+[2017.04.30-09.15.07:419][851]LogMemory: Virtual Memory: 5980.61 MB used, 134217728.00 MB total
+[2017.04.30-09.15.07:419][851]LogMemory: 
+[2017.04.30-09.15.07:419][851]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.15.07:884][851]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.15.07:885][851]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.15.07:919][851]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.15.07
+[2017.04.30-09.15.07:920][851]LogWorld: Bringing up level for play took: 0.033531
+[2017.04.30-09.15.07:924][851]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.15.07:937][851]LogLoad: Took 0.591732 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.15.27:899][ 18]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.15.27:899][ 18]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.15.29:593][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.15.29:682][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.24.00:144][ 64]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.24.00:538][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.24.00:655][ 64]LogSavePackage: Save=88.61ms
+[2017.04.30-09.24.00:655][ 64]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP16EE0CD0B4FDA9D7F6784699468FDD638.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.24.00:659][ 64]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.24.00:670][ 64]BlueprintEditorCompileResults: Info [1719.32] Compile of HUDP1 successful! [in 525 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.24.02:355][201]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.24.02:355][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.24.02:355][201]PIE: New page: PIE session: Main (Apr 30, 2017, 12:24:02 AM)
+[2017.04.30-09.24.02:355][201]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.24.02:357][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001423s)
+[2017.04.30-09.24.02:358][201]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.24.02:358][201]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.04.30-09.24.02:358][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002655s)
+[2017.04.30-09.24.02:441][201]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.24.02:455][201]LogInit: FAudioDevice initialized.
+[2017.04.30-09.24.02:517][201]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.24.02:520][201]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.24.02
+[2017.04.30-09.24.02:520][201]LogWorld: Bringing up level for play took: 0.001479
+[2017.04.30-09.24.02:524][201]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.39
+[2017.04.30-09.24.02:524][201]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.24.04:018][328]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.24.04:018][328]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.24.04:057][328]Cmd: MEM
+[2017.04.30-09.24.04:094][328]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.24.04:094][328]LogMemory: Process Physical Memory: 1105.02 MB used, 2448.64 MB peak
+[2017.04.30-09.24.04:094][328]LogMemory: Process Virtual Memory: 5004.22 MB used, 5020.86 MB peak
+[2017.04.30-09.24.04:095][328]LogMemory: Physical Memory: 7950.50 MB used, 12202.02 MB total
+[2017.04.30-09.24.04:095][328]LogMemory: Virtual Memory: 6060.61 MB used, 134217728.00 MB total
+[2017.04.30-09.24.04:095][328]LogMemory: 
+[2017.04.30-09.24.04:095][328]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.24.04:571][328]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.24.04:571][328]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.24.04:606][328]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.24.04
+[2017.04.30-09.24.04:607][328]LogWorld: Bringing up level for play took: 0.033990
+[2017.04.30-09.24.04:610][328]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.24.04:617][328]LogLoad: Took 0.599450 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.24.12:556][934]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.24.12:556][934]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.24.13:578][ 13]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.24.13:618][ 13]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.01:105][749]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.27.01:371][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.27.01:497][749]LogSavePackage: Save=99.22ms
+[2017.04.30-09.27.01:497][749]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1DC172911400F3BDEB7B435BE20C7263D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.27.01:502][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.27.01:516][749]BlueprintEditorCompileResults: Info [1900.16] Compile of HUDP1 successful! [in 410 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.27.02:016][792]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.02:016][792]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.27.02:016][792]PIE: New page: PIE session: Main (Apr 30, 2017, 12:27:02 AM)
+[2017.04.30-09.27.02:017][792]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.27.02:018][792]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001356s)
+[2017.04.30-09.27.02:019][792]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.27.02:019][792]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.04.30-09.27.02:019][792]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002530s)
+[2017.04.30-09.27.02:095][792]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.27.02:108][792]LogInit: FAudioDevice initialized.
+[2017.04.30-09.27.02:216][792]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.27.02:218][792]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.27.02
+[2017.04.30-09.27.02:219][792]LogWorld: Bringing up level for play took: 0.001571
+[2017.04.30-09.27.02:220][792]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.27.02:230][792]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.096
+[2017.04.30-09.27.02:231][792]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.03:888][944]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.27.03:889][944]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.27.03:929][944]Cmd: MEM
+[2017.04.30-09.27.03:964][944]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.27.03:964][944]LogMemory: Process Physical Memory: 1201.26 MB used, 2448.64 MB peak
+[2017.04.30-09.27.03:964][944]LogMemory: Process Virtual Memory: 5229.82 MB used, 5229.82 MB peak
+[2017.04.30-09.27.03:964][944]LogMemory: Physical Memory: 8038.98 MB used, 12202.02 MB total
+[2017.04.30-09.27.03:964][944]LogMemory: Virtual Memory: 6268.67 MB used, 134217728.00 MB total
+[2017.04.30-09.27.03:964][944]LogMemory: 
+[2017.04.30-09.27.03:964][944]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.27.04:455][944]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.27.04:456][944]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.27.04:491][944]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.27.04
+[2017.04.30-09.27.04:493][944]LogWorld: Bringing up level for play took: 0.034993
+[2017.04.30-09.27.04:496][944]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.27.04:503][944]LogLoad: Took 0.614194 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.27.12:435][636]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.27.12:435][636]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.27.14:427][813]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.04.30-09.27.16:609][  3]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.04.30-09.27.18:439][165]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.27.18:439][165]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.27.20:699][365]LogNet: Browse: /Game/Maps/Main
+[2017.04.30-09.27.20:699][365]LogLoad: LoadMap: /Game/Maps/Main
+[2017.04.30-09.27.20:751][365]Cmd: MEM
+[2017.04.30-09.27.20:783][365]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.27.20:783][365]LogMemory: Process Physical Memory: 1225.05 MB used, 2448.64 MB peak
+[2017.04.30-09.27.20:783][365]LogMemory: Process Virtual Memory: 5239.50 MB used, 5327.93 MB peak
+[2017.04.30-09.27.20:783][365]LogMemory: Physical Memory: 8046.63 MB used, 12202.02 MB total
+[2017.04.30-09.27.20:783][365]LogMemory: Virtual Memory: 6264.67 MB used, 134217728.00 MB total
+[2017.04.30-09.27.20:783][365]LogMemory: 
+[2017.04.30-09.27.20:783][365]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.27.20:783][365]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.27.20:785][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001409s)
+[2017.04.30-09.27.20:785][365]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.27.20:786][365]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2017.04.30-09.27.20:786][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002567s)
+[2017.04.30-09.27.20:786][365]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.27.20:788][365]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.27.20
+[2017.04.30-09.27.20:789][365]LogWorld: Bringing up level for play took: 0.001152
+[2017.04.30-09.27.20:789][365]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.27.20:790][365]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.27.20:794][365]LogLoad: Took 0.094297 seconds to LoadMap(/Game/Maps/UEDPIE_0_Main)
+[2017.04.30-09.27.24:986][763]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.27.24:986][763]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.27.25:030][763]Cmd: MEM
+[2017.04.30-09.27.25:069][763]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.27.25:069][763]LogMemory: Process Physical Memory: 1219.29 MB used, 2448.64 MB peak
+[2017.04.30-09.27.25:069][763]LogMemory: Process Virtual Memory: 5224.46 MB used, 5327.93 MB peak
+[2017.04.30-09.27.25:069][763]LogMemory: Physical Memory: 8151.05 MB used, 12202.02 MB total
+[2017.04.30-09.27.25:069][763]LogMemory: Virtual Memory: 6280.67 MB used, 134217728.00 MB total
+[2017.04.30-09.27.25:069][763]LogMemory: 
+[2017.04.30-09.27.25:069][763]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.27.25:553][763]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.27.25:553][763]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.27.25:587][763]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.27.25
+[2017.04.30-09.27.25:589][763]LogWorld: Bringing up level for play took: 0.033213
+[2017.04.30-09.27.25:595][763]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.27.25:596][763]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 1,
+[2017.04.30-09.27.25:606][763]LogLoad: Took 0.620082 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.27.37:702][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.37:775][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.56:281][566]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.27.56:546][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.27.56:651][566]LogSavePackage: Save=82.86ms
+[2017.04.30-09.27.56:651][566]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1104DE0974E6F325651837EA927F0C27B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.27.56:656][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.27.56:667][566]BlueprintEditorCompileResults: Info [1955.31] Compile of HUDP1 successful! [in 385 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.27.59:232][825]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.27.59:232][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.27.59:232][825]PIE: New page: PIE session: Main (Apr 30, 2017, 12:27:59 AM)
+[2017.04.30-09.27.59:233][825]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.27.59:234][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001634s)
+[2017.04.30-09.27.59:235][825]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.27.59:235][825]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.04.30-09.27.59:236][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002864s)
+[2017.04.30-09.27.59:318][825]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.27.59:331][825]LogInit: FAudioDevice initialized.
+[2017.04.30-09.27.59:428][825]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.27.59:431][825]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.27.59
+[2017.04.30-09.27.59:431][825]LogWorld: Bringing up level for play took: 0.001339
+[2017.04.30-09.27.59:432][825]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.27.59:441][825]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.693
+[2017.04.30-09.27.59:442][825]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.02:118][ 82]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.02:118][ 82]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.02:162][ 82]Cmd: MEM
+[2017.04.30-09.28.02:198][ 82]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.28.02:198][ 82]LogMemory: Process Physical Memory: 1241.88 MB used, 2448.64 MB peak
+[2017.04.30-09.28.02:199][ 82]LogMemory: Process Virtual Memory: 5236.40 MB used, 5327.93 MB peak
+[2017.04.30-09.28.02:199][ 82]LogMemory: Physical Memory: 8146.30 MB used, 12202.02 MB total
+[2017.04.30-09.28.02:199][ 82]LogMemory: Virtual Memory: 6288.67 MB used, 134217728.00 MB total
+[2017.04.30-09.28.02:199][ 82]LogMemory: 
+[2017.04.30-09.28.02:199][ 82]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.28.02:668][ 82]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.28.02:669][ 82]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.28.02:701][ 82]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.28.02
+[2017.04.30-09.28.02:702][ 82]LogWorld: Bringing up level for play took: 0.031525
+[2017.04.30-09.28.02:705][ 82]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.28.02:719][ 82]LogLoad: Took 0.600884 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.28.12:534][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.12:602][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.27:241][360]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.28.27:484][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.28.27:583][360]LogSavePackage: Save=81.68ms
+[2017.04.30-09.28.27:583][360]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1479D426F4C2BA2242218CE8B25433C46.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.28.27:587][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.28.27:599][360]BlueprintEditorCompileResults: Info [1986.25] Compile of HUDP1 successful! [in 357 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.28.29:285][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.29:286][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.28.29:286][504]PIE: New page: PIE session: Main (Apr 30, 2017, 12:28:29 AM)
+[2017.04.30-09.28.29:286][504]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.28.29:288][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001445s)
+[2017.04.30-09.28.29:288][504]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.28.29:289][504]LogPlayLevel: PIE: World Init took: (0.000818s)
+[2017.04.30-09.28.29:289][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002626s)
+[2017.04.30-09.28.29:365][504]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.28.29:377][504]LogInit: FAudioDevice initialized.
+[2017.04.30-09.28.29:475][504]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.28.29:477][504]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.28.29
+[2017.04.30-09.28.29:478][504]LogWorld: Bringing up level for play took: 0.001507
+[2017.04.30-09.28.29:479][504]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.28.29:489][504]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.646
+[2017.04.30-09.28.29:489][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.31:412][684]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.31:412][684]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.31:451][684]Cmd: MEM
+[2017.04.30-09.28.31:485][684]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.28.31:485][684]LogMemory: Process Physical Memory: 1239.15 MB used, 2448.64 MB peak
+[2017.04.30-09.28.31:485][684]LogMemory: Process Virtual Memory: 5234.78 MB used, 5327.93 MB peak
+[2017.04.30-09.28.31:485][684]LogMemory: Physical Memory: 8101.92 MB used, 12202.02 MB total
+[2017.04.30-09.28.31:485][684]LogMemory: Virtual Memory: 6268.67 MB used, 134217728.00 MB total
+[2017.04.30-09.28.31:485][684]LogMemory: 
+[2017.04.30-09.28.31:485][684]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.28.31:952][684]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.28.31:952][684]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.28.31:985][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.28.31
+[2017.04.30-09.28.31:986][684]LogWorld: Bringing up level for play took: 0.030841
+[2017.04.30-09.28.31:989][684]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.28.32:003][684]LogLoad: Took 0.590044 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.28.42:125][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.42:198][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.45:050][648]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.45:051][648]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.28.45:051][648]PIE: New page: PIE session: Main (Apr 30, 2017, 12:28:45 AM)
+[2017.04.30-09.28.45:051][648]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.28.45:053][648]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001381s)
+[2017.04.30-09.28.45:053][648]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.28.45:053][648]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2017.04.30-09.28.45:054][648]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002528s)
+[2017.04.30-09.28.45:132][648]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.28.45:146][648]LogInit: FAudioDevice initialized.
+[2017.04.30-09.28.45:241][648]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.28.45:244][648]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.28.45
+[2017.04.30-09.28.45:245][648]LogWorld: Bringing up level for play took: 0.001404
+[2017.04.30-09.28.45:245][648]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.28.45:255][648]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.121
+[2017.04.30-09.28.45:256][648]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.28.47:779][888]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.47:779][888]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.28.47:818][888]Cmd: MEM
+[2017.04.30-09.28.47:855][888]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.28.47:855][888]LogMemory: Process Physical Memory: 1273.89 MB used, 2448.64 MB peak
+[2017.04.30-09.28.47:855][888]LogMemory: Process Virtual Memory: 5254.07 MB used, 5327.93 MB peak
+[2017.04.30-09.28.47:855][888]LogMemory: Physical Memory: 8143.46 MB used, 12202.02 MB total
+[2017.04.30-09.28.47:855][888]LogMemory: Virtual Memory: 6320.67 MB used, 134217728.00 MB total
+[2017.04.30-09.28.47:855][888]LogMemory: 
+[2017.04.30-09.28.47:855][888]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.28.48:320][888]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.28.48:321][888]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.28.48:356][888]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.28.48
+[2017.04.30-09.28.48:358][888]LogWorld: Bringing up level for play took: 0.034860
+[2017.04.30-09.28.48:361][888]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.28.48:363][888]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetBrush', from offset 517
+[2017.04.30-09.28.48:363][888]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI/HUDP1.HUDP1_C:Construct
+	Function /Game/UI/HUDP1.HUDP1_C:ExecuteUbergraph_HUDP1
+
+[2017.04.30-09.29.04:060][888]LogLoad: Took 16.280326 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.29.21:063][384]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.29.21:063][384]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.29.27:573][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.29.27:640][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.30.01:116][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.037
+[2017.04.30-09.30.01:118][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/HUDP1] ([1] browsable assets)...
+[2017.04.30-09.30.01:118][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/HUDP1]
+[2017.04.30-09.30.01:118][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.30.01:226][230]LogSavePackage: Save=83.30ms
+[2017.04.30-09.30.01:226][230]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1_Auto94A049C03470850D72298D7BDAF8CDA20.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto9.uasset'
+[2017.04.30-09.30.01:228][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/HUDP1_Auto9.uasset
+[2017.04.30-09.30.01:229][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/YouWin] ([1] browsable assets)...
+[2017.04.30-09.30.01:229][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/YouWin]
+[2017.04.30-09.30.01:229][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.30.01:272][230]LogSavePackage: Save=20.16ms
+[2017.04.30-09.30.01:272][230]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin_Auto91F5860004F5DE31012A6349E2F5026D7.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto9.uasset'
+[2017.04.30-09.30.01:275][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto9.uasset
+[2017.04.30-09.30.01:276][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/StartBuffer] ([1] browsable assets)...
+[2017.04.30-09.30.01:276][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/StartBuffer]
+[2017.04.30-09.30.01:276][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto9.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.30.01:341][230]LogSavePackage: Save=40.82ms
+[2017.04.30-09.30.01:342][230]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBuffer_Auto9642791FB421A93E44009D88F97DB73F2.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto9.uasset'
+[2017.04.30-09.30.01:344][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto9.uasset
+[2017.04.30-09.30.01:344][230]LogFileHelpers: Auto-saving content packages took 0.227
+[2017.04.30-09.32.06:828][961]Cmd: TRANSACTION UNDO
+[2017.04.30-09.32.06:828][961]LogEditorTransaction: Undo Edit Left
+[2017.04.30-09.33.05:941][610]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.33.06:195][610]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.33.06:311][610]LogSavePackage: Save=92.80ms
+[2017.04.30-09.33.06:312][610]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1F390D2D14221BE61887E04A402CF6426.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.33.06:320][610]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.33.06:329][610]BlueprintEditorCompileResults: Info [2264.98] Compile of HUDP1 successful! [in 387 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.33.07:322][691]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.07:322][691]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.33.07:322][691]PIE: New page: PIE session: Main (Apr 30, 2017, 12:33:07 AM)
+[2017.04.30-09.33.07:322][691]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.33.07:324][691]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001394s)
+[2017.04.30-09.33.07:325][691]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.33.07:325][691]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2017.04.30-09.33.07:325][691]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002590s)
+[2017.04.30-09.33.07:406][691]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.33.07:419][691]LogInit: FAudioDevice initialized.
+[2017.04.30-09.33.07:518][691]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.33.07:520][691]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.33.07
+[2017.04.30-09.33.07:521][691]LogWorld: Bringing up level for play took: 0.001401
+[2017.04.30-09.33.07:522][691]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.33.07:532][691]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.602
+[2017.04.30-09.33.07:533][691]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.09:643][856]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.33.09:643][856]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.33.09:689][856]Cmd: MEM
+[2017.04.30-09.33.09:727][856]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.33.09:728][856]LogMemory: Process Physical Memory: 1204.12 MB used, 2448.64 MB peak
+[2017.04.30-09.33.09:728][856]LogMemory: Process Virtual Memory: 5318.16 MB used, 5327.93 MB peak
+[2017.04.30-09.33.09:728][856]LogMemory: Physical Memory: 8019.27 MB used, 12202.02 MB total
+[2017.04.30-09.33.09:728][856]LogMemory: Virtual Memory: 6332.73 MB used, 134217728.00 MB total
+[2017.04.30-09.33.09:728][856]LogMemory: 
+[2017.04.30-09.33.09:728][856]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.33.10:196][856]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.33.10:196][856]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.33.10:229][856]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.33.10
+[2017.04.30-09.33.10:230][856]LogWorld: Bringing up level for play took: 0.031821
+[2017.04.30-09.33.10:233][856]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.33.10:235][856]LogBlueprintDebug:Warning: Hit breakpoint on node 'CallFunc_SetBrush', from offset 517
+[2017.04.30-09.33.10:235][856]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/UI/HUDP1.HUDP1_C:Construct
+	Function /Game/UI/HUDP1.HUDP1_C:ExecuteUbergraph_HUDP1
+
+[2017.04.30-09.33.15:986][856]LogLoad: Took 6.342950 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.33.15:988][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.16:062][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.20:068][238]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.33.20:311][238]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.33.20:411][238]LogSavePackage: Save=82.60ms
+[2017.04.30-09.33.20:412][238]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP12AF3F2594EE337EE795B549D6BBF6CA1.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.33.20:416][238]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.33.20:426][238]BlueprintEditorCompileResults: Info [2279.07] Compile of HUDP1 successful! [in 357 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.33.20:901][282]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.20:902][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.33.20:902][282]PIE: New page: PIE session: Main (Apr 30, 2017, 12:33:20 AM)
+[2017.04.30-09.33.20:902][282]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.33.20:904][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001348s)
+[2017.04.30-09.33.20:904][282]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.33.20:905][282]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.04.30-09.33.20:905][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002694s)
+[2017.04.30-09.33.20:982][282]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.33.20:995][282]LogInit: FAudioDevice initialized.
+[2017.04.30-09.33.21:090][282]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.33.21:093][282]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.33.21
+[2017.04.30-09.33.21:093][282]LogWorld: Bringing up level for play took: 0.001653
+[2017.04.30-09.33.21:094][282]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.33.21:104][282]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.969
+[2017.04.30-09.33.21:104][282]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.22:559][432]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.33.22:560][432]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.33.22:595][432]Cmd: MEM
+[2017.04.30-09.33.22:627][432]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.33.22:627][432]LogMemory: Process Physical Memory: 1248.91 MB used, 2448.64 MB peak
+[2017.04.30-09.33.22:627][432]LogMemory: Process Virtual Memory: 5297.73 MB used, 5382.05 MB peak
+[2017.04.30-09.33.22:627][432]LogMemory: Physical Memory: 8062.82 MB used, 12202.02 MB total
+[2017.04.30-09.33.22:627][432]LogMemory: Virtual Memory: 6340.73 MB used, 134217728.00 MB total
+[2017.04.30-09.33.22:627][432]LogMemory: 
+[2017.04.30-09.33.22:627][432]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.33.23:088][432]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.33.23:088][432]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.33.23:126][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.33.23
+[2017.04.30-09.33.23:128][432]LogWorld: Bringing up level for play took: 0.036620
+[2017.04.30-09.33.23:131][432]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.33.23:138][432]LogLoad: Took 0.578131 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.33.35:340][540]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.33.35:412][540]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.37.42:774][853]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_295 or K2Node_CallFunction /Game/UI/HUDP1.HUDP1:EventGraph.K2Node_CallFunction_295
+[2017.04.30-09.37.42:774][853]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_295.EdGraphPin_1317''
+[2017.04.30-09.37.43:651][941]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_CallFunction_295 or K2Node_CallFunction /Game/UI/HUDP1.HUDP1:EventGraph.K2Node_CallFunction_295
+[2017.04.30-09.37.43:651][941]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_295.EdGraphPin_1317''
+[2017.04.30-09.38.03:011][392]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.38.03:045][392]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:045][392]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:046][392]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:331][392]LogBlueprint:Warning: Compiler Warning [2561.98] Compile of HUDP1 failed. 3 Fatal Issue(s) 0 Warning(s) [in 319 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.38.03:331][392]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:331][392]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:331][392]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2017.04.30-09.38.03:331][392]BlueprintEditorCompileResults:Warning: Warning [2561.98] Compile of HUDP1 failed. 3 Fatal Issue(s) 0 Warning(s) [in 319 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.38.35:464][590]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.38.35:698][590]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.38.35:986][590]LogSavePackage: Save=257.37ms
+[2017.04.30-09.38.35:987][590]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1395A0732401A6966E5CD638C9F7E2C90.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.38.35:991][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.38.36:002][590]BlueprintEditorCompileResults: Info [2594.65] Compile of HUDP1 successful! [in 537 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.38.36:555][636]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.38.36:555][636]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.38.36:555][636]PIE: New page: PIE session: Main (Apr 30, 2017, 12:38:36 AM)
+[2017.04.30-09.38.36:555][636]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.38.36:557][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001356s)
+[2017.04.30-09.38.36:558][636]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.38.36:558][636]LogPlayLevel: PIE: World Init took: (0.000938s)
+[2017.04.30-09.38.36:558][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002667s)
+[2017.04.30-09.38.36:634][636]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.38.36:647][636]LogInit: FAudioDevice initialized.
+[2017.04.30-09.38.36:744][636]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.38.36:747][636]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.38.36
+[2017.04.30-09.38.36:747][636]LogWorld: Bringing up level for play took: 0.001564
+[2017.04.30-09.38.36:748][636]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-09.38.36:758][636]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.624
+[2017.04.30-09.38.36:759][636]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.38.39:018][834]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.38.39:018][834]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.38.39:058][834]Cmd: MEM
+[2017.04.30-09.38.39:094][834]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.38.39:094][834]LogMemory: Process Physical Memory: 1277.84 MB used, 2448.64 MB peak
+[2017.04.30-09.38.39:094][834]LogMemory: Process Virtual Memory: 5346.89 MB used, 5383.47 MB peak
+[2017.04.30-09.38.39:094][834]LogMemory: Physical Memory: 8081.44 MB used, 12202.02 MB total
+[2017.04.30-09.38.39:094][834]LogMemory: Virtual Memory: 6396.73 MB used, 134217728.00 MB total
+[2017.04.30-09.38.39:094][834]LogMemory: 
+[2017.04.30-09.38.39:094][834]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.38.39:568][834]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.38.39:568][834]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.38.39:601][834]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.38.39
+[2017.04.30-09.38.39:603][834]LogWorld: Bringing up level for play took: 0.032685
+[2017.04.30-09.38.39:606][834]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.38.39:613][834]LogLoad: Took 0.594463 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.38.50:562][671]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.38.50:563][671]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.38.53:560][900]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.38.53:560][900]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.38.55:634][ 61]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.38.55:702][ 61]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.40.37:555][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Main' took 0.036
+[2017.04.30-09.40.37:557][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/YouWin] ([1] browsable assets)...
+[2017.04.30-09.40.37:557][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/YouWin]
+[2017.04.30-09.40.37:557][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.40.37:602][551]LogSavePackage: Save=19.38ms
+[2017.04.30-09.40.37:602][551]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin_Auto020036CA84C4541F84F5DA780A290CE4B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto0.uasset'
+[2017.04.30-09.40.37:604][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/YouWin_Auto0.uasset
+[2017.04.30-09.40.37:604][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/UI/StartBuffer] ([1] browsable assets)...
+[2017.04.30-09.40.37:605][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI/StartBuffer]
+[2017.04.30-09.40.37:605][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2017.04.30-09.40.37:663][551]LogSavePackage: Save=35.97ms
+[2017.04.30-09.40.37:663][551]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBuffer_Auto05F27AB0B405267E064FA20887771B659.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto0.uasset'
+[2017.04.30-09.40.37:665][551]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/UI/StartBuffer_Auto0.uasset
+[2017.04.30-09.40.37:665][551]LogFileHelpers: Auto-saving content packages took 0.109
+[2017.04.30-09.40.45:256][340]BlueprintLog: New page: Compile HUDP1
+[2017.04.30-09.40.45:479][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP1" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset" SILENT=true
+[2017.04.30-09.40.45:576][340]LogSavePackage: Save=78.24ms
+[2017.04.30-09.40.45:576][340]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP1000C662E4BEFF4406E164AA241AC2CDE.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset'
+[2017.04.30-09.40.45:580][340]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP1.uasset
+[2017.04.30-09.40.45:593][340]BlueprintEditorCompileResults: Info [2724.24] Compile of HUDP1 successful! [in 337 ms] (/Game/UI/HUDP1.HUDP1)
+[2017.04.30-09.41.36:700][217]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.41.37:811][217]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.41.38:315][217]LogSavePackage: Save=475.41ms
+[2017.04.30-09.41.38:315][217]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar94F117AB4933AA937320D590DE4C2EC8.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.41.38:319][217]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.41.38:328][217]BlueprintEditorCompileResults: Info [2776.98] Compile of FoodFightersChar successful! [in 1,628 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.42.02:941][520]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Scott/Documents/GitHub/CGT445/External Assets/Sounds/Sound Effects/flesh_strider_impact_bullet1.wav)
+[2017.04.30-09.42.02:948][520]LogAudioDerivedData:Display: Building compressed audio format OGG wave flesh_strider_impact_bullet1...
+[2017.04.30-09.42.02:956][520]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/SoundEffects/flesh_strider_impact_bullet1.flesh_strider_impact_bullet1.
+[2017.04.30-09.42.02:959][520]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Scott/Documents/GitHub/CGT445/External Assets/Sounds/Sound Effects/flesh_strider_impact_bullet2.wav)
+[2017.04.30-09.42.02:963][520]LogAudioDerivedData:Display: Building compressed audio format OGG wave flesh_strider_impact_bullet2...
+[2017.04.30-09.42.02:970][520]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/SoundEffects/flesh_strider_impact_bullet2.flesh_strider_impact_bullet2.
+[2017.04.30-09.42.02:973][520]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Scott/Documents/GitHub/CGT445/External Assets/Sounds/Sound Effects/flesh_strider_impact_bullet3.wav)
+[2017.04.30-09.42.02:977][520]LogAudioDerivedData:Display: Building compressed audio format OGG wave flesh_strider_impact_bullet3...
+[2017.04.30-09.42.02:982][520]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/SoundEffects/flesh_strider_impact_bullet3.flesh_strider_impact_bullet3.
+[2017.04.30-09.42.24:350][316]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.42.24:994][316]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.42.25:491][316]LogSavePackage: Save=476.10ms
+[2017.04.30-09.42.25:491][316]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharEBE638814D482E86CD1ED8880D9B1788.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.42.25:495][316]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.42.25:503][316]BlueprintEditorCompileResults: Info [2824.15] Compile of FoodFightersChar successful! [in 1,152 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.43.00:531][313]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.43.01:195][313]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.43.01:694][313]LogSavePackage: Save=476.91ms
+[2017.04.30-09.43.01:695][313]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar3E0FE88C4006BB33364E4C8A6FEAA4FD.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.43.01:699][313]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.43.01:712][313]BlueprintEditorCompileResults: Info [2860.36] Compile of FoodFightersChar successful! [in 1,180 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.43.03:392][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.43.03:392][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.43.03:392][442]PIE: New page: PIE session: Main (Apr 30, 2017, 12:43:03 AM)
+[2017.04.30-09.43.03:393][442]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.43.03:394][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001374s)
+[2017.04.30-09.43.03:395][442]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.43.03:395][442]LogPlayLevel: PIE: World Init took: (0.000835s)
+[2017.04.30-09.43.03:395][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002587s)
+[2017.04.30-09.43.03:475][442]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.43.03:488][442]LogInit: FAudioDevice initialized.
+[2017.04.30-09.43.03:546][442]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.43.03:549][442]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.43.03
+[2017.04.30-09.43.03:549][442]LogWorld: Bringing up level for play took: 0.001436
+[2017.04.30-09.43.03:553][442]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.581
+[2017.04.30-09.43.03:553][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.43.05:040][567]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.43.05:040][567]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.43.05:089][567]Cmd: MEM
+[2017.04.30-09.43.05:125][567]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.43.05:125][567]LogMemory: Process Physical Memory: 1310.46 MB used, 2448.64 MB peak
+[2017.04.30-09.43.05:125][567]LogMemory: Process Virtual Memory: 5411.14 MB used, 5436.00 MB peak
+[2017.04.30-09.43.05:125][567]LogMemory: Physical Memory: 8034.13 MB used, 12202.02 MB total
+[2017.04.30-09.43.05:125][567]LogMemory: Virtual Memory: 6516.23 MB used, 134217728.00 MB total
+[2017.04.30-09.43.05:125][567]LogMemory: 
+[2017.04.30-09.43.05:125][567]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.43.05:601][567]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.43.05:602][567]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.43.05:635][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.43.05
+[2017.04.30-09.43.05:637][567]LogWorld: Bringing up level for play took: 0.032899
+[2017.04.30-09.43.05:640][567]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.43.05:647][567]LogLoad: Took 0.607505 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.43.17:242][433]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.04.30-09.43.20:204][653]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.04.30-09.43.22:345][810]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.04.30-09.43.25:580][ 54]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.43.25:580][ 54]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.43.28:165][250]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.43.28:205][250]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.44.32:036][663]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 ../../../../../../Users/Scott/Documents/GitHub/CGT445/External Assets/Sounds/Music/Pit People OST Music - It's Us! (Main Theme) by Patric Catani.wav)
+[2017.04.30-09.44.32:295][663]LogAudioDerivedData:Display: Building compressed audio format OGG wave Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_Catani...
+[2017.04.30-09.44.37:844][663]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Sounds/Music/Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_Catani.Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_Catani.
+[2017.04.30-09.44.51:972][803]LogSavePackage: Save=29.53ms
+[2017.04.30-09.44.51:972][803]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_CataniB1AF8BAF4F8AFD55FD187DA96D858001.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/Music/Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_Catani.uasset'
+[2017.04.30-09.44.51:976][803]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/Music/Pit_People_OST_Music_-_It_s_Us___Main_Theme__by_Patric_Catani.uasset
+[2017.04.30-09.45.51:308][414]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.45.52:876][414]LogSavePackage: Save=9.17ms
+[2017.04.30-09.45.52:876][414]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/flesh_strider_impact_bullet1DF6B7BC94DF217F7628182BF1C57E43E.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet1.uasset'
+[2017.04.30-09.45.52:879][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet1.uasset
+[2017.04.30-09.45.52:901][414]LogSavePackage: Save=8.65ms
+[2017.04.30-09.45.52:901][414]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/flesh_strider_impact_bullet2FF68BF8941C2D6567FB8E2931D7F121A.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet2.uasset'
+[2017.04.30-09.45.52:904][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet2.uasset
+[2017.04.30-09.45.52:926][414]LogSavePackage: Save=8.72ms
+[2017.04.30-09.45.52:926][414]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/flesh_strider_impact_bullet321D402A34CA13960A1EF1DA92187C92D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet3.uasset'
+[2017.04.30-09.45.52:930][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/SoundEffects/flesh_strider_impact_bullet3.uasset
+[2017.04.30-09.45.52:930][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/StartBuffer" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset" SILENT=true
+[2017.04.30-09.45.52:995][414]LogSavePackage: Save=36.91ms
+[2017.04.30-09.45.52:995][414]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StartBuffer1C8D7C124EB55F6C762BC68F38314F48.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset'
+[2017.04.30-09.45.53:002][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/StartBuffer.uasset
+[2017.04.30-09.45.53:003][414]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/YouWin" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset" SILENT=true
+[2017.04.30-09.45.53:048][414]LogSavePackage: Save=20.91ms
+[2017.04.30-09.45.53:048][414]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/YouWin6BDAE8E547168FC042149093C5841020.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset'
+[2017.04.30-09.45.53:052][414]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/YouWin.uasset
+[2017.04.30-09.45.53:058][414]Cmd: MAP LOAD FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-09.45.53:060][414]LightingResults: New page: Lighting Build
+[2017.04.30-09.45.53:077][414]LoadErrors: New page: Loading map: Grand_Cafeteria.umap
+[2017.04.30-09.45.53:079][414]MapCheck: New page: Map Check
+[2017.04.30-09.45.53:080][414]LightingResults: New page: Lighting Build
+[2017.04.30-09.45.53:247][414]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-09.45.53:301][414]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-09.45.53:421][414]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 119.451ms to complete.
+[2017.04.30-09.45.53:421][414]LogFileHelpers: Loading map 'Grand_Cafeteria' took 0.370
+[2017.04.30-09.45.56:870][741]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.04.30-09.45.56:870][741]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: Edit {GameModeName}".
+[2017.04.30-09.47.09:924][846]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-09.47.10:432][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-09.47.10:632][846]LogSavePackage: Save=170.29ms
+[2017.04.30-09.47.10:633][846]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM98CEE0154C5AA3C0020FF79365BEB525.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-09.47.10:637][846]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-09.47.10:648][846]BlueprintEditorCompileResults: Info [3109.30] Compile of FoodFightersGM successful! [in 724 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-09.47.38:816][461]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-09.47.39:074][461]BlueprintEditorCompileResults: Info [3137.72] Compile of FoodFightersGM successful! [in 257 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-09.47.41:531][651]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-09.47.42:294][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-09.47.42:479][651]LogSavePackage: Save=166.21ms
+[2017.04.30-09.47.42:479][651]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM058A921F416AC2DD2E3D70994E903AE3.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-09.47.42:483][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-09.47.42:508][651]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.47.43:004][651]LogSavePackage: Save=470.64ms
+[2017.04.30-09.47.43:004][651]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharBE80FDCD4898B406C2E2F7A910E3A04B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.47.43:008][651]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.47.43:017][651]BlueprintEditorCompileResults: Info [3141.66] Compile of FoodFightersGM successful! [in 1,484 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-09.47.58:555][169]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.04.30-09.49.02:857][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sounds/Music/InGameMusicLoop" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/Music/InGameMusicLoop.uasset" SILENT=true
+[2017.04.30-09.49.02:865][880]LogSavePackage: Save=6.51ms
+[2017.04.30-09.49.02:865][880]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/InGameMusicLoopAA10FBBC45833B431A981787AC151AB7.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/Music/InGameMusicLoop.uasset'
+[2017.04.30-09.49.02:869][880]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Sounds/Music/InGameMusicLoop.uasset
+[2017.04.30-09.52.05:450][931]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-09.52.06:322][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-09.52.06:513][931]LogSavePackage: Save=167.71ms
+[2017.04.30-09.52.06:513][931]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM8C06F7F942EB3BA5B7F09E9537BCE73F.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-09.52.06:518][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-09.52.06:544][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.52.07:071][931]LogSavePackage: Save=508.03ms
+[2017.04.30-09.52.07:071][931]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharF57E93224DE301CEEE06088F87B6254B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.52.07:077][931]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.52.07:089][931]BlueprintEditorCompileResults: Info [3405.74] Compile of FoodFightersGM successful! [in 1,638 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-09.52.07:705][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria' with GeneratedClass '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria_C' with ClassGeneratedBy '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria'
+[2017.04.30-09.52.07:706][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.52.07:706][988]PIE: New page: PIE session: Grand_Cafeteria (Apr 30, 2017, 12:52:07 AM)
+[2017.04.30-09.52.07:706][988]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.04.30-09.52.07:726][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020047s)
+[2017.04.30-09.52.07:728][988]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.52.07:728][988]LogPlayLevel: PIE: World Init took: (0.001406s)
+[2017.04.30-09.52.07:728][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.022156s)
+[2017.04.30-09.52.07:807][988]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.52.07:820][988]LogInit: FAudioDevice initialized.
+[2017.04.30-09.52.07:919][988]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.52.07:943][988]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.52.07
+[2017.04.30-09.52.07:944][988]LogWorld: Bringing up level for play took: 0.023630
+[2017.04.30-09.52.07:947][988]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersChar_C_0
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:01EB
+[2017.04.30-09.52.07:947][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_getSpawn_playerSpawn from function: 'UserConstructionScript' from node: SetActorLocation in graph: UserConstructionScript in object: FoodFightersChar with description: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+[2017.04.30-09.52.07:948][988]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersChar_C_0
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:0286
+[2017.04.30-09.52.07:948][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_getSpawn_playerSpawn from function: 'UserConstructionScript' from node: SetActorRotation in graph: UserConstructionScript in object: FoodFightersChar with description: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+[2017.04.30-09.52.07:949][988]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.52.07:953][988]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersChar_C_1
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:01EB
+[2017.04.30-09.52.07:953][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_getSpawn_playerSpawn from function: 'UserConstructionScript' from node: SetActorLocation in graph: UserConstructionScript in object: FoodFightersChar with description: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+[2017.04.30-09.52.07:953][988]LogScript:Warning: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+	FoodFightersChar_C /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.FoodFightersChar_C_1
+	Function /Game/Blueprints/FoodFightersChar.FoodFightersChar_C:UserConstructionScript:0286
+[2017.04.30-09.52.07:954][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_getSpawn_playerSpawn from function: 'UserConstructionScript' from node: SetActorRotation in graph: UserConstructionScript in object: FoodFightersChar with description: Accessed None trying to read property CallFunc_getSpawn_playerSpawn
+[2017.04.30-09.52.08:003][988]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.131
+[2017.04.30-09.52.08:004][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria' with GeneratedClass '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria_C' with ClassGeneratedBy '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria'
+[2017.04.30-09.52.09:595][129]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria' with GeneratedClass '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria_C' with ClassGeneratedBy '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria'
+[2017.04.30-09.52.09:667][129]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria' with GeneratedClass '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria_C' with ClassGeneratedBy '/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Grand_Cafeteria'
+[2017.04.30-09.52.14:315][416]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.52.14:356][416]Cmd: MAP LOAD FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.04.30-09.52.14:356][416]LightingResults: New page: Lighting Build
+[2017.04.30-09.52.14:359][416]LoadErrors: New page: Loading map: Main.umap
+[2017.04.30-09.52.14:362][416]MapCheck: New page: Map Check
+[2017.04.30-09.52.14:362][416]LightingResults: New page: Lighting Build
+[2017.04.30-09.52.14:480][416]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.04.30-09.52.14:529][416]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.04.30-09.52.14:641][416]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.685ms to complete.
+[2017.04.30-09.52.14:641][416]LogFileHelpers: Loading map 'Main' took 0.287
+[2017.04.30-09.52.16:370][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.52.16:371][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.52.16:371][563]PIE: New page: PIE session: Main (Apr 30, 2017, 12:52:16 AM)
+[2017.04.30-09.52.16:371][563]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.52.16:373][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001529s)
+[2017.04.30-09.52.16:373][563]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.52.16:373][563]LogPlayLevel: PIE: World Init took: (0.000826s)
+[2017.04.30-09.52.16:374][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002845s)
+[2017.04.30-09.52.16:447][563]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.52.16:460][563]LogInit: FAudioDevice initialized.
+[2017.04.30-09.52.16:525][563]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.52.16:528][563]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.52.16
+[2017.04.30-09.52.16:528][563]LogWorld: Bringing up level for play took: 0.001852
+[2017.04.30-09.52.16:532][563]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.398
+[2017.04.30-09.52.16:532][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.52.18:434][728]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.52.18:435][728]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.52.18:475][728]Cmd: MEM
+[2017.04.30-09.52.18:512][728]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.52.18:512][728]LogMemory: Process Physical Memory: 1523.89 MB used, 2448.64 MB peak
+[2017.04.30-09.52.18:512][728]LogMemory: Process Virtual Memory: 5680.03 MB used, 5765.91 MB peak
+[2017.04.30-09.52.18:512][728]LogMemory: Physical Memory: 8121.16 MB used, 12202.02 MB total
+[2017.04.30-09.52.18:512][728]LogMemory: Virtual Memory: 6818.41 MB used, 134217728.00 MB total
+[2017.04.30-09.52.18:512][728]LogMemory: 
+[2017.04.30-09.52.18:512][728]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.52.18:796][728]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.52.18:797][728]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.52.18:829][728]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.52.18
+[2017.04.30-09.52.18:831][728]LogWorld: Bringing up level for play took: 0.031816
+[2017.04.30-09.52.18:834][728]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.52.18:840][728]LogLoad: Took 0.405456 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.52.29:766][585]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.52.29:766][585]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.52.32:765][818]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.52.32:766][818]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.52.44:764][733]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.52.44:765][733]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.52.47:444][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.52.47:483][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.54.35:062][720]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-09.54.35:714][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-09.54.36:226][720]LogSavePackage: Save=479.44ms
+[2017.04.30-09.54.36:226][720]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharE3C59BE84DFD6E25859F63B19E2D727A.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-09.54.36:231][720]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-09.54.36:243][720]BlueprintEditorCompileResults: Info [3554.89] Compile of FoodFightersChar successful! [in 1,181 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-09.54.37:576][839]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.54.37:577][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-09.54.37:577][839]PIE: New page: PIE session: Main (Apr 30, 2017, 12:54:37 AM)
+[2017.04.30-09.54.37:577][839]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-09.54.37:579][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001365s)
+[2017.04.30-09.54.37:580][839]LogAIModule: Creating AISystem for world Main
+[2017.04.30-09.54.37:580][839]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.04.30-09.54.37:580][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002661s)
+[2017.04.30-09.54.37:660][839]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-09.54.37:673][839]LogInit: FAudioDevice initialized.
+[2017.04.30-09.54.37:733][839]LogWorld: Game class is 'GameMode'
+[2017.04.30-09.54.37:736][839]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-05.54.37
+[2017.04.30-09.54.37:736][839]LogWorld: Bringing up level for play took: 0.001426
+[2017.04.30-09.54.37:740][839]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.394
+[2017.04.30-09.54.37:740][839]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.54.39:393][986]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.54.39:393][986]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-09.54.39:436][986]Cmd: MEM
+[2017.04.30-09.54.39:476][986]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-09.54.39:476][986]LogMemory: Process Physical Memory: 1621.29 MB used, 2448.64 MB peak
+[2017.04.30-09.54.39:476][986]LogMemory: Process Virtual Memory: 5724.43 MB used, 5783.51 MB peak
+[2017.04.30-09.54.39:476][986]LogMemory: Physical Memory: 8268.26 MB used, 12202.02 MB total
+[2017.04.30-09.54.39:476][986]LogMemory: Virtual Memory: 6875.72 MB used, 134217728.00 MB total
+[2017.04.30-09.54.39:476][986]LogMemory: 
+[2017.04.30-09.54.39:476][986]Allocator Stats for TBB: (not implemented)
+[2017.04.30-09.54.39:957][986]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-09.54.39:958][986]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-09.54.39:992][986]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-05.54.39
+[2017.04.30-09.54.39:993][986]LogWorld: Bringing up level for play took: 0.033361
+[2017.04.30-09.54.39:997][986]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-09.54.40:003][986]LogLoad: Took 0.610261 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-09.54.50:939][847]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.04.30-09.54.50:939][847]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.04.30-09.55.03:843][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-09.55.03:883][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.00.01:972][679]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.00.02:469][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.00.02:666][679]LogSavePackage: Save=166.28ms
+[2017.04.30-10.00.02:666][679]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM17A8BADA4A39714D3EE675B8FF552C87.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.00.02:671][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.00.02:680][679]BlueprintEditorCompileResults: Info [3881.33] Compile of FoodFightersGM successful! [in 707 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.00.34:728][549]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.00.35:371][549]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILEN
