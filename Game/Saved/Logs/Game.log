@@ -476,3 +476,213 @@ ntdll.dll
 ntdll.dll
 
 [2017.04.30-10.42.59:579][657]LogStats:                SubmitErrorReport -  0.000 s
+[2017.04.30-10.43.00:267][657]LogStats:                    SendNewReport -  0.688 s
+[2017.04.30-10.43.00:267][657]LogStats:             FDebug::EnsureFailed -  2.279 s
+[2017.04.30-10.43.17:038][ 78]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.43.17:107][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP4 
+[2017.04.30-10.43.17:107][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP3 
+[2017.04.30-10.43.17:108][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP2 
+[2017.04.30-10.43.17:108][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'HUDP4 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:108][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'HUDP3 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:108][ 78]LogBlueprint:Error: Compiler Error COMPILER ERROR: failed building connection with 'HUDP2 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:125][ 78]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:125][ 78]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:125][ 78]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:126][ 78]LogBlueprint:Error: Compiler Error Default value '' for  HUDP2  is invalid: 'PinSubCategoryObject on pin 'HUDP2' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:126][ 78]LogBlueprint:Error: Compiler Error Default value '' for  HUDP3  is invalid: 'PinSubCategoryObject on pin 'HUDP3' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:126][ 78]LogBlueprint:Error: Compiler Error Default value '' for  HUDP4  is invalid: 'PinSubCategoryObject on pin 'HUDP4' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:386][ 78]LogBlueprint:Warning: Compiler Warning [0429.81] Compile of FoodFightersGM failed. 12 Fatal Issue(s) 0 Warning(s) [in 348 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP4 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP3 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'Object Reference is not compatible with User Widget Reference.' at  Set HUDP2 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'HUDP4 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'HUDP3 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error COMPILER ERROR: failed building connection with 'HUDP2 Reference is not compatible with Reference.' at  Create Widget 
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error Default value '' for  HUDP2  is invalid: 'PinSubCategoryObject on pin 'HUDP2' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error Default value '' for  HUDP3  is invalid: 'PinSubCategoryObject on pin 'HUDP3' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Error: Error Default value '' for  HUDP4  is invalid: 'PinSubCategoryObject on pin 'HUDP4' is NULL and PinSubCategory is '' not 'self''
+[2017.04.30-10.43.17:386][ 78]BlueprintEditorCompileResults:Warning: Warning [0429.81] Compile of FoodFightersGM failed. 12 Fatal Issue(s) 0 Warning(s) [in 348 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.44.11:588][544]BlueprintLog: New page: Compile FoodFightersGM
+[2017.04.30-10.44.11:864][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.11:864][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.11:864][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.11:865][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.11:865][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.11:865][544]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.12:505][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.04.30-10.44.12:742][544]LogSavePackage: Save=198.48ms
+[2017.04.30-10.44.12:742][544]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM4CB82A3C42A33DB5E9B42ABF97D4C655.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.04.30-10.44.12:746][544]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.04.30-10.44.12:756][544]BlueprintEditorCompileResults: Info [0485.18] Compile of FoodFightersGM successful! [in 1,167 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.04.30-10.44.17:092][938]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.44.17:303][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:303][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:303][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:304][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:304][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:304][938]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]LogBlueprint:Warning: Compiler Warning [0490.24] Compile of FoodFightersChar failed. 6 Fatal Issue(s) 0 Warning(s) [in 726 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.17:819][938]BlueprintEditorCompileResults:Warning: Warning [0490.24] Compile of FoodFightersChar failed. 6 Fatal Issue(s) 0 Warning(s) [in 726 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.44.26:581][457]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.44.26:795][457]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.26:796][457]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.26:796][457]LogBlueprint:Error: Compiler Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.27:287][457]LogBlueprint:Warning: Compiler Warning [0499.71] Compile of FoodFightersChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 705 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.44.27:288][457]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.27:288][457]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.27:288][457]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2017.04.30-10.44.27:288][457]BlueprintEditorCompileResults:Warning: Warning [0499.71] Compile of FoodFightersChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 705 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.44.41:119][503]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.44.41:787][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-10.44.42:341][503]LogSavePackage: Save=517.80ms
+[2017.04.30-10.44.42:341][503]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersCharD9CD31104A33388074E7E4A5CF61F9B1.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-10.44.42:346][503]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-10.44.42:355][503]BlueprintEditorCompileResults: Info [0514.78] Compile of FoodFightersChar successful! [in 1,235 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.44.52:389][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.44.52:389][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.44.52:389][406]PIE: New page: PIE session: Main (Apr 30, 2017, 1:44:52 AM)
+[2017.04.30-10.44.52:390][406]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.44.52:391][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001400s)
+[2017.04.30-10.44.52:392][406]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.44.52:392][406]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2017.04.30-10.44.52:392][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002508s)
+[2017.04.30-10.44.52:481][406]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.44.52:499][406]LogInit: FAudioDevice initialized.
+[2017.04.30-10.44.52:607][406]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.44.52:610][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.44.52
+[2017.04.30-10.44.52:611][406]LogWorld: Bringing up level for play took: 0.001234
+[2017.04.30-10.44.52:612][406]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.44.52:622][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 0.488
+[2017.04.30-10.44.52:622][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.44.54:249][570]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.44.54:249][570]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.44.54:292][570]Cmd: MEM
+[2017.04.30-10.44.54:322][570]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.44.54:322][570]LogMemory: Process Physical Memory: 1786.15 MB used, 1804.05 MB peak
+[2017.04.30-10.44.54:322][570]LogMemory: Process Virtual Memory: 2555.79 MB used, 2555.79 MB peak
+[2017.04.30-10.44.54:322][570]LogMemory: Physical Memory: 7578.99 MB used, 12202.02 MB total
+[2017.04.30-10.44.54:322][570]LogMemory: Virtual Memory: 3463.94 MB used, 134217728.00 MB total
+[2017.04.30-10.44.54:322][570]LogMemory: 
+[2017.04.30-10.44.54:322][570]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.44.54:830][570]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.44.54:830][570]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.44.54:861][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.44.54
+[2017.04.30-10.44.54:863][570]LogWorld: Bringing up level for play took: 0.030924
+[2017.04.30-10.44.54:866][570]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.44.54:873][570]LogLoad: Took 0.623779 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.45.04:005][310]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.04.30-10.45.07:872][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.45.07:946][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.45.24:350][116]BlueprintLog: New page: Compile HUDP2
+[2017.04.30-10.45.24:555][116]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP2" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP2.uasset" SILENT=true
+[2017.04.30-10.45.24:662][116]LogSavePackage: Save=75.71ms
+[2017.04.30-10.45.24:662][116]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP2C9B1FD674F8B6FB292FF97AD34F87D02.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP2.uasset'
+[2017.04.30-10.45.24:666][116]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP2.uasset
+[2017.04.30-10.45.24:676][116]BlueprintEditorCompileResults: Info [0557.10] Compile of HUDP2 successful! [in 325 ms] (/Game/UI/HUDP2.HUDP2)
+[2017.04.30-10.45.33:607][940]BlueprintLog: New page: Compile HUDP3
+[2017.04.30-10.45.33:801][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP3" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP3.uasset" SILENT=true
+[2017.04.30-10.45.33:902][940]LogSavePackage: Save=76.12ms
+[2017.04.30-10.45.33:902][940]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP32BB8C0F145A7A73EAD40C983995BAB43.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP3.uasset'
+[2017.04.30-10.45.33:906][940]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP3.uasset
+[2017.04.30-10.45.33:915][940]BlueprintEditorCompileResults: Info [0566.34] Compile of HUDP3 successful! [in 307 ms] (/Game/UI/HUDP3.HUDP3)
+[2017.04.30-10.45.41:316][576]BlueprintLog: New page: Compile HUDP4
+[2017.04.30-10.45.41:513][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP4" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset" SILENT=true
+[2017.04.30-10.45.41:613][576]LogSavePackage: Save=75.56ms
+[2017.04.30-10.45.41:613][576]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP45285BC1D4E3B09E5A6EC73B23C2E7400.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset'
+[2017.04.30-10.45.41:616][576]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset
+[2017.04.30-10.45.41:626][576]BlueprintEditorCompileResults: Info [0574.05] Compile of HUDP4 successful! [in 308 ms] (/Game/UI/HUDP4.HUDP4)
+[2017.04.30-10.45.43:488][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.45.43:488][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.45.43:488][699]PIE: New page: PIE session: Main (Apr 30, 2017, 1:45:43 AM)
+[2017.04.30-10.45.43:488][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.45.43:490][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001632s)
+[2017.04.30-10.45.43:490][699]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.45.43:490][699]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2017.04.30-10.45.43:491][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002690s)
+[2017.04.30-10.45.43:566][699]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.45.43:579][699]LogInit: FAudioDevice initialized.
+[2017.04.30-10.45.43:636][699]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.45.43:639][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.45.43
+[2017.04.30-10.45.43:639][699]LogWorld: Bringing up level for play took: 0.001182
+[2017.04.30-10.45.43:643][699]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main -0.492
+[2017.04.30-10.45.43:643][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.45.44:979][808]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.45.44:979][808]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.45.45:018][808]Cmd: MEM
+[2017.04.30-10.45.45:051][808]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.45.45:051][808]LogMemory: Process Physical Memory: 1977.48 MB used, 1980.07 MB peak
+[2017.04.30-10.45.45:051][808]LogMemory: Process Virtual Memory: 3060.06 MB used, 3060.75 MB peak
+[2017.04.30-10.45.45:051][808]LogMemory: Physical Memory: 7886.63 MB used, 12202.02 MB total
+[2017.04.30-10.45.45:051][808]LogMemory: Virtual Memory: 3938.18 MB used, 134217728.00 MB total
+[2017.04.30-10.45.45:051][808]LogMemory: 
+[2017.04.30-10.45.45:051][808]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.45.45:548][808]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.45.45:549][808]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.45.45:584][808]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.45.45
+[2017.04.30-10.45.45:585][808]LogWorld: Bringing up level for play took: 0.034102
+[2017.04.30-10.45.45:589][808]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.45.45:598][808]LogLoad: Took 0.618853 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.45.58:681][739]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.45.58:722][739]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.47.52:051][303]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.47.52:262][303]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:262][303]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:262][303]LogBlueprint:Error: Compiler Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:794][303]LogBlueprint:Warning: Compiler Warning [0705.22] Compile of FoodFightersChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 743 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.47.52:794][303]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:794][303]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:794][303]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2017.04.30-10.47.52:794][303]BlueprintEditorCompileResults:Warning: Warning [0705.22] Compile of FoodFightersChar failed. 3 Fatal Issue(s) 0 Warning(s) [in 743 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.48.13:572][905]BlueprintLog: New page: Compile FoodFightersChar
+[2017.04.30-10.48.14:219][905]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.04.30-10.48.14:746][905]LogSavePackage: Save=502.63ms
+[2017.04.30-10.48.14:746][905]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar19CF445E490CDE410229C78AB364926E.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.04.30-10.48.14:751][905]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.04.30-10.48.14:763][905]BlueprintEditorCompileResults: Info [0727.19] Compile of FoodFightersChar successful! [in 1,191 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.04.30-10.48.16:986][ 80]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.48.16:986][ 80]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.04.30-10.48.16:986][ 80]PIE: New page: PIE session: Main (Apr 30, 2017, 1:48:16 AM)
+[2017.04.30-10.48.16:987][ 80]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2017.04.30-10.48.16:988][ 80]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001619s)
+[2017.04.30-10.48.16:989][ 80]LogAIModule: Creating AISystem for world Main
+[2017.04.30-10.48.16:989][ 80]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.04.30-10.48.16:989][ 80]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.002641s)
+[2017.04.30-10.48.17:066][ 80]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.04.30-10.48.17:078][ 80]LogInit: FAudioDevice initialized.
+[2017.04.30-10.48.17:183][ 80]LogWorld: Game class is 'GameMode'
+[2017.04.30-10.48.17:186][ 80]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2017.04.30-06.48.17
+[2017.04.30-10.48.17:186][ 80]LogWorld: Bringing up level for play took: 0.001405
+[2017.04.30-10.48.17:187][ 80]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2017.04.30-10.48.17:198][ 80]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Main 1.064
+[2017.04.30-10.48.17:199][ 80]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Maps/Main.Main_C' with ClassGeneratedBy '/Game/Maps/Main.Main:PersistentLevel.Main'
+[2017.04.30-10.48.20:066][297]LogNet: Browse: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.48.20:066][297]LogLoad: LoadMap: /Game/Maps/Grand_Cafeteria
+[2017.04.30-10.48.20:104][297]Cmd: MEM
+[2017.04.30-10.48.20:134][297]LogMemory: Platform Memory Stats for Windows
+[2017.04.30-10.48.20:134][297]LogMemory: Process Physical Memory: 2087.01 MB used, 2093.18 MB peak
+[2017.04.30-10.48.20:134][297]LogMemory: Process Virtual Memory: 3172.33 MB used, 3174.55 MB peak
+[2017.04.30-10.48.20:134][297]LogMemory: Physical Memory: 7949.41 MB used, 12202.02 MB total
+[2017.04.30-10.48.20:134][297]LogMemory: Virtual Memory: 4082.11 MB used, 134217728.00 MB total
+[2017.04.30-10.48.20:134][297]LogMemory: 
+[2017.04.30-10.48.20:134][297]Allocator Stats for TBB: (not implemented)
+[2017.04.30-10.48.20:622][297]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.04.30-10.48.20:623][297]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.04.30-10.48.20:654][297]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.04.30-06.48.20
+[2017.04.30-10.48.20:656][297]LogWorld: Bringing up level for play took: 0.031768
+[2017.04.30-10.48.20:660][297]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.04.30-10.48.20:674][297]LogLoad: Took 0.608280 seconds to LoadMap(/Game/Maps/Grand_Cafeteria)
+[2017.04.30-10.48.36:831][206]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.04.30-10.48.37:349][235]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[201
