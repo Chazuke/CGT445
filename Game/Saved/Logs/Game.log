@@ -1034,4 +1034,100 @@ LogInit: Object subsystem initialized
 [2017.05.01-22.48.33:584][413]MapCheck: New page: Map Check
 [2017.05.01-22.48.33:585][413]LightingResults: New page: Lighting Build
 [2017.05.01-22.48.33:706][413]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.05.01-22.48.33:759][413]Cmd: MAP CHECKDEP NOCLEAR
+[2017.05.01-22.48.33:759][413]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-22.48.33:870][413]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.877ms to complete.
+[2017.05.01-22.48.33:879][413]LogFileHelpers: Loading map 'Main' took 0.300
+[2017.05.01-22.48.34:733][452]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.01-22.48.34:873][452]LogSavePackage: Save=115.49ms
+[2017.05.01-22.48.34:873][452]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain3AC700134780340C82ED5C9082A305FD.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.05.01-22.48.34:875][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.05.01-22.48.34:883][452]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.01-22.51.13:756][853]BlueprintLog: New page: Compile FoodFightersGM
+[2017.05.01-22.51.14:072][853]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.05.01-22.51.14:310][853]LogSavePackage: Save=207.31ms
+[2017.05.01-22.51.14:310][853]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM2C042C52412E64453A9362A4BF525A55.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.05.01-22.51.14:314][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.05.01-22.51.14:320][853]BlueprintEditorCompileResults: Info [3903.25] Compile of FoodFightersGM successful! [in 563 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.05.01-22.51.14:970][876]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.01-22.51.15:106][876]LogSavePackage: Save=115.87ms
+[2017.05.01-22.51.15:106][876]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMain55D1650C43EFBE6ADB7FACBA6642BA3D.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.05.01-22.51.15:108][876]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.05.01-22.51.15:115][876]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.01-22.52.13:244][530]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.01-22.52.13:303][530]Cmd: MAP LOAD FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.01-22.52.13:303][530]LightingResults: New page: Lighting Build
+[2017.05.01-22.52.13:304][530]LoadErrors: New page: Loading map: Grand_Cafeteria.umap
+[2017.05.01-22.52.13:304][530]MapCheck: New page: Map Check
+[2017.05.01-22.52.13:305][530]LightingResults: New page: Lighting Build
+[2017.05.01-22.52.13:493][530]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.01-22.52.13:547][530]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-22.52.13:658][530]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.134ms to complete.
+[2017.05.01-22.52.13:658][530]LogFileHelpers: Loading map 'Grand_Cafeteria' took 0.356
+[2017.05.01-22.52.15:575][638]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.05.01-22.52.21:623][946]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2017.05.01-22.52.22:443][990]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x519)
+[2017.05.01-22.52.22:747][  3]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x515)
+[2017.05.01-22.52.23:124][ 21]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x514)
+[2017.05.01-22.52.23:862][ 59]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x303)
+[2017.05.01-22.52.24:220][ 75]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x518)
+[2017.05.01-22.52.25:428][133]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x513)
+[2017.05.01-22.52.25:737][146]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x512)
+[2017.05.01-22.52.26:184][166]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x302)
+[2017.05.01-22.52.26:477][178]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x503)
+[2017.05.01-22.52.26:717][187]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2017.05.01-22.52.27:838][239]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x413)
+[2017.05.01-22.52.29:683][323]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2017.05.01-22.52.29:967][334]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x508)
+[2017.05.01-22.52.30:356][351]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.05.01-22.52.30:679][364]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x516)
+[2017.05.01-22.52.31:694][409]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x509)
+[2017.05.01-22.52.32:112][427]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x301)
+[2017.05.01-22.52.32:411][438]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x510)
+[2017.05.01-22.52.32:775][452]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2017.05.01-22.52.33:817][496]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x511)
+[2017.05.01-22.52.34:744][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x401)
+[2017.05.01-22.52.44:722][932]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.01-22.52.45:363][932]LogSavePackage: Save=579.87ms
+[2017.05.01-22.52.45:363][932]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria727C4A454E19F27AC4F9909E42154C58.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.01-22.52.45:368][932]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.01-22.53.11:118][162]BlueprintLog: New page: Compile FoodFightersGM
+[2017.05.01-22.53.11:439][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersGM" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset" SILENT=true
+[2017.05.01-22.53.11:674][162]LogSavePackage: Save=207.49ms
+[2017.05.01-22.53.11:674][162]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersGM178281794E147EC1AD64FBAE1AC54B71.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset'
+[2017.05.01-22.53.11:679][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersGM.uasset
+[2017.05.01-22.53.11:684][162]BlueprintEditorCompileResults: Info [4020.61] Compile of FoodFightersGM successful! [in 566 ms] (/Game/Blueprints/FoodFightersGM.FoodFightersGM)
+[2017.05.01-22.54.09:993][864]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.05.01-22.56.03:169][901]LogAIModule: Creating AISystem for world Main
+[2017.05.01-22.56.04:892][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/MainMenu" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/MainMenu.uasset" SILENT=true
+[2017.05.01-22.56.05:102][901]LogSavePackage: Save=179.07ms
+[2017.05.01-22.56.05:102][901]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/MainMenuE77906354BEB06018502EA9D89A5AAA3.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/MainMenu.uasset'
+[2017.05.01-22.56.05:107][901]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/MainMenu.uasset
+[2017.05.01-22.56.05:108][901]Cmd: MAP LOAD FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.01-22.56.05:108][901]LightingResults: New page: Lighting Build
+[2017.05.01-22.56.05:109][901]LoadErrors: New page: Loading map: Main.umap
+[2017.05.01-22.56.05:112][901]MapCheck: New page: Map Check
+[2017.05.01-22.56.05:113][901]LightingResults: New page: Lighting Build
+[2017.05.01-22.56.05:275][901]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.01-22.56.05:327][901]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-22.56.05:442][901]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 114.375ms to complete.
+[2017.05.01-22.56.05:442][901]LogFileHelpers: Loading map 'Main' took 0.335
+[2017.05.01-22.56.07:441][  5]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2017.05.01-22.56.07:585][  5]LogSavePackage: Save=119.14ms
+[2017.05.01-22.56.07:586][  5]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/UEDPCMainA194E069454975936C82C08EB544B60E.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap'
+[2017.05.01-22.56.07:588][  5]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Autosaves/Game/Maps/UEDPCMain.umap
+[2017.05.01-22.56.07:596][  5]LogEditorTransaction: Undo Spawn Play From Here Start
+[2017.05.01-22.56.21:071][152]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.01-22.56.21:133][152]Cmd: MAP LOAD FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.01-22.56.21:134][152]LightingResults: New page: Lighting Build
+[2017.05.01-22.56.21:134][152]LoadErrors: New page: Loading map: Grand_Cafeteria.umap
+[2017.05.01-22.56.21:135][152]MapCheck: New page: Map Check
+[2017.05.01-22.56.21:135][152]LightingResults: New page: Lighting Build
+[2017.05.01-22.56.21:403][152]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.01-22.56.21:455][152]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.01-22.56.21:566][152]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 110.933ms to complete.
+[2017.05.01-22.56.21:566][152]LogFileHelpers: Loading map 'Grand_Cafeteria' took 0.434
+[2017.05.01-22.57.21:812][740]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.05.01-22.57.23:088][800]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.01-22.57.23:632][800]LogSavePackage: Save=459.78ms
+[2017.05.01-22.57.23:633][800]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria9A8B3D70468B947A698C089D98307087.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.01-22.57.23:637][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafete
