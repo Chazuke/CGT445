@@ -3094,3 +3094,470 @@ LogInit: Object subsystem initialized
 [2017.05.03-00.57.01:580][798]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
 [2017.05.03-00.57.01:580][798]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
 [2017.05.03-00.57.01:621][800]Job is a success!
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2017.05.03-00.57.02:444][801]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2017.05.03-00.57.02:672][801]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2017.05.03-00.57.02:672][801]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2017.05.03-00.57.02:744][801]Lightmass on SCOTT-PC: 12.7 sec total, 271 ms importing, 610 ms setup, 1.06 sec photons, 10.7 sec processing, 0 ms extra exporting [152/152 mappings]. Threads: 1:15 min total, 56.7 sec processing.
+[2017.05.03-00.57.02:807][801]LogStaticLightingSystem: Illumination: 18.7 sec (588 ms encoding lightmaps, 220 ms encoding shadowmaps)
+[2017.05.03-00.57.02:807][801]LogStaticLightingSystem: Lightmap texture memory:  4.5 MB (4.5 MB streaming, 0.0 MB non-streaming), 8 textures
+[2017.05.03-00.57.02:807][801]LogStaticLightingSystem: Shadowmap texture memory: 2.7 MB (2.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.05.03-00.57.03:840][802]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.05.03-00.57.03:840][802]MapCheck: New page: Grand_Cafeteria - May 2, 2017, 3:57:03 PM
+[2017.05.03-00.57.03:843][802]MapCheck:Warning: Performance Warning Floor_400x400_5 Large actor receives a pre-shadow and will cause an extreme performance hit unless bCastDynamicShadow is set to false. 
+[2017.05.03-00.57.03:952][802]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 111.852ms to complete.
+[2017.05.03-00.58.46:846][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-00.58.47:379][292]LogSavePackage: Save=461.18ms
+[2017.05.03-00.58.47:379][292]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria29961B28407AA10727137D9359EB21C6.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-00.58.47:384][292]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-00.59.16:744][861]BlueprintLog: New page: Compile FoodFightersChar
+[2017.05.03-00.59.17:449][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.05.03-00.59.17:998][861]LogSavePackage: Save=526.72ms
+[2017.05.03-00.59.17:998][861]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar58FC627A401DD5A133DA1B9A5C56EFC2.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.05.03-00.59.18:002][861]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.05.03-00.59.18:007][861]BlueprintEditorCompileResults: Info [4234.96] Compile of FoodFightersChar successful! [in 1,262 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.05.03-00.59.57:359][682]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-00.59.57:360][682]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 3:59:57 PM)
+[2017.05.03-00.59.57:360][682]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-00.59.57:380][682]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019918s)
+[2017.05.03-00.59.57:381][682]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-00.59.57:381][682]LogPlayLevel: PIE: World Init took: (0.001298s)
+[2017.05.03-00.59.57:381][682]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.021680s)
+[2017.05.03-00.59.57:464][682]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-00.59.57:477][682]LogInit: FAudioDevice initialized.
+[2017.05.03-00.59.57:536][682]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-00.59.57:559][682]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-20.59.57
+[2017.05.03-00.59.57:560][682]LogWorld: Bringing up level for play took: 0.022246
+[2017.05.03-00.59.57:563][682]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-00.59.57:570][682]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.248
+[2017.05.03-01.00.02:764][ 25]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.00.07:481][328]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.00.07:481][328]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.00.12:480][648]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.00.12:480][648]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.00.17:490][954]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.00.17:490][954]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.00.19:025][ 47]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.00.20:799][150]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.00.23:512][304]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.00.25:328][409]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.00.25:461][417]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.00.27:415][532]LogUMG:Warning: Failed to find runtime objects for /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_10.HUDP2_C_3.FlashLowHealth_INST animation, WidgetName: LowHealthIndicator, SlotName: None
+[2017.05.03-01.00.33:706][898]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.00.43:996][350]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.00.43:996][350]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:00:43 PM)
+[2017.05.03-01.00.43:997][350]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.00.44:015][350]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018125s)
+[2017.05.03-01.00.44:016][350]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.00.44:017][350]LogPlayLevel: PIE: World Init took: (0.001637s)
+[2017.05.03-01.00.44:017][350]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.020376s)
+[2017.05.03-01.00.44:094][350]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.00.44:107][350]LogInit: FAudioDevice initialized.
+[2017.05.03-01.00.44:165][350]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.00.44:191][350]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.00.44
+[2017.05.03-01.00.44:192][350]LogWorld: Bringing up level for play took: 0.025194
+[2017.05.03-01.00.44:196][350]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.00.44:204][350]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.386
+[2017.05.03-01.00.49:392][574]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.01.17:947][956]BlueprintLog: New page: Compile FoodFightersChar
+[2017.05.03-01.01.18:670][956]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FoodFightersChar" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset" SILENT=true
+[2017.05.03-01.01.19:223][956]LogSavePackage: Save=533.87ms
+[2017.05.03-01.01.19:223][956]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FoodFightersChar34D3309C4C372928EAAF91A0FF5E05A9.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset'
+[2017.05.03-01.01.19:228][956]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FoodFightersChar.uasset
+[2017.05.03-01.01.19:233][956]BlueprintEditorCompileResults: Info [4356.19] Compile of FoodFightersChar successful! [in 1,286 ms] (/Game/Blueprints/FoodFightersChar.FoodFightersChar)
+[2017.05.03-01.01.21:168][ 40]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.01.21:169][ 40]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:01:21 PM)
+[2017.05.03-01.01.21:169][ 40]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.01.21:187][ 40]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017946s)
+[2017.05.03-01.01.21:188][ 40]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.01.21:188][ 40]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2017.05.03-01.01.21:188][ 40]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019404s)
+[2017.05.03-01.01.21:264][ 40]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.01.21:277][ 40]LogInit: FAudioDevice initialized.
+[2017.05.03-01.01.21:332][ 40]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.01.21:357][ 40]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.01.21
+[2017.05.03-01.01.21:358][ 40]LogWorld: Bringing up level for play took: 0.024481
+[2017.05.03-01.01.21:362][ 40]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.01.21:370][ 40]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.449
+[2017.05.03-01.01.26:568][373]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.01.31:289][659]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.01.31:289][659]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.01.37:876][ 42]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.40:609][189]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.41:819][255]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.44:613][408]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.45:304][446]LogUMG:Warning: Failed to find runtime objects for /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_12.HUDP2_C_3.FlashLowHealth_INST animation, WidgetName: LowHealthIndicator, SlotName: None
+[2017.05.03-01.01.46:613][518]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.47:126][545]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.01.47:586][570]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-01.03.10:212][994]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.03.10:212][994]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:03:10 PM)
+[2017.05.03-01.03.10:212][994]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.03.10:231][994]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018325s)
+[2017.05.03-01.03.10:232][994]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.03.10:232][994]LogPlayLevel: PIE: World Init took: (0.001520s)
+[2017.05.03-01.03.10:233][994]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.020422s)
+[2017.05.03-01.03.10:304][994]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.03.10:317][994]LogInit: FAudioDevice initialized.
+[2017.05.03-01.03.10:372][994]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.03.10:395][994]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.03.10
+[2017.05.03-01.03.10:396][994]LogWorld: Bringing up level for play took: 0.022398
+[2017.05.03-01.03.10:399][994]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.03.10:406][994]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.588
+[2017.05.03-01.03.15:590][341]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.03.25:103][905]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.03.25:305][916]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.03.25:305][916]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.03.30:319][181]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.03.30:319][181]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.03.33:613][350]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.03.45:666][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x301)
+[2017.05.03-01.03.58:272][789]Cmd: UpdateLandscapeSetup
+[2017.05.03-01.04.06:021][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.04.06:393][252]LogSavePackage: Save=306.62ms
+[2017.05.03-01.04.06:393][252]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria1356C2CA4498AE0EEEE2CD9A32BD6159.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.04.06:398][252]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.04.07:093][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.04.07:094][285]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:04:07 PM)
+[2017.05.03-01.04.07:094][285]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.04.07:111][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017685s)
+[2017.05.03-01.04.07:112][285]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.04.07:112][285]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2017.05.03-01.04.07:113][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019129s)
+[2017.05.03-01.04.07:187][285]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.04.07:200][285]LogInit: FAudioDevice initialized.
+[2017.05.03-01.04.07:256][285]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.04.07:279][285]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.04.07
+[2017.05.03-01.04.07:280][285]LogWorld: Bringing up level for play took: 0.022614
+[2017.05.03-01.04.07:284][285]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.04.07:291][285]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.528
+[2017.05.03-01.04.12:475][590]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.04.39:843][ 67]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.04.42:316][173]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.05.05:676][121]LogProjectileMovement:Warning: StandardProjectile_C_0 is outside the world bounds!
+[2017.05.03-01.05.26:902][981]LogProjectileMovement:Warning: StandardProjectile_C_1 is outside the world bounds!
+[2017.05.03-01.05.27:299][997]LogProjectileMovement:Warning: StandardProjectile_C_2 is outside the world bounds!
+[2017.05.03-01.05.27:523][  6]LogProjectileMovement:Warning: StandardProjectile_C_3 is outside the world bounds!
+[2017.05.03-01.05.27:935][ 23]LogProjectileMovement:Warning: StandardProjectile_C_4 is outside the world bounds!
+[2017.05.03-01.05.28:437][ 44]LogProjectileMovement:Warning: StandardProjectile_C_6 is outside the world bounds!
+[2017.05.03-01.05.28:461][ 45]LogProjectileMovement:Warning: StandardProjectile_C_5 is outside the world bounds!
+[2017.05.03-01.05.28:604][ 51]LogProjectileMovement:Warning: StandardProjectile_C_8 is outside the world bounds!
+[2017.05.03-01.05.28:604][ 51]LogProjectileMovement:Warning: StandardProjectile_C_7 is outside the world bounds!
+[2017.05.03-01.05.28:762][ 58]LogProjectileMovement:Warning: StandardProjectile_C_9 is outside the world bounds!
+[2017.05.03-01.05.28:922][ 65]LogProjectileMovement:Warning: StandardProjectile_C_10 is outside the world bounds!
+[2017.05.03-01.05.29:618][ 96]LogProjectileMovement:Warning: StandardProjectile_C_11 is outside the world bounds!
+[2017.05.03-01.05.30:002][113]LogProjectileMovement:Warning: StandardProjectile_C_12 is outside the world bounds!
+[2017.05.03-01.05.30:264][125]LogProjectileMovement:Warning: StandardProjectile_C_13 is outside the world bounds!
+[2017.05.03-01.05.30:455][134]LogProjectileMovement:Warning: StandardProjectile_C_14 is outside the world bounds!
+[2017.05.03-01.05.30:603][141]LogProjectileMovement:Warning: StandardProjectile_C_15 is outside the world bounds!
+[2017.05.03-01.05.30:953][157]LogProjectileMovement:Warning: StandardProjectile_C_16 is outside the world bounds!
+[2017.05.03-01.05.31:117][165]LogProjectileMovement:Warning: StandardProjectile_C_17 is outside the world bounds!
+[2017.05.03-01.05.31:262][172]LogProjectileMovement:Warning: StandardProjectile_C_18 is outside the world bounds!
+[2017.05.03-01.05.31:424][180]LogProjectileMovement:Warning: StandardProjectile_C_19 is outside the world bounds!
+[2017.05.03-01.05.31:626][190]LogProjectileMovement:Warning: StandardProjectile_C_20 is outside the world bounds!
+[2017.05.03-01.05.31:785][198]LogProjectileMovement:Warning: StandardProjectile_C_21 is outside the world bounds!
+[2017.05.03-01.05.31:920][205]LogProjectileMovement:Warning: StandardProjectile_C_22 is outside the world bounds!
+[2017.05.03-01.05.32:081][213]LogProjectileMovement:Warning: StandardProjectile_C_23 is outside the world bounds!
+[2017.05.03-01.05.32:201][219]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.05.32:201][219]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.05.32:217][220]LogProjectileMovement:Warning: StandardProjectile_C_24 is outside the world bounds!
+[2017.05.03-01.07.35:820][626]Cmd: UpdateLandscapeSetup
+[2017.05.03-01.07.38:580][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.07.38:947][791]LogSavePackage: Save=309.44ms
+[2017.05.03-01.07.38:948][791]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_CafeteriaB626FC14443C80F58CA54395469BB394.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.07.38:959][791]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.07.40:098][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.07.40:098][847]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:07:40 PM)
+[2017.05.03-01.07.40:098][847]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.07.40:116][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017585s)
+[2017.05.03-01.07.40:117][847]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.07.40:117][847]LogPlayLevel: PIE: World Init took: (0.001238s)
+[2017.05.03-01.07.40:118][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019286s)
+[2017.05.03-01.07.40:193][847]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.07.40:206][847]LogInit: FAudioDevice initialized.
+[2017.05.03-01.07.40:265][847]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.07.40:288][847]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.07.40
+[2017.05.03-01.07.40:289][847]LogWorld: Bringing up level for play took: 0.022642
+[2017.05.03-01.07.40:292][847]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.07.40:300][847]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.481
+[2017.05.03-01.07.45:494][154]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.07.50:712][446]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.08.28:121][533]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.08.28:121][533]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.08.43:132][313]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.08.43:132][313]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.10.11:435][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.10.11:806][ 46]LogSavePackage: Save=306.64ms
+[2017.05.03-01.10.11:806][ 46]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_CafeteriaBFDB7B2845517311FB36B581EDC70242.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.10.11:810][ 46]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.10.12:309][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.10.12:309][ 68]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:10:12 PM)
+[2017.05.03-01.10.12:309][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.10.12:327][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017772s)
+[2017.05.03-01.10.12:328][ 68]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.10.12:328][ 68]LogPlayLevel: PIE: World Init took: (0.001109s)
+[2017.05.03-01.10.12:328][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019386s)
+[2017.05.03-01.10.12:398][ 68]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.10.12:411][ 68]LogInit: FAudioDevice initialized.
+[2017.05.03-01.10.12:467][ 68]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.10.12:490][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.10.12
+[2017.05.03-01.10.12:491][ 68]LogWorld: Bringing up level for play took: 0.022366
+[2017.05.03-01.10.12:494][ 68]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.10.12:502][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.683
+[2017.05.03-01.10.17:698][414]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.10.31:618][270]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door8)
+[2017.05.03-01.10.34:408][428]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.10.36:506][542]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.10.37:072][574]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.10.37:587][604]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.05.03-01.11.00:480][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.11.00:868][938]LogSavePackage: Save=333.36ms
+[2017.05.03-01.11.00:868][938]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria0053C85A48F9E2425E185FA923C780BE.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.11.00:873][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.11.01:398][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.11.01:398][960]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:11:01 PM)
+[2017.05.03-01.11.01:398][960]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.11.01:416][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018063s)
+[2017.05.03-01.11.01:417][960]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.11.01:418][960]LogPlayLevel: PIE: World Init took: (0.001124s)
+[2017.05.03-01.11.01:418][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019641s)
+[2017.05.03-01.11.01:491][960]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.11.01:506][960]LogInit: FAudioDevice initialized.
+[2017.05.03-01.11.01:571][960]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.11.01:596][960]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.11.01
+[2017.05.03-01.11.01:597][960]LogWorld: Bringing up level for play took: 0.024686
+[2017.05.03-01.11.01:601][960]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.11.01:609][960]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.209
+[2017.05.03-01.11.06:806][288]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.11.11:514][570]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.11.11:514][570]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.11.56:846][158]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x516)
+[2017.05.03-01.12.01:140][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Door8)
+[2017.05.03-01.12.06:147][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.05.03-01.12.10:243][874]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.12.11:915][965]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.12.12:580][  6]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.12.13:038][ 33]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.12.13:686][ 73]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.05.03-01.12.31:397][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.12.31:764][115]LogSavePackage: Save=310.90ms
+[2017.05.03-01.12.31:764][115]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_CafeteriaECDA806A43EC0E588D99F5ADA1385858.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.12.31:768][115]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.12.32:325][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.12.32:325][139]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:12:32 PM)
+[2017.05.03-01.12.32:325][139]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.12.32:343][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017752s)
+[2017.05.03-01.12.32:344][139]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.12.32:344][139]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2017.05.03-01.12.32:344][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019156s)
+[2017.05.03-01.12.32:420][139]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.12.32:433][139]LogInit: FAudioDevice initialized.
+[2017.05.03-01.12.32:489][139]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.12.32:514][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.12.32
+[2017.05.03-01.12.32:515][139]LogWorld: Bringing up level for play took: 0.023753
+[2017.05.03-01.12.32:518][139]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.12.32:527][139]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.708
+[2017.05.03-01.12.37:716][477]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.13.31:474][507]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.13.38:146][817]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x438)
+[2017.05.03-01.13.49:724][475]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x514)
+[2017.05.03-01.13.51:168][561]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x515)
+[2017.05.03-01.13.51:823][595]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x519)
+[2017.05.03-01.13.52:549][635]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x303)
+[2017.05.03-01.13.53:316][676]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x513)
+[2017.05.03-01.13.55:819][796]Cmd: TRANSACTION UNDO
+[2017.05.03-01.13.55:819][796]LogEditorTransaction: Undo Move Actors
+[2017.05.03-01.13.55:821][796]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Wall_Door_400x303_52.StaticMeshComponent0) Component already registered.
+[2017.05.03-01.13.57:663][891]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x518)
+[2017.05.03-01.13.58:247][919]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x302)
+[2017.05.03-01.13.58:597][935]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x512)
+[2017.05.03-01.14.00:627][ 11]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x503)
+[2017.05.03-01.14.01:005][ 20]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x501)
+[2017.05.03-01.14.01:681][ 51]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor_400x413)
+[2017.05.03-01.14.03:468][132]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2017.05.03-01.14.04:441][176]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x500)
+[2017.05.03-01.14.04:793][190]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x508)
+[2017.05.03-01.14.05:314][213]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.05.03-01.14.05:806][235]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x509)
+[2017.05.03-01.14.06:235][251]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x516)
+[2017.05.03-01.14.08:017][330]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x510)
+[2017.05.03-01.14.09:552][407]Cmd: TRANSACTION UNDO
+[2017.05.03-01.14.09:552][407]LogEditorTransaction: Undo Clicking on Actors
+[2017.05.03-01.14.10:746][461]Cmd: TRANSACTION UNDO
+[2017.05.03-01.14.10:746][461]LogEditorTransaction: Undo Move Actors
+[2017.05.03-01.14.10:750][461]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Wall_500x513_56.StaticMeshComponent0) Component already registered.
+[2017.05.03-01.14.10:751][461]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/Grand_Cafeteria.Grand_Cafeteria:PersistentLevel.Wall_500x512_55.StaticMeshComponent0) Component already registered.
+[2017.05.03-01.14.12:335][542]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_Door_400x301)
+[2017.05.03-01.14.12:965][569]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x510)
+[2017.05.03-01.14.13:536][594]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x517)
+[2017.05.03-01.14.14:158][620]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_500x511)
+[2017.05.03-01.14.22:211][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.14.22:211][920]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:14:22 PM)
+[2017.05.03-01.14.22:211][920]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.14.22:229][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017383s)
+[2017.05.03-01.14.22:230][920]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.14.22:230][920]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2017.05.03-01.14.22:230][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019007s)
+[2017.05.03-01.14.22:299][920]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.14.22:312][920]LogInit: FAudioDevice initialized.
+[2017.05.03-01.14.22:372][920]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.14.22:395][920]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.14.22
+[2017.05.03-01.14.22:396][920]LogWorld: Bringing up level for play took: 0.022521
+[2017.05.03-01.14.22:399][920]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.14.22:406][920]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.588
+[2017.05.03-01.14.27:605][261]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.14.47:322][335]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.14.47:322][335]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.15.02:341][972]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.15.02:341][972]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.15.06:819][147]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2889.721 Y=981.702 Z=283.030] for [StandardProjectile_C]
+[2017.05.03-01.15.07:056][156]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2891.332 Y=981.090 Z=282.675] for [StandardProjectile_C]
+[2017.05.03-01.15.07:315][166]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2891.704 Y=980.988 Z=281.573] for [StandardProjectile_C]
+[2017.05.03-01.15.07:878][188]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=2891.684 Y=980.702 Z=281.317] for [StandardProjectile_C]
+[2017.05.03-01.15.08:711][220]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-01.15.19:785][621]LogProjectileMovement:Warning: StandardProjectile_C_0 is outside the world bounds!
+[2017.05.03-01.15.20:933][663]LogProjectileMovement:Warning: StandardProjectile_C_1 is outside the world bounds!
+[2017.05.03-01.15.22:263][710]LogProjectileMovement:Warning: StandardProjectile_C_3 is outside the world bounds!
+[2017.05.03-01.15.23:554][758]LogProjectileMovement:Warning: StandardProjectile_C_5 is outside the world bounds!
+[2017.05.03-01.15.24:491][793]LogProjectileMovement:Warning: StandardProjectile_C_6 is outside the world bounds!
+[2017.05.03-01.15.25:608][835]LogProjectileMovement:Warning: StandardProjectile_C_8 is outside the world bounds!
+[2017.05.03-01.15.27:168][895]LogProjectileMovement:Warning: StandardProjectile_C_11 is outside the world bounds!
+[2017.05.03-01.15.27:331][901]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-01.15.27:331][901]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-01.15.28:241][936]LogProjectileMovement:Warning: StandardProjectile_C_13 is outside the world bounds!
+[2017.05.03-01.15.32:352][ 95]LogProjectileMovement:Warning: StandardProjectile_C_16 is outside the world bounds!
+[2017.05.03-01.15.32:979][119]LogProjectileMovement:Warning: StandardProjectile_C_17 is outside the world bounds!
+[2017.05.03-01.15.34:855][193]LogProjectileMovement:Warning: StandardProjectile_C_23 is outside the world bounds!
+[2017.05.03-01.15.36:169][245]LogProjectileMovement:Warning: StandardProjectile_C_24 is outside the world bounds!
+[2017.05.03-01.15.38:183][320]LogProjectileMovement:Warning: StandardProjectile_C_29 is outside the world bounds!
+[2017.05.03-01.15.38:290][324]LogProjectileMovement:Warning: StandardProjectile_C_30 is outside the world bounds!
+[2017.05.03-01.15.38:558][334]LogProjectileMovement:Warning: StandardProjectile_C_32 is outside the world bounds!
+[2017.05.03-01.15.39:156][356]LogProjectileMovement:Warning: StandardProjectile_C_33 is outside the world bounds!
+[2017.05.03-01.15.39:467][368]LogProjectileMovement:Warning: StandardProjectile_C_34 is outside the world bounds!
+[2017.05.03-01.15.39:599][373]LogProjectileMovement:Warning: StandardProjectile_C_35 is outside the world bounds!
+[2017.05.03-01.15.40:586][411]LogProjectileMovement:Warning: StandardProjectile_C_38 is outside the world bounds!
+[2017.05.03-01.15.40:793][419]LogProjectileMovement:Warning: StandardProjectile_C_36 is outside the world bounds!
+[2017.05.03-01.15.40:870][422]LogProjectileMovement:Warning: StandardProjectile_C_37 is outside the world bounds!
+[2017.05.03-01.15.41:614][452]LogProjectileMovement:Warning: StandardProjectile_C_42 is outside the world bounds!
+[2017.05.03-01.15.45:378][646]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2017.05.03-01.15.51:970][ 36]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.05.03-01.15.55:096][228]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_500x500)
+[2017.05.03-01.15.56:340][301]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_Door_400x300)
+[2017.05.03-01.16.05:934][837]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2017.05.03-01.16.06:961][877]LogEditorViewport: Clicking on Actor (LMB): TriggerBox (TriggerBox)
+[2017.05.03-01.16.17:952][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2017.05.03-01.16.17:977][487]LogSavePackage: Save=18.92ms
+[2017.05.03-01.16.17:978][487]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/TriggerBox_BlueprintC85530564D9D27AD93B811A3421D026B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2017.05.03-01.16.17:981][487]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2017.05.03-01.16.37:423][693]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2017.05.03-01.16.37:798][693]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2017.05.03-01.16.37:843][693]LogSavePackage: Save=20.06ms
+[2017.05.03-01.16.37:843][693]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/TriggerBox_Blueprint82807BCE4ADC31C320D9B09781DCE190.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2017.05.03-01.16.37:847][693]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2017.05.03-01.16.37:853][693]BlueprintEditorCompileResults: Info [5274.81] Compile of TriggerBox_Blueprint successful! [in 429 ms] (/Game/Blueprints/TriggerBox_Blueprint.TriggerBox_Blueprint)
+[2017.05.03-01.16.38:535][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.16.38:535][730]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:16:38 PM)
+[2017.05.03-01.16.38:535][730]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.16.38:553][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017825s)
+[2017.05.03-01.16.38:554][730]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.16.38:554][730]LogPlayLevel: PIE: World Init took: (0.001039s)
+[2017.05.03-01.16.38:555][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.019326s)
+[2017.05.03-01.16.38:627][730]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.16.38:640][730]LogInit: FAudioDevice initialized.
+[2017.05.03-01.16.38:701][730]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.16.38:726][730]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.16.38
+[2017.05.03-01.16.38:727][730]LogWorld: Bringing up level for play took: 0.023985
+[2017.05.03-01.16.38:731][730]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.16.38:738][730]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.92
+[2017.05.03-01.16.43:932][109]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.17.21:022][550]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.05.03-01.17.21:026][550]LogPlayLevel: [PlayLevel] Compiling TriggerBox_Blueprint before play...
+[2017.05.03-01.17.21:171][550]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2017.05.03-01.17.21:209][550]LogSavePackage: Save=21.70ms
+[2017.05.03-01.17.21:209][550]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/TriggerBox_BlueprintE7622A2443C6C4E2A504ED95AAD45C3F.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2017.05.03-01.17.21:213][550]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2017.05.03-01.17.21:219][550]LogPlayLevel: PlayLevel: Blueprint regeneration took 196 ms (1 blueprints)
+[2017.05.03-01.17.21:259][550]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:17:21 PM)
+[2017.05.03-01.17.21:261][550]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.17.21:279][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018402s)
+[2017.05.03-01.17.21:281][550]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.17.21:281][550]LogPlayLevel: PIE: World Init took: (0.001780s)
+[2017.05.03-01.17.21:281][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.020561s)
+[2017.05.03-01.17.21:351][550]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.17.21:364][550]LogInit: FAudioDevice initialized.
+[2017.05.03-01.17.21:422][550]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.17.21:445][550]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.17.21
+[2017.05.03-01.17.21:446][550]LogWorld: Bringing up level for play took: 0.022174
+[2017.05.03-01.17.21:449][550]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.17.21:457][550]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria -0.362
+[2017.05.03-01.17.26:655][912]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.18.33:456][882]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2017.05.03-01.18.33:846][882]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2017.05.03-01.18.33:885][882]LogSavePackage: Save=22.56ms
+[2017.05.03-01.18.33:885][882]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/TriggerBox_BlueprintA950B6C84EE8AF88868EB68FA20D8D6B.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2017.05.03-01.18.33:889][882]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2017.05.03-01.18.33:895][882]BlueprintEditorCompileResults: Info [5390.85] Compile of TriggerBox_Blueprint successful! [in 438 ms] (/Game/Blueprints/TriggerBox_Blueprint.TriggerBox_Blueprint)
+[2017.05.03-01.18.34:781][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.18.34:781][936]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:18:34 PM)
+[2017.05.03-01.18.34:782][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.18.34:801][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019121s)
+[2017.05.03-01.18.34:802][936]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.18.34:802][936]LogPlayLevel: PIE: World Init took: (0.001128s)
+[2017.05.03-01.18.34:802][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.020815s)
+[2017.05.03-01.18.34:874][936]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-01.18.34:887][936]LogInit: FAudioDevice initialized.
+[2017.05.03-01.18.34:949][936]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-01.18.34:973][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-21.18.34
+[2017.05.03-01.18.34:974][936]LogWorld: Bringing up level for play took: 0.022869
+[2017.05.03-01.18.34:977][936]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-01.18.34:984][936]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 1.166
+[2017.05.03-01.18.40:175][301]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-01.19.24:406][926]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-01.19.24:794][926]LogSavePackage: Save=317.32ms
+[2017.05.03-01.19.24:794][926]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_Cafeteria802D80494C5083217B1D868D46693237.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-01.19.24:798][926]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-01.19.25:264][947]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-01.19.25:264][947]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 4:19:25 PM)
+[2017.05.03-01.19.25:264][947]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-01.19.25:282][947]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017261s)
+[2017.05.03-01.19.25:283][947]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-01.19.25:283][947]LogPlayLevel: PIE: World In
