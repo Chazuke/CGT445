@@ -2860,4 +2860,237 @@ LogInit: Object subsystem initialized
 [2017.05.03-00.54.08:062][831]BlueprintLog: New page: Compile HUDP4
 [2017.05.03-00.54.08:287][831]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/HUDP4" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset" SILENT=true
 [2017.05.03-00.54.08:397][831]LogSavePackage: Save=89.74ms
-[2017.05.03-00.54.08:397][831]LogSaveP
+[2017.05.03-00.54.08:397][831]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/HUDP4E26584134D444546BAACA9BAF2A24192.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset'
+[2017.05.03-00.54.08:401][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/UI/HUDP4.uasset
+[2017.05.03-00.54.08:407][831]BlueprintEditorCompileResults: Info [3925.36] Compile of HUDP4 successful! [in 345 ms] (/Game/UI/HUDP4.HUDP4)
+[2017.05.03-00.54.10:439][973]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Grand_Cafeteria" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.05.03-00.54.10:940][973]LogSavePackage: Save=451.72ms
+[2017.05.03-00.54.10:940][973]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/Grand_CafeteriaFEDCC6FC4E0334E24B338499FAA850C4.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap'
+[2017.05.03-00.54.10:945][973]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Maps/Grand_Cafeteria.umap
+[2017.05.03-00.55.00:560][111]BlueprintLog: New page: Compile StandardAmmoPickup
+[2017.05.03-00.55.00:842][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/StandardAmmoPickup" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/StandardAmmoPickup.uasset" SILENT=true
+[2017.05.03-00.55.00:897][111]LogSavePackage: Save=29.85ms
+[2017.05.03-00.55.00:897][111]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/StandardAmmoPickup3DB050984E2C10ECA995AC904FF18FD5.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/StandardAmmoPickup.uasset'
+[2017.05.03-00.55.00:901][111]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/StandardAmmoPickup.uasset
+[2017.05.03-00.55.00:909][111]BlueprintEditorCompileResults: Info [3977.87] Compile of StandardAmmoPickup successful! [in 349 ms] (/Game/Blueprints/StandardAmmoPickup.StandardAmmoPickup)
+[2017.05.03-00.55.12:182][593]BlueprintLog: New page: Compile IceAmmoPickup
+[2017.05.03-00.55.12:362][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/IceAmmoPickup" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/IceAmmoPickup.uasset" SILENT=true
+[2017.05.03-00.55.12:411][593]LogSavePackage: Save=29.25ms
+[2017.05.03-00.55.12:411][593]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/IceAmmoPickup06F2E1554B784C892AD7D8A54D8A1E02.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/IceAmmoPickup.uasset'
+[2017.05.03-00.55.12:415][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/IceAmmoPickup.uasset
+[2017.05.03-00.55.12:423][593]BlueprintEditorCompileResults: Info [3989.38] Compile of IceAmmoPickup successful! [in 241 ms] (/Game/Blueprints/IceAmmoPickup.IceAmmoPickup)
+[2017.05.03-00.55.24:170][ 97]BlueprintLog: New page: Compile FireAmmoPickup
+[2017.05.03-00.55.24:362][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/FireAmmoPickup" FILE="../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FireAmmoPickup.uasset" SILENT=true
+[2017.05.03-00.55.24:413][ 97]LogSavePackage: Save=29.61ms
+[2017.05.03-00.55.24:413][ 97]LogSavePackage: Moving '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Saved/FireAmmoPickup4979364A46F1533E3D0CB7A7AD7A28A2.tmp' to '../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FireAmmoPickup.uasset'
+[2017.05.03-00.55.24:417][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Scott/Documents/GitHub/CGT445/Game/Content/Blueprints/FireAmmoPickup.uasset
+[2017.05.03-00.55.24:424][ 97]BlueprintEditorCompileResults: Info [4001.38] Compile of FireAmmoPickup successful! [in 254 ms] (/Game/Blueprints/FireAmmoPickup.FireAmmoPickup)
+[2017.05.03-00.55.26:329][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.03-00.55.26:329][171]PIE: New page: PIE session: Grand_Cafeteria (May 2, 2017, 3:55:26 PM)
+[2017.05.03-00.55.26:329][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Grand_Cafeteria
+[2017.05.03-00.55.26:347][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018291s)
+[2017.05.03-00.55.26:349][171]LogAIModule: Creating AISystem for world Grand_Cafeteria
+[2017.05.03-00.55.26:349][171]LogPlayLevel: PIE: World Init took: (0.001394s)
+[2017.05.03-00.55.26:349][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Grand_Cafeteria.Grand_Cafeteria to /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria (0.020297s)
+[2017.05.03-00.55.26:424][171]LogInit: XAudio2 using 'Back (5- C-Media USB Headphone Set  )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.03-00.55.26:438][171]LogInit: FAudioDevice initialized.
+[2017.05.03-00.55.26:495][171]LogWorld: Game class is 'FoodFightersGM_C'
+[2017.05.03-00.55.26:518][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Grand_Cafeteria.Grand_Cafeteria up for play (max tick rate 0) at 2017.05.02-20.55.26
+[2017.05.03-00.55.26:518][171]LogWorld: Bringing up level for play took: 0.022021
+[2017.05.03-00.55.26:522][171]LogPlayerManagement:Error: Failed to Create Player: A local player already exists for controller ID 0,
+[2017.05.03-00.55.26:529][171]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Grand_Cafeteria 0.71
+[2017.05.03-00.55.31:723][502]LogBlueprintUserMessages: [FoodFightersGM_C_0] Spawning 2D Sound
+[2017.05.03-00.55.36:443][790]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-00.55.36:443][790]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-00.56.01:458][149]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-00.56.01:458][149]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-00.56.06:451][432]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-00.56.06:451][432]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-00.56.36:005][989]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-00.56.36:715][ 22]LogScriptCore:Warning: Attempted to get an item from array ScreamsArray out of bounds [6/5]!
+
+[2017.05.03-00.56.36:869][ 29]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-00.56.37:347][ 51]LogUMG:Warning: Failed to find runtime objects for /Engine/Transient.UnrealEdEngine_0:FoodFightersGI_C_9.HUDP2_C_9.FlashLowHealth_INST animation, WidgetName: LowHealthIndicator, SlotName: None
+[2017.05.03-00.56.37:813][ 73]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-00.56.37:965][ 80]LogScriptCore:Warning: Attempted to get an item from array hitArray out of bounds [3/2]!
+
+[2017.05.03-00.56.41:446][246]LogScriptCore:Warning: Attempted to get an item from array ammoPickupTypes out of bounds [3/2]!
+
+[2017.05.03-00.56.41:446][246]LogScript:Warning: UGameplayStatics::BeginSpawningActorFromClass: can not spawn an actor from a NULL class
+[2017.05.03-00.56.43:969][346]MapCheck: New page: Map Check
+[2017.05.03-00.56.44:006][346]LightingResults: New page: Lighting Build - May 2, 2017, 3:56:44 PM
+[2017.05.03-00.56.44:148][346]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.05.03-00.56.44:520][346]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.05.03-00.56.44:562][346]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.05.03-00.56.45:103][346]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.05.03-00.56.45:103][346]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8204
+[2017.05.03-00.56.47:806][346]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.05.03-00.56.47:808][346]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.05.03-00.56.47:808][346]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.05.03-00.56.47:808][346]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.05.03-00.56.47:808][346]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.05.03-00.56.47:808][346]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.05.03-00.56.48:047][346]LogEditorBuildUtils: Build time 0:04
+[2017.05.03-00.56.48:123][347]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2017.05.03-00.56.48:134][347]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Chrome, compiling. 
+[2017.05.03-00.56.55:737][575]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.55:737][575]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.55:838][579]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.55:838][579]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.55:943][583]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.55:943][583]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:024][586]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:024][586]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:051][587]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:051][587]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:155][591]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:155][591]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:258][595]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:258][595]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:284][596]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:285][596]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:365][599]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:365][599]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:441][602]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:441][602]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:601][608]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:601][608]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:809][616]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:809][616]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:937][621]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:937][621]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.56:964][622]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.56:964][622]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:145][629]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:145][629]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:145][629]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:145][629]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:170][630]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:171][630]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:246][633]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:246][633]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:295][635]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:296][635]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:447][641]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:447][641]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:499][643]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:499][643]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:577][646]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:577][646]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:630][648]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:630][648]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:658][649]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:658][649]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:761][653]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:761][653]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:840][656]LightingResults:Warning: Warning modern_staircase Object has overlapping UVs.
+[2017.05.03-00.56.57:840][656]LightingResults: Info modern_staircase Lightmap UV are overlapping by 23.5%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:944][660]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:944][660]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:944][660]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:944][660]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.57:995][662]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.57:995][662]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:072][665]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:072][665]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:149][668]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:149][668]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:175][669]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:175][669]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:278][673]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:278][673]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:407][678]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:407][678]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:458][680]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:458][680]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:458][680]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:458][680]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:587][685]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:587][685]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:587][685]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:615][686]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:693][689]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:693][689]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:769][692]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:769][692]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:797][693]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:797][693]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:825][694]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:825][694]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.58:955][699]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.58:955][699]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:009][701]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:009][701]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:061][703]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:061][703]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:240][710]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:240][710]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:266][711]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:266][711]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:366][715]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:366][715]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:391][716]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:391][716]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:418][717]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:418][717]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:418][717]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:418][717]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:569][723]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:569][723]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:673][727]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:673][727]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:698][728]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:698][728]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:724][729]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:725][729]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:750][730]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:750][730]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:878][735]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:878][735]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:903][736]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:903][736]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:983][739]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:983][739]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.56.59:983][739]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.56.59:983][739]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:063][742]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:064][742]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:064][742]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:064][742]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:252][749]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:252][749]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:306][751]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:306][751]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:384][754]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:384][754]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:384][754]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:384][754]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:517][759]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:517][759]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:830][770]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:830][770]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.00:910][773]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.00:910][773]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:054][778]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:054][778]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:187][783]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:187][783]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:187][783]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:187][783]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:213][784]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:213][784]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:263][786]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:263][786]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:478][794]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:478][794]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:556][797]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:556][797]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:580][798]LightingResults:Warning: Warning Furniture15 Object has overlapping UVs.
+[2017.05.03-00.57.01:580][798]LightingResults: Info Furniture15 Lightmap UV are overlapping by 3.3%. Please adjust content - Enable Error Coloring to visualize.
+[2017.05.03-00.57.01:621][800]Job is a success!
